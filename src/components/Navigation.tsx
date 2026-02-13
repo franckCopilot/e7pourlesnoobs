@@ -6,7 +6,13 @@ import { useState } from 'react'
 import styles from './Navigation.module.css'
 
 const MENU_ITEMS = [
-  { label: 'ACCUEIL', path: '/' },
+  { 
+    label: 'ACCUEIL', 
+    path: '/',
+    submenu: [
+      { label: 'Actu', path: '/actu' }
+    ]
+  },
   { label: 'Aventure de 0', path: '/aventure-de-0' },
   { 
     label: 'RESSOURCES', 

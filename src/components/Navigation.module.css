@@ -23,20 +23,19 @@
   letter-spacing: 1px;
   text-decoration: none;
   color: var(--color-text-light);
-  transition: opacity 0.2s;
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.logo:hover {
+  color: var(--color-text-light);
 }
 
 .logoImage {
   width: 32px;
   height: 32px;
   object-fit: contain;
-}
-
-.logo:hover {
-  opacity: 0.8;
 }
 
 .menuButton {
