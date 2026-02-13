@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   description: 'VOTRE MEILLEUR ALLIÉ SUR EPIC SEVEN - Guides, ressources, tutoriels et outils pour progresser sur Epic Seven',
   keywords: ['Epic Seven', 'E7', 'guide', 'tutoriel', 'ressources', 'gaming'],
   authors: [{ name: 'E7 Pour Les Noobs' }],
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: 'E7 POUR LES NOOBS',
     description: 'VOTRE MEILLEUR ALLIÉ SUR EPIC SEVEN',
