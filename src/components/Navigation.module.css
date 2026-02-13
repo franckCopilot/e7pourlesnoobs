@@ -1,0 +1,177 @@
+.nav {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+}
+
+.logo {
+  font-family: var(--font-primary);
+  font-size: 19pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--color-text-light);
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logoImage {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--color-text-light);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menuLink {
+  font-family: var(--font-primary);
+  font-size: 12pt;
+  color: var(--color-text-light);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.menuLink:hover {
+  color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hasSubmenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-bg-dark);
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  min-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  z-index: 1001;
+}
+
+.hasSubmenu:hover .submenu {
+  display: block;
+}
+
+.submenuLink {
+  display: block;
+  font-family: var(--font-primary);
+  font-size: 11pt;
+  color: var(--color-text-light);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.submenuLink:hover {
+  color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--color-bg-dark);
+    gap: 0;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .menuOpen {
+    transform: scaleY(1);
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menuLink {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
+  }
+
+  .submenu {
+    position: static;
+    display: none;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-width: auto;
+  }
+
+  .hasSubmenu:hover .submenu,
+  .hasSubmenu .submenu {
+    display: block;
+  }
+
+  .submenuLink {
+    padding: 0.75rem 2.5rem;
+    font-size: 10pt;
+  }
+
+  .logo span {
+    font-size: 15pt;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .logo span {
+    font-size: 17pt;
+  }
+}

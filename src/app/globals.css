@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg-primary: rgba(255, 255, 255, 1);
+  --color-bg-secondary: rgba(252, 252, 252, 1);
+  --color-bg-accent: #D4AF37;
+  --color-bg-dark: #0a0a0a;
+  --color-text-primary: rgba(33, 33, 33, 1);
+  --color-text-dark: rgba(0, 0, 0, 1);
+  --color-text-light: rgba(255, 255, 255, 1);
+  --color-text-muted: rgba(178, 178, 178, 1);
+  --color-accent: #D4AF37;
+  --color-border: rgba(211, 211, 211, 1);
+  
+  --font-primary: var(--font-pt-sans), 'PT Sans', sans-serif;
+  --font-secondary: var(--font-merriweather), 'Merriweather', serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #0a0a0a;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: 11pt;
+  line-height: 1.6667;
+  color: #e5e5e5;
+  background-color: #0a0a0a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 34pt;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-top: 30px;
+  color: var(--color-text-dark);
+}
+
+h2 {
+  font-size: 19pt;
+  line-height: 1.4;
+  margin-top: 20px;
+  color: var(--color-text-dark);
+}
+
+h3 {
+  font-size: 15pt;
+  line-height: 1.25;
+  margin-top: 16px;
+  color: var(--color-text-primary);
+}
+
+p {
+  margin-top: 12px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-text-dark);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive typography */
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 10pt;
+  }
+  
+  h1 {
+    font-size: 24pt;
+  }
+  
+  h2 {
+    font-size: 15pt;
+  }
+  
+  h3 {
+    font-size: 13pt;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-size: 29pt;
+  }
+  
+  h2 {
+    font-size: 17pt;
+  }
+  
+  h3 {
+    font-size: 14pt;
+  }
+}
+
+/* Utility classes */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-content {
+  padding: 40px 20px;
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding: 60px 40px;
+  }
+}
