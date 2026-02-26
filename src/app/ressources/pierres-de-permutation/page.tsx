@@ -161,66 +161,75 @@ export default function PierresPermutation() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Comment utiliser une pierre de permutation ?</h2>
           <div className={styles.content}>
-            <p>
-              Rendez-vous sur l&apos;équipement que vous souhaitez modifier. Puis cliquez sur <strong>permuter</strong> 
-              pour améliorer votre équipement.
-            </p>
-            <p>
-              Il est seulement possible de permuter un équipement quand il sera <strong>+15</strong>, peu importe 
-              le niveau de votre équipement. Il est cependant conseillé d&apos;utiliser ses pierres de permutation 
-              sur des équipements de niveau au minimum <strong>85</strong>.
-            </p>
-            <div className={styles.noteBox}>
-              <p>
-                <strong>NOTE :</strong> Il n&apos;y a pas d&apos;avantage à permuter un équipement avant ou après un reforge.
-              </p>
-            </div>
-            <h3 className={styles.subTitle}>Choix de la caractéristique</h3>
-            <p>
-              Vous allez devoir choisir la caractéristique à permuter parmi les 4 disponible.
-            </p>
-            <div className={styles.warningBox}>
-              <p><strong>⚠️ Restrictions importantes :</strong></p>
-              <ul>
-                <li>Les permutations obéissent aux lois classiques des équipements</li>
-                <li>Il est impossible d&apos;obtenir un doublon de caractéristique</li>
-                <li>Il n&apos;est pas possible de permuter en défense/défense % sur une arme</li>
-                <li>Il n&apos;est pas possible de permuter en attaque/attaque % sur une armure</li>
-              </ul>
-            </div>
-            <h3 className={styles.subTitle}>Stratégie de permutation optimale</h3>
-            <div className={styles.procGuide}>
-              <div className={styles.procCardGreen}>
-                <h4>✅ 0 proc - Rentable</h4>
-                <p>Permutation idéale. Aucune perte de valeur.</p>
+            <div className={styles.usageBlock}>
+              <div className={styles.usageImageBlock}>
+                <img 
+                  src="/images/permutation/evenement.png" 
+                  alt="Permuter équipement" 
+                  className={styles.usageImg}
+                />
               </div>
-              <div className={styles.procCardGold}>
-                <h4>⚠️ 1 proc - Acceptable</h4>
-                <p>Presque pas de perte de valeur. Permutation rentable.</p>
-              </div>
-              <div className={styles.procCardRed}>
-                <h4>❌ 2+ proc - Non rentable</h4>
-                <p>Grosse perte de valeur. Ne pas permuter.</p>
+              <div className={styles.usageTextBlock}>
+                <p>
+                  Rendez-vous sur l&apos;équipement que vous souhaitez modifier. Puis cliquez sur <strong>permuter</strong> pour améliorer votre équipement.
+                </p>
+                <p>
+                  Il est seulement possible de <strong>permuter un équipement quand il sera +15</strong>, peu importe le niveau de votre équipement. Il est cependant conseillé d&apos;utiliser ses <strong>pierres de permutation sur des équipements de niveau au minimum 85</strong>.
+                </p>
+                <p><strong>NOTE :</strong> Il n&apos;y a pas d&apos;avantage à permuter un équipement avant ou après un reforge.</p>
               </div>
             </div>
-            <div className={styles.tipBox}>
+            <div className={styles.usageBlock}>
+              <div className={styles.usageImageBlock}>
+                <img 
+                  src="/images/permutation/image.jpg" 
+                  alt="Choix caractéristique à permuter" 
+                  className={styles.usageImg}
+                />
+              </div>
+              <div className={styles.usageTextBlock}>
+                <p>
+                  Vous allez donc devoir choisir la caractéristique à permuter parmi les 4 disponible.
+                </p>
+                <p><strong>NOTE :</strong> les permutations obéissent aux lois classiques des équipements. Il est impossible d&apos;obtenir un doublon de caractéristique entre les caractéristiques secondaires et principales.</p>
+                <p>Il n&apos;est pas possible de permuter une caractéristique en défense ni en défense % sur une arme.</p>
+                <p>Il n&apos;est pas possible de permuter une caractéristique en attaque ni en attaque % sur une armure.</p>
+              </div>
+            </div>
+            <div className={styles.usageFinalNote}>
               <p>
-                <strong>💡 Astuce :</strong> Une permutation sera toujours aléatoire entre une fourchette de valeurs. 
-                Vous ne pourrez plus obtenir une valeur inférieure à la valeur déjà permutée. Si vous avez obtenu 11% 
-                d&apos;attaque sur 14%, votre prochaine permutation sera au minimum de 11%.
+                Une fois la permutation effectuée, il ne sera plus possible de revenir en arrière et de changer la caractéristique à permuter. Pour effectuer une bonne permutation il est conseillé de permuter une caractéristique qui n&apos;a pas reçu de proc lors de l&apos;amélioration de l&apos;équipement pour maximiser le gain de caractéristique.
               </p>
               <p>
-                <strong>⚠️ Attention :</strong> Changer de caractéristique supprimera cette garantie.
+                Une caractéristique avec un seul proc reste une permutation acceptable, il n&apos;y a presque pas de perte de valeur caractéristique mais vous allez en revanche permuter une caractéristique qui ne vous intéresse pas en une caractéristique qui vous intéresse donc c&apos;est une permutation rentable.
+              </p>
+              <p>
+                Enfin, au-delà de 2 proc dans une caractéristique c&apos;est une grosse perte de valeur sur votre équipement, vous allez perdre trop de caractéristique, ce n&apos;est plus rentable de permuter.
+              </p>
+              <p>
+                On remarque qu&apos;une permutation sera toujours aléatoire entre une fourchette de valeurs. Il faudra souvent utiliser plusieurs pierres pour maximiser sa permutation, ce qui peut coûter cher en gold et en pierres de permutation. Néanmoins vous ne pourrez plus obtenir une valeur inférieur à la valeur déjà permutée. Si vous avez obtenu 11% d&apos;attaque sur 14%, votre prochaine permutation sera au minimum de 11% : vous ne pourrez plus obtenir 10%.
+              </p>
+              <p>
+                En revanche, changer de caractéristique supprimera cette garantie.
               </p>
             </div>
-            <div className={styles.finalNote}>
-              <p>
-                Gardez enfin en tête qu&apos;une fois une caractéristique permutée, il ne sera plus possible de 
-                revenir en arrière pour permuter une autre ligne de votre équipement. Réfléchissez toujours sur 
-                le long terme, les équipements se recyclent d&apos;un héros à un autre en fonction de l&apos;évolution 
-                d&apos;Epic Seven.
-              </p>
-            </div>
+              <div className={styles.procImageGrid}>
+                <div className={styles.procImageItem}>
+                  <img src="/images/permutation/fabrication-1.png" alt="0 proc" className={styles.procImage} />
+                  <div className={styles.procLabel}>0 proc</div>
+                </div>
+                <div className={styles.procImageItem}>
+                  <img src="/images/permutation/fabrication-2.png" alt="1 proc" className={styles.procImage} />
+                  <div className={styles.procLabel}>1 proc</div>
+                </div>
+                <div className={styles.procImageItem}>
+                  <img src="/images/permutation/fabrication-3.png" alt="2 proc et plus" className={styles.procImage} />
+                  <div className={styles.procLabel}>2 proc et plus</div>
+                </div>
+              </div>
+              <div className={styles.procFinalText}>
+                Gardez enfin en tête qu&apos;une fois une caractéristique permutée, il ne sera plus possible de revenir en arrière pour permuter une autre ligne de votre équipement. Réfléchissez toujours sur le long terme, les équipements se recyclent d&apos;un héros à un autre en fonction de l&apos;évolution d&apos;Epic Seven, votre permutation devra sans doute s&apos;adapter à d&apos;autres héros dans le futur.
+              </div>
           </div>
         </section>
         <VideoModal 
