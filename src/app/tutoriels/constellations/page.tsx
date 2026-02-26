@@ -41,15 +41,21 @@ export default function Constellations() {
 
           {/* Grille des boss en haut */}
           <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 24 }}>
-            <img src="/images/tutoriels/constellations/magnar.jpg" alt="Magnar" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-            <img src="/images/tutoriels/constellations/aquina.jpg" alt="Aquina" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-            <img src="/images/tutoriels/constellations/herais.jpg" alt="Herais" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            <a href='/tutoriels/constellations/magnar'>
+              <img src="/images/tutoriels/constellations/magnar.jpg" alt="Magnar" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            </a>
+            <a href='/tutoriels/constellations/aquina'>
+              <img src="/images/tutoriels/constellations/aquina.jpg" alt="Aquina" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            </a>
+            <a href='/tutoriels/constellations/herais'>
+              <img src="/images/tutoriels/constellations/herais.jpg" alt="Herais" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            </a>
           </div>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 32 }}>
             <img src="/images/tutoriels/constellations/ethel.jpg" alt="Ethel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
             <img src="/images/tutoriels/constellations/rahel.jpg" alt="Rahel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
           </div>
-          
+
           {/* Grille d'infos et screenshots */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32, marginBottom: 32 }}>
             <div style={{ textAlign: 'center', color: '#3d2a0a', fontSize: 16 }}>
