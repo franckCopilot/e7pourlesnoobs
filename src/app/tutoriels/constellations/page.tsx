@@ -18,17 +18,6 @@ export default function Constellations() {
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <h1 className={styles.pageTitle} style={{ color: '#6b4c1b', textAlign: 'center', marginBottom: 32 }}>CONSTELLATIONS</h1>
 
-          {/* Grille des boss en haut */}
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 24 }}>
-            <img src="/images/tutoriels/constellations/magnar.jpg" alt="Magnar" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-            <img src="/images/tutoriels/constellations/aquina.jpg" alt="Aquina" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-            <img src="/images/tutoriels/constellations/herais.jpg" alt="Herais" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 32 }}>
-            <img src="/images/tutoriels/constellations/ethel.jpg" alt="Ethel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-            <img src="/images/tutoriels/constellations/rahel.jpg" alt="Rahel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
-          </div>
-
           {/* Présentation courte */}
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 32 }}>
             <div style={{ maxWidth: 900, color: '#3d2a0a', fontSize: 18, background: 'rgba(255,255,255,0.7)', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
@@ -50,6 +39,17 @@ export default function Constellations() {
             </div>
           </div>
 
+          {/* Grille des boss en haut */}
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 24 }}>
+            <img src="/images/tutoriels/constellations/magnar.jpg" alt="Magnar" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            <img src="/images/tutoriels/constellations/aquina.jpg" alt="Aquina" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            <img src="/images/tutoriels/constellations/herais.jpg" alt="Herais" style={{ width: 320, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap', marginBottom: 32 }}>
+            <img src="/images/tutoriels/constellations/ethel.jpg" alt="Ethel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+            <img src="/images/tutoriels/constellations/rahel.jpg" alt="Rahel" style={{ width: 220, height: 90, objectFit: 'cover', borderRadius: 8 }} />
+          </div>
+          
           {/* Grille d'infos et screenshots */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32, marginBottom: 32 }}>
             <div style={{ textAlign: 'center', color: '#3d2a0a', fontSize: 16 }}>
