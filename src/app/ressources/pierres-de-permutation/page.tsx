@@ -132,13 +132,13 @@ export default function PierresPermutation() {
               </div>
               <div className={styles.fabTextBlock}>
                 <p>
-                  <strong>Pour fabriquer des pierres de permutation</strong> dans le <strong>clocher de l'alchimiste</strong>, il faudra d'abord vous rendre dans votre <strong>inventaire</strong> afin d'extraire des pierres de permutation inutiles pour fabriquer celles dont vous aurez besoin.
+                  <strong>Pour fabriquer des pierres de permutation</strong> dans le <strong>clocher de l&apos;alchimiste</strong>, il faudra d&apos;abord vous rendre dans votre <strong>inventaire</strong> afin d&apos;extraire des pierres de permutation inutiles pour fabriquer celles dont vous aurez besoin.
                 </p>
                 <p>
-                  Pour cela il faudra se rendre dans le <strong>5ème onglet de l'inventaire (1)</strong> et dans <strong>ingrédient de permutation</strong>. Il faudra alors <strong>réorganiser (2)</strong> puis <strong>sélectionner les pierres que l'on souhaite extraire (3)</strong> et <strong>enfin valider</strong> pour obtenir les <strong>noyaux de permutation</strong> qui vous serviront dans le clocher de l’alchimiste.
+                  Pour cela il faudra se rendre dans le <strong>5ème onglet de l&apos;inventaire (1)</strong> et dans <strong>ingrédient de permutation</strong>. Il faudra alors <strong>réorganiser (2)</strong> puis <strong>sélectionner les pierres que l&apos;on souhaite extraire (3)</strong> et <strong>enfin valider</strong> pour obtenir les <strong>noyaux de permutation</strong> qui vous serviront dans le clocher de l&apos;alchimiste.
                 </p>
                 <p>
-                  De manière générale, il est conseillé d'extraire <strong>toutes les pierres mineures</strong> et la <strong>majorité des pierres flat</strong> comme la santé flat sur une pierre de set attaque. Vous pouvez aussi vous séparer des <strong>sets trop spécifiques</strong> comme le set vengeance ainsi que les <strong>caractéristiques qui ne vont pas vraiment ensemble</strong> comme la santé sur un set tumulte.
+                  De manière générale, il est conseillé d&apos;extraire <strong>toutes les pierres mineures</strong> et la <strong>majorité des pierres flat</strong> comme la santé flat sur une pierre de set attaque. Vous pouvez aussi vous séparer des <strong>sets trop spécifiques</strong> comme le set vengeance ainsi que les <strong>caractéristiques qui ne vont pas vraiment ensemble</strong> comme la santé sur un set tumulte.
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function PierresPermutation() {
               </div>
               <div className={styles.fabTextBlock}>
                 <p>
-                  Il est toujours préférable de maximiser la barre du taux de succès en bas à gauche (épique) pour être garanti d'obtenir une rune majeur du set de votre choix. Il faudra un total de 84 noyaux de permutation pour choisir la caractéristique de votre choix.                 
+                  Il est toujours préférable de maximiser la barre du taux de succès en bas à gauche (épique) pour être garanti d&apos;obtenir une rune majeur du set de votre choix. Il faudra un total de 84 noyaux de permutation pour choisir la caractéristique de votre choix.                 
                 </p>
               </div>
             </div>
