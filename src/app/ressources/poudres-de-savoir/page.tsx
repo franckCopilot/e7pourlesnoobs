@@ -59,6 +59,11 @@ export default function PoudresSavoir() {
             <div className={styles.clearBoth}></div>
 
             <div className={styles.textWithImageReverse}>
+              <img 
+                src="/images/poudres/vente-artefacts.png" 
+                alt="Vente d'artefacts" 
+                className={styles.floatRight}
+              />
               <div className={styles.textBlock}>
                 <p>
                   La quatrième méthode est la plus importante sur le long terme. En vendant vos artefacts, vous 
@@ -76,11 +81,6 @@ export default function PoudresSavoir() {
                   rapporteront pas de poudres de savoir.
                 </p>
               </div>
-              <img 
-                src="/images/poudres/vente-artefacts.png" 
-                alt="Vente d'artefacts" 
-                className={styles.floatRight}
-              />
             </div>
             <div className={styles.clearBoth}></div>
           </div>

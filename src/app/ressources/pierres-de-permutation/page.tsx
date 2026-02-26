@@ -52,17 +52,23 @@ export default function PierresPermutation() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation des pierres de permutation</h2>
           <div className={styles.content}>
-            <div className={styles.inlineStones}>
-              <img 
-                src="/images/permutation/pierre-mineure.png" 
-                alt="Pierre Mineure" 
-                className={styles.stoneIcon}
-              />
-              <img 
-                src="/images/permutation/pierre-majeure.png" 
-                alt="Pierre Majeure" 
-                className={styles.stoneIcon}
-              />
+            <div className={styles.stoneGrid}>
+              <div className={styles.stoneItem}>
+                <img 
+                  src="/images/permutation/pierre-mineure.png" 
+                  alt="Pierre Mineure" 
+                  className={styles.stoneIcon}
+                />
+                <p className={styles.stoneLabel}>Pierre Mineure</p>
+              </div>
+              <div className={styles.stoneItem}>
+                <img 
+                  src="/images/permutation/pierre-majeure.png" 
+                  alt="Pierre Majeure" 
+                  className={styles.stoneIcon}
+                />
+                <p className={styles.stoneLabel}>Pierre Majeure</p>
+              </div>
             </div>
             
             <p>
@@ -94,7 +100,7 @@ export default function PierresPermutation() {
               <img 
                 src="/images/permutation/noyau-permutation-icone.png" 
                 alt="Noyau de permutation" 
-                className={styles.floatLeft}
+                className={styles.floatLeftSmall}
               />
               <ul className={styles.list}>
                 <li>
