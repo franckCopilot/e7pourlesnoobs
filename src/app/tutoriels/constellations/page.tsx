@@ -66,57 +66,55 @@ export default function Constellations() {
           ))}
         </div>
 
+        {/* Bosses sans page dédiée */}
+        <div className={styles.extraBossGrid}>
+          <div className={styles.subCard}>
+            <img src="/images/tutoriels/constellations/ethel.jpg" alt="Ethel" className={styles.subCardImage} />
+          </div>
+          <div className={styles.subCard}>
+            <img src="/images/tutoriels/constellations/rahel.jpg" alt="Rahel" className={styles.subCardImage} />
+          </div>
+        </div>
+
         {/* Info blocks */}
         <section className={styles.section}>
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/constellations/screenshot-1.jpg" alt="Onglet saison" className={styles.infoImage} />
-            <div className={styles.infoText}>
+          <div className={styles.infoGrid}>
+            <div className={styles.infoCell}>
               <p>Les constellations se trouvent dans l&apos;onglet <strong>saison</strong></p>
+              <img src="/images/tutoriels/constellations/screenshot-1.jpg" alt="Onglet saison" className={styles.infoCellImage} />
             </div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/constellations/screenshot-2.jpg" alt="Difficulté indépendante" className={styles.infoImage} />
-            <div className={styles.infoText}>
+            <div className={styles.infoCell}>
               <p>La difficulté de chacun des boss est indépendante</p>
+              <img src="/images/tutoriels/constellations/screenshot-2.jpg" alt="Difficulté indépendante" className={styles.infoCellImage} />
             </div>
           </div>
 
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/constellations/screenshot-3.jpg" alt="Bénédictions" className={styles.infoImage} />
-            <div className={styles.infoText}>
-              <p>
-                L&apos;onglet <strong>bénédiction des constellations</strong> vous permettra de booster vos 
-                personnages durant une <strong>saison complète</strong>.
-              </p>
+          <div className={styles.infoGrid}>
+            <div className={styles.infoCell}>
+              <p>L&apos;onglet <strong>bénédiction des constellations</strong> vous permettra de booster vos personnages durant une <strong>saison complète</strong>.</p>
+              <img src="/images/tutoriels/constellations/screenshot-3.jpg" alt="Bénédictions" className={styles.infoCellImage} />
+            </div>
+            <div className={styles.infoCell}>
+              <p>Chaque <strong>constellation</strong> apporte un bonus différent avec des paliers de bonus supplémentaires à débloquer</p>
+              <img src="/images/tutoriels/constellations/screenshot-4.jpg" alt="Bonus constellation" className={styles.infoCellImage} />
             </div>
           </div>
 
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/constellations/screenshot-4.jpg" alt="Bonus constellation" className={styles.infoImage} />
-            <div className={styles.infoText}>
-              <p>
-                Chaque <strong>constellation</strong> apporte un bonus différent avec des paliers de bonus 
-                supplémentaires à débloquer
-              </p>
-            </div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/constellations/screenshot-5.jpg" alt="Bénédictions détail" className={styles.infoImage} />
-            <div className={styles.infoText}>
+          <div className={styles.infoBlockLast}>
+            <div className={styles.infoTextLast}>
               <p>
                 Pour débloquer les différents paliers, il faudra verrouiller des <strong>héros</strong> avec un 
                 gros <strong>PC</strong> pour marquer un score total. Plus votre score est élevé, plus vous pourrez 
-                débloquer de paliers de bonus. Le premier slot de héros est gratuit mais il faudra débloquer des 
-                points pour acheter les slots supplémentaires et ainsi débloquer plus de bénédiction de constellations.
+                débloquer de paliers de bonus.
               </p>
               <p>
-                Il y a 5 slots par constellation pour les 5 éléments du jeu. Il faudra impérativement un héros de 
-                la constellation désignée pour le placer. Par exemple pour le slot terre balance, il est possible de 
-                placer Limule qui est un héros balance et terre. Les points de bénédiction s&apos;obtiennent en 
-                affrontant les boss de constellation.
+                Le premier slot de héros est gratuit mais il faudra débloquer des points pour acheter les slots 
+                supplémentaires et ainsi débloquer plus de bénédiction de constellations. Il y a 5 slots par 
+                constellation pour les 5 éléments du jeu. Il faudra impérativement un héros de la constellation 
+                désignée pour le placer. Par exemple pour le slot terre balance, il est possible de placer Limule 
+                qui est un héros balance et terre.
               </p>
+              <p>Les points de bénédiction s&apos;obtiennent en affrontant les boss de constellation.</p>
               <p className={styles.note}>
                 <strong>NOTE</strong> : un héros verrouillé ne peut plus être utilisé dans le mode constellation.
               </p>
@@ -126,6 +124,7 @@ export default function Constellations() {
                 à nouveau.
               </p>
             </div>
+            <img src="/images/tutoriels/constellations/screenshot-5.jpg" alt="Bénédictions détail" className={styles.infoImageLast} />
           </div>
         </section>
       </div>

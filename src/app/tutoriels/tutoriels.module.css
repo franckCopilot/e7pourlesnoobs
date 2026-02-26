@@ -156,34 +156,60 @@
   object-fit: contain;
 }
 
-/* Info blocks - image + texte */
-.infoBlock {
+/* Extra boss grid (Ethel, Rahel - pas de page dédiée) */
+.extraBossGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 340px));
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto 40px;
+}
+
+/* Info blocks - 2-column grid (text above, image below) */
+.infoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.infoCell {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.infoCell p {
+  margin: 0;
+}
+
+.infoCellImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+/* Last info block - text left, image right */
+.infoBlockLast {
   display: flex;
   gap: 24px;
   align-items: flex-start;
   margin-bottom: 30px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 8px;
-  border-left: 3px solid rgba(212, 175, 55, 0.3);
 }
 
-.infoBlock:nth-child(even) {
-  flex-direction: row-reverse;
-  border-left: none;
-  border-right: 3px solid rgba(212, 175, 55, 0.3);
+.infoTextLast {
+  flex: 1;
 }
 
-.infoImage {
+.infoImageLast {
   flex-shrink: 0;
   width: 45%;
   max-width: 400px;
   border-radius: 6px;
   border: 1px solid rgba(212, 175, 55, 0.15);
-}
-
-.infoText {
-  flex: 1;
 }
 
 /* Video embed */
@@ -306,13 +332,20 @@
     gap: 12px;
   }
 
-  .infoBlock {
-    flex-direction: column !important;
-    border-left: 3px solid rgba(212, 175, 55, 0.3) !important;
-    border-right: none !important;
+  .extraBossGrid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
   }
 
-  .infoImage {
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .infoBlockLast {
+    flex-direction: column;
+  }
+
+  .infoImageLast {
     width: 100%;
     max-width: 100%;
   }
