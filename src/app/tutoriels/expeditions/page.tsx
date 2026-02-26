@@ -81,10 +81,10 @@ export default function Expeditions() {
           </div>
           <div style={{ flex: '2 1 340px', minWidth: 280, color: '#3d2a0a', fontSize: 18, background: 'rgba(255,255,255,0.7)', borderRadius: 12, padding: 24, boxShadow: '0 2px 8px #0001' }}>
             <p>
-              Il est vivement conseillé de regarder un guide pour chacune des <strong>expéditions</strong> afin de progresser pas à pas sur Epic Seven.
+              Il est vivement conseillé de regarder un guide pour chacune des expéditions afin de progresser pas à pas sur Epic Seven.
             </p>
             <p>
-              Néanmoins, si vous voulez un exemple de teams très optimisées pour chacune des <strong>expéditions</strong>, vous pouvez vous référer à ma vidéo qui propose des compositions d&apos;équipe pouvant terminer à 100% chacune d&apos;entre elles.
+              Néanmoins, si vous voulez un exemple de teams très optimisées pour chacune des expéditions, vous pouvez vous référer à ma vidéo qui propose des compositions d&apos;équipe pouvant terminer à 100% chacune d&apos;entre elles.
             </p>
           </div>
         </div>
@@ -124,16 +124,16 @@ export default function Expeditions() {
         <div style={{ display: 'flex', gap: 40, alignItems: 'flex-start', margin: '48px 0 32px 0', flexWrap: 'wrap' }}>
           <div style={{ flex: '2 1 420px', minWidth: 320, color: '#6b4c1b', fontSize: 18, background: 'rgba(255,255,255,0.7)', borderRadius: 12, padding: 28, boxShadow: '0 2px 8px #0001' }}>
             <p>
-              Rappelez-vous que plus vous faites un gros score dans vos <strong>expéditions</strong>, plus vos amis seront incités à les terminer et à profiter de vos <strong>expéditions</strong> pour terminer leur <strong>pass de ravitaillement</strong>.
+              Rappelez-vous que plus vous faites un gros score dans vos expéditions, plus vos amis seront incités à les terminer et à profiter de vos expéditions pour terminer leur <strong>pass de ravitaillement</strong>.
             </p>
             <p>
-              En participant et en terminant les <strong>expéditions</strong> de vos amis, vous gagnez aussi des points d&apos;expédition pour votre pass.
+              En participant et en terminant les expéditions de vos amis, vous gagnez aussi des points d&apos;expédition pour votre pass.
             </p>
             <p>
-              Il est possible d&apos;affronter 3 fois le boss d&apos;une <strong>expédition</strong> pour maximiser votre score mais il est conseillé de ne l&apos;affronter qu&apos;une seule fois pour économiser votre énergie et laisser d&apos;autres participants profiter de l&apos;expédition en cours.
+              Il est possible d&apos;affronter 3 fois le boss d&apos;une expédition pour maximiser votre score mais il est conseillé de ne l&apos;affronter qu&apos;une seule fois pour économiser votre énergie et laisser d&apos;autres participants profiter de l&apos;expédition en cours.
             </p>
             <p>
-              Pas de panique si vous n&apos;avez pas d&apos;amis, il existe un onglet <strong>recrutement public</strong> pour recruter des joueurs de votre serveur ou participer aux expéditions de joueurs de votre serveur. Une interface très utile en fin de mois pour valider le pass mais qui toutefois vous rapportera un peu moins de points d&apos;expédition que vos propres <strong>expéditions</strong> ou que celles de vos amis.
+              Pas de panique si vous n&apos;avez pas d&apos;amis, il existe un onglet <strong>recrutement public</strong> pour recruter des joueurs de votre serveur ou participer aux expéditions de joueurs de votre serveur. Une interface très utile en fin de mois pour valider le pass mais qui toutefois vous rapportera un peu moins de points d&apos;expédition que vos propres expéditions ou que celles de vos amis.
             </p>
           </div>
           <div style={{ flex: '1 1 380px', minWidth: 320, textAlign: 'center' }}>
