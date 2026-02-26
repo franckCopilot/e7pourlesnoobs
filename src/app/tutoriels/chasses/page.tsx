@@ -47,39 +47,33 @@ export default function Chasses() {
 
         {/* Info blocks */}
         <section className={styles.section}>
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/chasses/screenshot-combat.jpg" alt="Onglet combat" className={styles.infoImage} />
-            <div className={styles.infoText}>
+          <div className={styles.infoGrid}>
+            <div className={styles.infoCell}>
               <p>Les chasses se trouvent dans l&apos;onglet <strong>combat</strong></p>
+              <img src="/images/tutoriels/chasses/screenshot-combat.jpg" alt="Onglet combat" className={styles.infoCellImage} />
             </div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/chasses/screenshot-recompenses.jpg" alt="Récompenses de chasse" className={styles.infoImage} />
-            <div className={styles.infoText}>
+            <div className={styles.infoCell}>
               <p>
                 En plus des <strong>équipements</strong> et des <strong>matériaux de fabrication</strong>, les chasses 
                 vous permettront de récupérer quelques invocations, skystones, poudres de savoir ou 
                 énergie aléatoirement.
               </p>
+              <img src="/images/tutoriels/chasses/screenshot-recompenses.jpg" alt="Récompenses de chasse" className={styles.infoCellImage} />
             </div>
           </div>
 
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/chasses/screenshot-combats-rapides.jpg" alt="Combats rapides" className={styles.infoImage} />
-            <div className={styles.infoText}>
+          <div className={styles.infoGrid}>
+            <div className={styles.infoCell}>
               <p>
                 Depuis quelques mises à jour, il est possible d&apos;effectuer <strong>10 combats 
                 rapides</strong> par jour gratuitement.
               </p>
+              <img src="/images/tutoriels/chasses/screenshot-combats-rapides.jpg" alt="Combats rapides" className={styles.infoCellImage} />
             </div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/chasses/screenshot-atelier.jpg" alt="Atelier d'acier" className={styles.infoImage} />
-            <div className={styles.infoText}>
+            <div className={styles.infoCell}>
               <p><strong>Atelier d&apos;acier &gt; Fabriquer équipement :</strong></p>
               <p>l&apos;interface pour fabriquer vos équipements</p>
+              <img src="/images/tutoriels/chasses/screenshot-atelier.jpg" alt="Atelier d'acier" className={styles.infoCellImage} />
             </div>
           </div>
         </section>
