@@ -5,6 +5,7 @@ import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
+import Image from 'next/image';
 
 export default function Expeditions() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
@@ -42,22 +43,6 @@ export default function Expeditions() {
           </p>
         </section>
 
-        {/* Vidéo */}
-        <section className={styles.videoSection}>
-          <p className={styles.videoLabel}>Comment 100% toutes les expéditions</p>
-          <div
-            className={styles.videoWrapper}
-            onClick={() => setActiveVideo('qLX3Xnxu4GI')}
-          >
-            <img
-              src="https://img.youtube.com/vi/qLX3Xnxu4GI/hqdefault.jpg"
-              alt="Guide expéditions"
-              className={styles.videoThumb}
-            />
-            <div className={styles.playButton}>▶</div>
-          </div>
-        </section>
-
         {/* Instruction */}
         <p className={styles.instruction}>
           Choisissez l&apos;expédition que vous souhaitez consulter parmi les boss ci-dessous.
@@ -67,10 +52,14 @@ export default function Expeditions() {
         <div className={styles.subCardsGrid}>
           {bosses.map((boss) => (
             <Link key={boss.name} href={boss.href} className={styles.subCard}>
-              <img
+              <Image
                 src={`/images/tutoriels/expeditions/${boss.name}.jpg`}
                 alt={boss.name}
                 className={styles.subCardImage}
+                width={320}
+                height={90}
+                style={{ objectFit: 'cover', borderRadius: 8 }}
+                priority
               />
             </Link>
           ))}
@@ -104,30 +93,30 @@ export default function Expeditions() {
         <div style={{ display: 'flex', gap: 32, justifyContent: 'center', alignItems: 'flex-start', margin: '48px 0 32px 0', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 380px', minWidth: 320, maxWidth: 480, textAlign: 'center' }}>
             <div style={{ color: '#6b4c1b', fontSize: 17, marginBottom: 8 }}>
-              Les expéditions se trouvent dans l’onglet combat en glissant le menu vers la droite.
+              Les expéditions se trouvent dans l&apos;onglet combat en glissant le menu vers la droite.
             </div>
-            <img src="/images/tutoriels/expeditions/screenshot-1.jpg" alt="Onglet combat" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-1.jpg" alt="Onglet combat" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
           <div style={{ flex: '1 1 380px', minWidth: 320, maxWidth: 480, textAlign: 'center' }}>
             <div style={{ color: '#6b4c1b', fontSize: 17, marginBottom: 8 }}>
-              Le pass mensuel de ravitaillement s'achète en bas à gauche.
+              Le pass mensuel de ravitaillement s&apos;achète en bas à gauche.
             </div>
-            <img src="/images/tutoriels/expeditions/screenshot-2.jpg" alt="Pass expédition" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-2.jpg" alt="Pass expédition" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
         </div>
 
         <div style={{ display: 'flex', gap: 32, justifyContent: 'center', alignItems: 'flex-start', margin: '48px 0 32px 0', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 380px', minWidth: 320, maxWidth: 480, textAlign: 'center' }}>
             <div style={{ color: '#6b4c1b', fontSize: 17, marginBottom: 8 }}>
-              Les expéditions s'obtiennent aléatoirement en effectuant des chasses ou des combats du mode Rift. Vous les retrouverez en bas à droite dans mes Avis de recherche. 
+              Les expéditions s&apos;obtiennent aléatoirement en effectuant des chasses ou des combats du mode Rift. Vous les retrouverez en bas à droite dans mes Avis de recherche.
             </div>
-            <img src="/images/tutoriels/expeditions/screenshot-3.jpg" alt="Apparition aléatoire" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-3.jpg" alt="Apparition aléatoire" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
           <div style={{ flex: '1 1 380px', minWidth: 320, maxWidth: 480, textAlign: 'center' }}>
             <div style={{ color: '#6b4c1b', fontSize: 17, marginBottom: 8 }}>
-              Vous pouvez paramétrer vos expéditions pour les lancer en simultanée en fonction des difficultés que vous souhaitez. Vous pouvez même inviter directement vos amis et votre guilde !
+              Vous pouvez paramétrer vos expéditions pour les lancer en simultanée en fonction des difficultés que vous souhaitez. Vous pouvez même inviter directement vos amis et votre guilde&nbsp;!
             </div>
-            <img src="/images/tutoriels/expeditions/screenshot-4.jpg" alt="Paramétrage" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-4.jpg" alt="Paramétrage" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
         </div>
 
@@ -148,12 +137,12 @@ export default function Expeditions() {
             </p>
           </div>
           <div style={{ flex: '1 1 380px', minWidth: 320, textAlign: 'center' }}>
-            <img src="/images/tutoriels/expeditions/screenshot-5.jpg" alt="Wanted expédition" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-5.jpg" alt="Wanted expédition" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
         </div>
         <div style={{ display: 'flex', gap: 40, alignItems: 'flex-start', margin: '48px 0 0 0', flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 520px', minWidth: 320 }}>
-            <img src="/images/tutoriels/expeditions/screenshot-6.jpg" alt="Expédition réussie" style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} />
+            <Image src="/images/tutoriels/expeditions/screenshot-6.jpg" alt="Expédition réussie" width={480} height={270} style={{ width: '100%', borderRadius: 10, boxShadow: '0 2px 8px #0001' }} priority />
           </div>
           <div style={{ flex: '1 1 340px', minWidth: 280, color: '#6b4c1b', fontSize: 18, background: 'rgba(255,255,255,0.7)', borderRadius: 12, padding: 28, boxShadow: '0 2px 8px #0001' }}>
             <p>
