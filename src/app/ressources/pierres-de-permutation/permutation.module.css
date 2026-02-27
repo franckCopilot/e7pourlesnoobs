@@ -5,6 +5,11 @@
   gap: 32px;
   margin: 40px 0;
 }
+  /* Diminue la taille de l'image inventaire-pierres.png de moitié */
+  .coffreSelectionImg {
+    width: 50%;
+    height: auto;
+  }
 .usageImageBlock {
   flex: 0 0 340px;
   max-width: 340px;
