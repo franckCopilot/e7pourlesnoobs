@@ -96,21 +96,22 @@ export default function PierresPermutation() {
                 Lors de <strong>différents évènements</strong> il est possible d&apos;obtenir des <strong>coffres sélectifs de pierre de permutation majeure</strong> comme durant l’héritage des temps anciens.
               </li>
             </ul>
+            <div className={styles.fabImagesBlock}>
+              <img 
+                src="/images/permutation/24.png" 
+                alt="Coffre sélectif explication" 
+                className={styles.fabInventaireImg}
+                style={{marginBottom: '16px'}}
+              />
+            </div>
             <div className={styles.stoneGrid}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
-                <img 
-                  src="/images/permutation/24.png" 
-                  alt="Coffre sélectif explication" 
-                  className={styles.fabInventaireImg}
-                  style={{marginBottom: '16px'}}
-                />
-                <div style={{display: 'flex', alignItems: 'flex-start'}}>
-                  <div className={styles.coffreTextBlock} style={{flex: 1}}>
+                <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
+                  <div className={styles.coffreTextBlock} style={{width: '50%', paddingRight: '24px', display: 'flex', alignItems: 'center'}}>
                     <p>
                       <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
                     </p>
                   </div>
-                  <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
+                  <div className={styles.coffreImagesBlock} style={{width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img 
                       src="/images/permutation/inventaire-pierres.png" 
                       alt="Sélection d'objet coffre set sélectif" 
@@ -118,18 +119,18 @@ export default function PierresPermutation() {
                     />
                   </div>
                 </div>
-              </div>
+            </div>
+            <div className={styles.fabImagesBlock}>
+              <img 
+                src="/images/permutation/1.png" 
+                alt="Coffre sélectif explication" 
+                className={styles.fabInventaireImg}
+                style={{marginBottom: '16px'}}
+              />
             </div>
             <div className={styles.stoneGrid}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
-                <img 
-                  src="/images/permutation/1.png" 
-                  alt="Coffre sélectif explication" 
-                  className={styles.fabInventaireImg}
-                  style={{marginBottom: '16px'}}
-                />
-                <div style={{display: 'flex', alignItems: 'flex-start'}}>
-                  <div className={styles.coffreTextBlock} style={{flex: 1}}>
+                <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
+                  <div className={styles.coffreTextBlock} style={{width: '50%', paddingRight: '24px', display: 'flex', alignItems: 'center'}}>
                     <p>
                       <strong>Le coffre sélectif </strong>vous permettra de choisir une pierre de permutation majeure de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
                     </p>
@@ -142,7 +143,6 @@ export default function PierresPermutation() {
                     />
                   </div>
                 </div>
-              </div>
             </div>
             <div className={styles.fabSection}>
               <div className={styles.fabImagesBlock}>
