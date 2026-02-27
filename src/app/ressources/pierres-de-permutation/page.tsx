@@ -53,7 +53,6 @@ export default function PierresPermutation() {
                   className={styles.stoneIcon}
                 />
                 <p className={styles.stoneLabel}>pierre Mineure</p>
-                <span className={styles.stoneCount}>2</span>
               </div>
               <div className={styles.stoneItem}>
                 <img 
@@ -62,7 +61,6 @@ export default function PierresPermutation() {
                   className={styles.stoneIcon}
                 />
                 <p className={styles.stoneLabel}>pierre Majeure</p>
-                <span className={styles.stoneCount}>1</span>
               </div>
               <div className={styles.stoneItem} style={{minWidth: '320px', flex: 1, alignItems: 'flex-start', textAlign: 'left'}}> 
                 <div className={styles.stonePresentationText}>
@@ -99,19 +97,12 @@ export default function PierresPermutation() {
               </li>
             </ul>
             <div className={styles.coffrePresentation}>
-              <div className={styles.coffreImagesBlock}>
-                <img 
-                  src="/images/permutation/24.png" 
-                  alt="Coffre de set sélectif" 
-                  className={styles.coffreIcon}
-                />
-              </div>
-              <div className={styles.coffreTextBlock}>
+              <div className={styles.coffreTextBlock} style={{flex: 1}}>
                 <p>
-                  <strong>Le coffre sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
+                  <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
                 </p>
               </div>
-              <div className={styles.coffreImagesBlock}>
+              <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
                 <img 
                   src="/images/permutation/inventaire-pierres.png" 
                   alt="Sélection d'objet coffre set sélectif" 
