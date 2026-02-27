@@ -97,48 +97,50 @@ export default function PierresPermutation() {
               </li>
             </ul>
             <div className={styles.stoneGrid}>
-              <div className={styles.fabImagesBlock}>
+              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
                 <img 
                   src="/images/permutation/24.png" 
                   alt="Coffre sélectif explication" 
                   className={styles.fabInventaireImg}
+                  style={{marginBottom: '16px'}}
                 />
-              </div>
-              <div className={styles.coffrePresentation}>
-                <div className={styles.coffreTextBlock} style={{flex: 1}}>
-                  <p>
-                    <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
-                  </p>
-                </div>
-                <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
-                  <img 
-                    src="/images/permutation/inventaire-pierres.png" 
-                    alt="Sélection d'objet coffre set sélectif" 
-                    className={styles.coffreSelectionImg}
-                  />
+                <div style={{display: 'flex', alignItems: 'flex-start'}}>
+                  <div className={styles.coffreTextBlock} style={{flex: 1}}>
+                    <p>
+                      <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
+                    </p>
+                  </div>
+                  <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
+                    <img 
+                      src="/images/permutation/inventaire-pierres.png" 
+                      alt="Sélection d'objet coffre set sélectif" 
+                      className={styles.coffreSelectionImg}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
             <div className={styles.stoneGrid}>
-              <div className={styles.fabImagesBlock}>
+              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
                 <img 
                   src="/images/permutation/1.png" 
-                  alt="" 
+                  alt="Coffre sélectif explication" 
                   className={styles.fabInventaireImg}
+                  style={{marginBottom: '16px'}}
                 />
-              </div>
-              <div className={styles.coffrePresentation}>
-                <div className={styles.coffreTextBlock} style={{flex: 1}}>
-                  <p>
-                    <strong>Le coffre sélectif </strong>vous permettra de choisir une pierre de permutation majeure de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
-                  </p>
-                </div>
-                <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
-                  <img 
-                    src="/images/permutation/expedition.png" 
-                    alt="Sélection d'objet coffre set sélectif" 
-                    className={styles.coffreSelectionImg}
-                  />
+                <div style={{display: 'flex', alignItems: 'flex-start'}}>
+                  <div className={styles.coffreTextBlock} style={{flex: 1}}>
+                    <p>
+                      <strong>Le coffre sélectif </strong>vous permettra de choisir une pierre de permutation majeure de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
+                    </p>
+                  </div>
+                  <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
+                    <img 
+                      src="/images/permutation/expedition.png" 
+                      alt="Sélection d'objet coffre set sélectif" 
+                      className={styles.coffreSelectionImg}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
