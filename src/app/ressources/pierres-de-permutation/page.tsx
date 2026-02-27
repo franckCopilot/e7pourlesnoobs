@@ -116,6 +116,12 @@ export default function PierresPermutation() {
                     alt="Sélection d'objet coffre set sélectif" 
                     className={styles.coffreSelectionImg}
                   />
+                  <img 
+                    src="/images/permutation/24.png" 
+                    alt="Coffre sélectif explication" 
+                    className={styles.coffreSelectionImg}
+                    style={{marginTop: '16px'}}
+                  />
                 </div>
               </div>
             </div>
