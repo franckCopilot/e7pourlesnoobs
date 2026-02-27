@@ -145,7 +145,7 @@ export default function PierresPermutation() {
             <div className={styles.fabSection}>
               <div className={styles.fabImagesBlock}>
                 <img 
-                  src="/images/permutation/inventaire-extraction.png" 
+                  src="/images/permutation/advent.png" 
                   alt="Inventaire extraction pierres de permutation" 
                   className={styles.fabInventaireImg}
                 />
