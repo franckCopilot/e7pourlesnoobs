@@ -100,7 +100,7 @@ export default function PierresPermutation() {
               <div className={styles.fabImagesBlock}>
                 <img 
                   src="/images/permutation/24.png" 
-                  alt="" 
+                  alt="Coffre sélectif explication" 
                   className={styles.fabInventaireImg}
                 />
               </div>
@@ -115,12 +115,6 @@ export default function PierresPermutation() {
                     src="/images/permutation/inventaire-pierres.png" 
                     alt="Sélection d'objet coffre set sélectif" 
                     className={styles.coffreSelectionImg}
-                  />
-                  <img 
-                    src="/images/permutation/24.png" 
-                    alt="Coffre sélectif explication" 
-                    className={styles.coffreSelectionImg}
-                    style={{marginTop: '16px'}}
                   />
                 </div>
               </div>
