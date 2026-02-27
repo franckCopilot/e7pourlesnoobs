@@ -45,8 +45,8 @@ export default function PierresPermutation() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation des pierres de permutation</h2>
           <div className={styles.content}>
-            <div className={styles.stonePresentationGrid}>
-              <div className={styles.stonePresentationItem}>
+            <div className={styles.stoneGrid}>
+              <div className={styles.stoneItem}>
                 <img 
                   src="/images/permutation/pierre-mineure.png" 
                   alt="Pierre Mineure" 
@@ -55,7 +55,7 @@ export default function PierresPermutation() {
                 <p className={styles.stoneLabel}>pierre Mineure</p>
                 <span className={styles.stoneCount}>2</span>
               </div>
-              <div className={styles.stonePresentationItem}>
+              <div className={styles.stoneItem}>
                 <img 
                   src="/images/permutation/pierre-majeure.png" 
                   alt="Pierre Majeure" 
@@ -64,7 +64,7 @@ export default function PierresPermutation() {
                 <p className={styles.stoneLabel}>pierre Majeure</p>
                 <span className={styles.stoneCount}>1</span>
               </div>
-              <div className={styles.stonePresentationItem}>
+              <div className={styles.stoneItem} style={{minWidth: '320px', flex: 1, alignItems: 'flex-start', textAlign: 'left'}}> 
                 <div className={styles.stonePresentationText}>
                   <p>
                     Les <strong>pierres <span style={{textDecoration: 'underline'}}>de permutation</span></strong> permettent de modifier une des caractéristique d&apos;un <strong>équipement en +15</strong>, peu importe son niveau. Il est possible de modifier qu&apos;une <strong>seule caractéristique</strong> d&apos;un équipement mais elle peut être <strong>modifiée à l&apos;infini</strong> tant que vous aurez des <strong>pierres de permutation</strong>. Chaque modification de caractéristique vous coûtera <strong>80 000 gold par pierre mineure</strong> et <strong>100 000 gold par pierre majeure</strong>.
