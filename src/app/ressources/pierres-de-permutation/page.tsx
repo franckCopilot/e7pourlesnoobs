@@ -111,7 +111,7 @@ export default function PierresPermutation() {
                       <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
                     </p>
                   </div>
-                  <div className={styles.fabInventaireImg} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div className={styles.fabImagesBlock} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img 
                       src="/images/permutation/inventaire-pierres.png" 
                       alt="Sélection d'objet coffre set sélectif" 
@@ -135,7 +135,7 @@ export default function PierresPermutation() {
                       <strong>Le coffre sélectif </strong>vous permettra de choisir une pierre de permutation majeure de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
                     </p>
                   </div>
-                  <div className={styles.fabInventaireImg} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div className={styles.fabImagesBlock} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img 
                       src="/images/permutation/expedition.png" 
                       alt="Sélection d'objet coffre set sélectif" 
@@ -208,7 +208,7 @@ export default function PierresPermutation() {
               </div>
             </div>
             <div className={styles.usageBlock}>
-              <div className={styles.usageImageBlock}>
+              <div className={styles.usageImageBlock} style={{width: '70%', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                 <img 
                   src="/images/permutation/image.jpg" 
                   alt="Choix caractéristique à permuter" 
@@ -241,18 +241,19 @@ export default function PierresPermutation() {
                 En revanche, changer de caractéristique supprimera cette garantie.
               </p>
             </div>
-              <div className={styles.procImageGrid}>
-                <div className={styles.procImageItem}>
+            <div className={styles.content}>
+              <div className={styles.stoneGrid}>
+                <div className={styles.stoneItem}>
                   <img src="/images/permutation/fabrication-1.png" alt="0 proc" className={styles.procImage} />
                   <div className={styles.procLabel}>0 proc</div>
                 </div>
-                <div className={styles.procImageItem}>
-                  <img src="/images/permutation/fabrication-2.png" alt="1 proc" className={styles.procImage} />
-                  <div className={styles.procLabel}>1 proc</div>
+                <div className={styles.stoneItem}>
+                    <img src="/images/permutation/fabrication-2.png" alt="1 proc" className={styles.procImage} />
+                    <div className={styles.procLabel}>1 proc</div>
                 </div>
-                <div className={styles.procImageItem}>
-                  <img src="/images/permutation/fabrication-3.png" alt="2 proc et plus" className={styles.procImage} />
-                  <div className={styles.procLabel}>2 proc et plus</div>
+                <div className={styles.stoneItem}>
+                    <img src="/images/permutation/fabrication-3.png" alt="2 proc et plus" className={styles.procImage} />
+                    <div className={styles.procLabel}>2 proc et plus</div>
                 </div>
               </div>
               <div className={styles.procFinalText}>
