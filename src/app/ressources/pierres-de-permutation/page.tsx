@@ -18,11 +18,6 @@ export default function PierresPermutation() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation</h2>
           <div className={styles.content}>
-            <img 
-              src="/images/permutation/pierre-main.png" 
-              alt="Pierre de permutation" 
-              className={styles.floatLeft}
-            />
             <p>
               Les pierres de permutation sont une ressource rare sur Epic Seven. Il y a deux pierres différentes 
               qui permettent de modifier une caractéristique d&apos;un équipement.
@@ -69,17 +64,19 @@ export default function PierresPermutation() {
                 <p className={styles.stoneLabel}>pierre Majeure</p>
                 <span className={styles.stoneCount}>1</span>
               </div>
-            </div>
-            <div className={styles.stonePresentationText}>
-              <p>
-                Les <strong>pierres <span style={{textDecoration: 'underline'}}>de permutation</span></strong> permettent de modifier une des caractéristique d&apos;un <strong>équipement en +15</strong>, peu importe son niveau. Il est possible de modifier qu&apos;une <strong>seule caractéristique</strong> d&apos;un équipement mais elle peut être <strong>modifiée à l&apos;infini</strong> tant que vous aurez des <strong>pierres de permutation</strong>. Chaque modification de caractéristique vous coûtera <strong>80 000 gold par pierre mineure</strong> et <strong>100 000 gold par pierre majeure</strong>.
-              </p>
-              <p>
-                Les <strong>pierres majeure</strong> permettront de gagner davantage de caractéristique que les pierres mineures. Il est donc préférable de <strong>n&apos;utiliser seulement des pierres majeures</strong> pour permuter une caractéristique d&apos;un équipement.
-              </p>
-              <p>
-                Il existe des <strong>pierres de permutation pour chacun des sets et pour chacune des caractéristiques</strong>. On notera sur l&apos;exemple une pierre mineur en set résistance qui modifiera la statistique désirée en défense % et une pierre majeure en set attaque qui modifiera la caractéristique désirée en attaque flat (absence de % sur la rune).
-              </p>
+              <div className={styles.stonePresentationItem}>
+                <div className={styles.stonePresentationText}>
+                  <p>
+                    Les <strong>pierres <span style={{textDecoration: 'underline'}}>de permutation</span></strong> permettent de modifier une des caractéristique d&apos;un <strong>équipement en +15</strong>, peu importe son niveau. Il est possible de modifier qu&apos;une <strong>seule caractéristique</strong> d&apos;un équipement mais elle peut être <strong>modifiée à l&apos;infini</strong> tant que vous aurez des <strong>pierres de permutation</strong>. Chaque modification de caractéristique vous coûtera <strong>80 000 gold par pierre mineure</strong> et <strong>100 000 gold par pierre majeure</strong>.
+                  </p>
+                  <p>
+                    Les <strong>pierres majeure</strong> permettront de gagner davantage de caractéristique que les pierres mineures. Il est donc préférable de <strong>n&apos;utiliser seulement des pierres majeures</strong> pour permuter une caractéristique d&apos;un équipement.
+                  </p>
+                  <p>
+                    Il existe des <strong>pierres de permutation pour chacun des sets et pour chacune des caractéristiques</strong>. On notera sur l&apos;exemple une pierre mineur en set résistance qui modifiera la statistique désirée en défense % et une pierre majeure en set attaque qui modifiera la caractéristique désirée en attaque flat (absence de % sur la rune).
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -104,7 +101,7 @@ export default function PierresPermutation() {
             <div className={styles.coffrePresentation}>
               <div className={styles.coffreImagesBlock}>
                 <img 
-                  src="/images/permutation/coffre-set-selectif.png" 
+                  src="/images/permutation/24.png" 
                   alt="Coffre de set sélectif" 
                   className={styles.coffreIcon}
                 />
@@ -116,7 +113,7 @@ export default function PierresPermutation() {
               </div>
               <div className={styles.coffreImagesBlock}>
                 <img 
-                  src="/images/permutation/coffre-selection.png" 
+                  src="/images/permutation/inventaire-pierres.png" 
                   alt="Sélection d'objet coffre set sélectif" 
                   className={styles.coffreSelectionImg}
                 />
