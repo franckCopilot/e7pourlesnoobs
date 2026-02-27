@@ -259,6 +259,7 @@ export default function PierresPermutation() {
               <div className={styles.procFinalText}>
                 Gardez enfin en tête qu&apos;une fois une caractéristique permutée, il ne sera plus possible de revenir en arrière pour permuter une autre ligne de votre équipement. Réfléchissez toujours sur le long terme, les équipements se recyclent d&apos;un héros à un autre en fonction de l&apos;évolution d&apos;Epic Seven, votre permutation devra sans doute s&apos;adapter à d&apos;autres héros dans le futur.
               </div>
+            </div> {/* <-- Ajout de la fermeture ici */}
           </div>
         </section>
         <VideoModal 
