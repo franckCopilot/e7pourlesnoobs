@@ -111,7 +111,7 @@ export default function PierresPermutation() {
                       <strong>Le coffre de set sélectif</strong> vous permettra de choisir une <strong>pierre de permutation majeure</strong> de votre choix du set associé au coffre (Via le pass de ravitaillement). Les coffres sont rares.
                     </p>
                   </div>
-                  <div className={styles.coffreImagesBlock} style={{width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div className={styles.fabInventaireImg} style={{width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img 
                       src="/images/permutation/inventaire-pierres.png" 
                       alt="Sélection d'objet coffre set sélectif" 
@@ -135,7 +135,7 @@ export default function PierresPermutation() {
                       <strong>Le coffre sélectif </strong>vous permettra de choisir une pierre de permutation majeure de votre choix et du set de votre choix (Via divers évènements). Les coffres sont très rares.
                     </p>
                   </div>
-                  <div className={styles.coffreImagesBlock} style={{marginLeft: '24px'}}>
+                  <div className={styles.fabInventaireImg} style={{width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <img 
                       src="/images/permutation/expedition.png" 
                       alt="Sélection d'objet coffre set sélectif" 
