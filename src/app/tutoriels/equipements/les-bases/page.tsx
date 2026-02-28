@@ -30,7 +30,7 @@ export default function LesBases() {
           <p>Vous pouvez équiper <strong>6 équipements</strong> et <strong>1 artefact</strong> pour chaque héros.</p>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/base1.png" alt="Structure d'un équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base1.png" alt="Structure d&apos;un équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Chaque équipement possède une <strong>caractéristique principale</strong> unique :</p>
               <p><strong>Côté gauche :</strong></p>
@@ -146,7 +146,7 @@ export default function LesBases() {
           <p>L&apos;amélioration d&apos;équipement est coûteuse et peut dépenser le million de gold pour améliorer un équipement de tier 6 en +15.</p>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/base4.png" alt="Amélioration d'équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base4.png" alt="Amélioration d&apos;équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>De manière générale, un équipement va d&apos;abord améliorer ses caractéristiques secondaires avant d&apos;en ajouter de nouvelles.</p>
               <p>Il est recommandé d&apos;améliorer seulement les équipements <strong>épiques</strong> voire <strong>héroïques</strong>.</p>
@@ -172,16 +172,16 @@ export default function LesBases() {
               }}
             >
               <div className={styles.infoBlock}>
-                <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+                <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d&apos;amélioration" className={styles.infoImage} />
               </div>
               <div className={styles.infoBlock}>
-                <img src="/images/tutoriels/equipements/base8.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+                <img src="/images/tutoriels/equipements/base8.png" alt="Talismans et poudres d&apos;amélioration" className={styles.infoImage} />
               </div>
               <div className={styles.infoBlock}>
-                <img src="/images/tutoriels/equipements/base9.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+                <img src="/images/tutoriels/equipements/base9.png" alt="Talismans et poudres d&apos;amélioration" className={styles.infoImage} />
               </div>
               <div className={styles.infoBlock}>
-                <img src="/images/tutoriels/equipements/base10.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+                <img src="/images/tutoriels/equipements/base10.png" alt="Talismans et poudres d&apos;amélioration" className={styles.infoImage} />
               </div>
             </div>
             <div className={styles.infoText}>
