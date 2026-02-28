@@ -41,10 +41,10 @@ export default function Herais() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Aram avec le plus de santé possible, aux alentours des 230 de vitesse et l'artefact gaieté de l'idole.", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQOGvOYbzw766dFHYv2ZODB0Lpm2r9k3-Y-7JdBRPCgrUYr75GhE6Va1x3eLVaJ2ED8kV2rKwGr_L8rAVrbEH2z7tld0jo7CgFJioNZBczNnr7bdQHWj812psMemWLZa5bZ4E9XWl1ZcbW4H79tZVhsqqPi7MaKtewuna5-mDFpQoxJ09Q96ZYZTacu1gDl23cxYUP6AuXCecHtS6nzPrvhUCTWfS0C_bh_LKw=w1280' },
-            { desc: "Hazel avec le plus de santé possible, aux alentours des 215/220 de vitesse avec l'artefact branche de l'arbre divin", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSzSvxtLH-ygdXoXdtkC7_A5N1BVAlAZ6vhvj6_ywmv-6g0xS27EBtcr2QhVeZbPWmEdz2ZXwJqlDZ_4GJNas5BA8f2pmJob12lEm7nq3YbnNw5nbW3PrC5x0cEJ7sCHJD0ep95HBDBpZcoJZ8UIRrt8hO8JWfMgf29DYMm6ZDzprQP542fLRA1oeMCXYyKyKMuhrzYZKo9UoMBV_nmMUGK8zHODwJQX6kUzGs=w1280' },
-            { desc: "Achates avec le plus de santé possible aux alentours des 205 de vitesse en fonction de votre speedtune. Cor de guerre est requis. troisième EE.", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SR0aKQ1nRxBSK7_hBm0AP0yowqyLXNi98Rb9CotfBuVvA5jJMLwOx6fsaUbwYI9j6SML_c4q6WGOd4eL1HE5m7PkdMqiB6yf5BsDxtBGQWlVU46w42UnXMoVge8D2ZCcxaUNFrzSY26kDH4iupaB3RgW7A1WR9OLPgWb7YX8swkFQjlbVZAmUKM0hCO-Lk7i_sEv5nNanQM3VzIiOeNMhVho3Qk_uFUO-Bp=w1280' },
-            { desc: "Tiera avec le plus de dégâts possible en set destru et infiltration. il faut qu'elle ait un peu de vitesse et au moins 14 500 HP. Joker de réverie est requis.", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSYBIT3cgBd39RkbR0XwN1dUMwCyb3_ysCoeyqD_SRBSDRleCZjWstmAPhyfI5YJ5rmQro9QXil0jOZ4OnLiR7S6A1WX1NR49lJAnrT_T4Yj00xjPPAxJCJGIjwcCi7ISZruezyX_gngMVuJSzGoV9Y1GsUyezdAB1fM1WvBL2ZonC6KoMvgWdAmlm_QFciHgJ-i5f9FbsFfEL4wrkhJvoKb9k37putIB13=w1280' },
+            { desc: "Aram avec le plus de santé possible, aux alentours des 230 de vitesse et l'artefact gaieté de l'idole.", img: '/images/tutoriels/chasses/herais1.png' },
+            { desc: "Hazel avec le plus de santé possible, aux alentours des 215/220 de vitesse avec l'artefact branche de l'arbre divin", img: '/images/tutoriels/chasses/herais2.png' },
+            { desc: "Achates avec le plus de santé possible aux alentours des 205 de vitesse en fonction de votre speedtune. Cor de guerre est requis. troisième EE.", img: '/images/tutoriels/chasses/herais3.png' },
+            { desc: "Tiera avec le plus de dégâts possible en set destru et infiltration. il faut qu'elle ait un peu de vitesse et au moins 14 500 HP. Joker de réverie est requis.", img: '/images/tutoriels/chasses/herais4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
