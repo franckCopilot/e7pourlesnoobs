@@ -216,6 +216,19 @@ export default function Approfondir() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Bruiser</h2>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/b1.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b2.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b3.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b4.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b5.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b6.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b7.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b8.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b9.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b10.png" alt="" style={{ height: '64px' }} />
+          </div>
+
           <p>Les héros bruiser sont destinés à infliger des dégâts mais ont des caractéristiques défensives leur permettant de survivre plus longtemps.</p>
           <p>La plupart des caractéristiques sont bien sur eux et ils peuvent utiliser la plupart des équipements.</p>
           <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
