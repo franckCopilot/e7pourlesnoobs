@@ -5,7 +5,11 @@ import Image from 'next/image'
 import { useState } from 'react'
 import styles from './Navigation.module.css'
 
-const MENU_ITEMS = [
+type SubSubMenuItem = { label: string; path: string }
+type SubMenuItem = { label: string; path: string; subsubmenu?: SubSubMenuItem[] }
+type MenuItem = { label: string; path: string; submenu?: SubMenuItem[] }
+
+const MENU_ITEMS: MenuItem[] = [
   { 
     label: 'ACCUEIL', 
     path: '/',
@@ -25,12 +29,66 @@ const MENU_ITEMS = [
   },
   { label: 'TUTORIELS', path: '/tutoriels',
     submenu: [
-      { label: 'Chasses', path: '/tutoriels/chasses' },
-      { label: 'Constellations', path: '/tutoriels/constellations' },
-      { label: 'Équipements', path: '/tutoriels/equipements' },
-      { label: 'Évolutions', path: '/tutoriels/evolutions' },
-      { label: 'Expéditions', path: '/tutoriels/expeditions' },
-      { label: '+ de tutoriels', path: '/tutoriels/de-tutoriels' }
+      { label: 'Chasses', path: '/tutoriels/chasses',
+        subsubmenu: [
+          { label: 'Vouivre 13', path: '/tutoriels/chasses/vouivre-13' },
+          { label: 'Golem 13', path: '/tutoriels/chasses/golem-13' },
+          { label: 'Banshie 13', path: '/tutoriels/chasses/banshie-13' },
+          { label: 'Azimanak 13', path: '/tutoriels/chasses/azimanak-13' },
+          { label: 'Caides 13', path: '/tutoriels/chasses/caides-13' },
+        ]
+      },
+      { label: 'Constellations', path: '/tutoriels/constellations',
+        subsubmenu: [
+          { label: 'Magnar', path: '/tutoriels/constellations/magnar' },
+          { label: 'Aquina', path: '/tutoriels/constellations/aquina' },
+          { label: 'Herais', path: '/tutoriels/constellations/herais' },
+        ]
+      },
+      { label: 'Équipements', path: '/tutoriels/equipements',
+        subsubmenu: [
+          { label: 'Les bases', path: '/tutoriels/equipements/les-bases' },
+          { label: 'Approfondir', path: '/tutoriels/equipements/approfondir' },
+        ]
+      },
+      { label: 'Évolutions', path: '/tutoriels/evolutions',
+        subsubmenu: [
+          { label: 'Adin', path: '/tutoriels/evolutions/adin' },
+          { label: 'Ainos', path: '/tutoriels/evolutions/ainos' },
+          { label: 'Alexa', path: '/tutoriels/evolutions/alexa' },
+          { label: 'Arowell', path: '/tutoriels/evolutions/arowell' },
+          { label: 'Carmainerose', path: '/tutoriels/evolutions/carmainerose' },
+          { label: 'Carrot', path: '/tutoriels/evolutions/carrot' },
+          { label: 'Christy', path: '/tutoriels/evolutions/christy' },
+          { label: 'Doris', path: '/tutoriels/evolutions/doris' },
+          { label: 'Glenn', path: '/tutoriels/evolutions/glenn' },
+          { label: 'Hazel', path: '/tutoriels/evolutions/hazel' },
+          { label: 'Helga', path: '/tutoriels/evolutions/helga' },
+          { label: 'Inquisitor', path: '/tutoriels/evolutions/inquisitor' },
+          { label: 'Jena', path: '/tutoriels/evolutions/jena' },
+          { label: 'Kluri', path: '/tutoriels/evolutions/kluri' },
+          { label: 'Lorina', path: '/tutoriels/evolutions/lorina' },
+          { label: 'Montmorancy', path: '/tutoriels/evolutions/montmorancy' },
+          { label: 'Pearlhorizon', path: '/tutoriels/evolutions/pearlhorizon' },
+          { label: 'Pyllis', path: '/tutoriels/evolutions/pyllis' },
+          { label: 'Ras', path: '/tutoriels/evolutions/ras' },
+          { label: 'Rikoris', path: '/tutoriels/evolutions/rikoris' },
+          { label: 'Rima', path: '/tutoriels/evolutions/rima' },
+          { label: 'Roozid', path: '/tutoriels/evolutions/roozid' },
+          { label: 'Sect Axe', path: '/tutoriels/evolutions/sect-axe' },
+          { label: 'Wanda', path: '/tutoriels/evolutions/wanda' },
+        ]
+      },
+      { label: 'Expéditions', path: '/tutoriels/expeditions',
+        subsubmenu: [
+          { label: 'Gigantes de destruction', path: '/tutoriels/expeditions/gigantes' },
+          { label: 'Lich du vieil arbre bleu', path: '/tutoriels/expeditions/lich' },
+          { label: 'Moroï adepte de l\'atrocité', path: '/tutoriels/expeditions/moroi' },
+          { label: 'Phérus de férocité', path: '/tutoriels/expeditions/pherus' },
+          { label: 'Symaqus de désespoir', path: '/tutoriels/expeditions/symaqus' },
+        ]
+      },
+      { label: '+ de tutoriels', path: '/tutoriels/de-tutoriels' },
     ]
   },
   { label: 'OUTILS', path: '/outils' },
@@ -79,14 +137,30 @@ export default function Navigation() {
               {item.submenu && (
                 <ul className={styles.submenu}>
                   {item.submenu.map((subitem) => (
-                    <li key={subitem.path}>
+                    <li key={subitem.path} className={subitem.subsubmenu ? styles.hasSubsubmenu : ''}>
                       <Link 
                         href={subitem.path}
                         className={styles.submenuLink}
                         onClick={() => setIsOpen(false)}
                       >
                         {subitem.label}
+                        {subitem.subsubmenu && <span className={styles.arrow}>›</span>}
                       </Link>
+                      {subitem.subsubmenu && (
+                        <ul className={styles.subsubmenu}>
+                          {subitem.subsubmenu.map((subsubitem) => (
+                            <li key={subsubitem.path}>
+                              <Link
+                                href={subsubitem.path}
+                                className={styles.subsubmenuLink}
+                                onClick={() => setIsOpen(false)}
+                              >
+                                {subsubitem.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </li>
                   ))}
                 </ul>
