@@ -47,11 +47,11 @@ export default function Vouivre13() {
           <h2 className={styles.sectionTitle}>La première team wyvern F2P pour débutant</h2>
           <div style={{ textAlign: 'center' }}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STgO7vlwUI2krAPOnzar5SnKdQ1BfqIbDiIqsDWtDnyo292TPXUq5oz2AVHTCBjOASbVlnwaFIGrpm_9qh1B5xFhPp6UydpM8p2aVKlOjXh34Rceo6BYfh5zt5CHnCrhSaSuIqY21Nluwz72d6qL2W49ApqANxkE4DSlF4lN7qxkdbk3b7X4DcITO8zHa3Z2sUQC_saTNuw34zJ9npQcv9EkOoh0QS8szZtha4=w1280"
+              src="/chasses/vouivre-13/team-f2p.png"
               alt="Team F2P débutant Wyvern 13"
               style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }}
             />
-          </div>
+          </div> 
         </section>
 
         {/* Vidéo 2 - Mid/Late */}
