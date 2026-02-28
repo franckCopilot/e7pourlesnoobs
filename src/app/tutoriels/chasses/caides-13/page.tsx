@@ -63,10 +63,10 @@ export default function Caides13() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: 'Camilla, artefact qui boost lorina, plus lente qu\'Angelica Pecheresse', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STlDWj64ECm5vcfQv4gsG2iueCGY_Rys_Uy5XBx70xKVQYpuPBsNkHlzgGpm0yTZIcg0WArVGHFgtqmH7KxA3c3GMGqbcuyIpj2IQDZb8wuPbgeQK3FQFrmpDKfbb5YDqrTsKBF4KqiKFBsFjQSa5-23vSGTy1yjRSl7Lg9TNeXj2hy3wO0qDne5ys1mwciBAhCuGh65LMBws4FDMn8NTs5cuT1HbUWvH4V=w1280' },
-            { desc: 'Sc Lorina : le plus de dégats possible artefact DDJ', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQZuKtu_A4EDBrNATgW0n-yvGEvCK4F2sNr6MbuK_ie9MQcEzOsurs7QSQSW3EXD_S5_KmsMVm_ODzfUSLRA5Pi7hJmyKRJ6fQS863ZpslTwlI3mj9DdnK25awgwkbyTeGThKQyKCWRYlefzM42PpnnWosrwSQJxkjjq5ilgEMN-qtl3a8RqC-zMr5AlQ6Qn60_CffIuStXeQ8SnnUhQuwSLaVf_zWjxUfL=w1280' },
-            { desc: 'Angélica Pécheresse : max 180 speed, 200 ER, artefact qui boost la team', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SS7gn3GQ7hREx_X5XRLP8NWt19TMfXiIOoYrZ_KJLNHo7Jo1FJ054nNfmdrUJl8WAKyIg6u5z1eFo9jwpiNoB1ACSM9Vfi0ZP9yEjixBOk0J_goOx2XRCAs2zGf-mRyRlagZYMQyFBEcihGGWUkJkVUrWJqjT3mSjmqUBsdzPrLCpmWNrgIOIbRSP4q7id4vbe3MuyNxO8vPHq1gz_jsqYtYp2avXPEpfHtAWI=w1280' },
-            { desc: "Iseria 220/240 speed, 65% efficacité, artefact d'elphelt, Nakhwol ou SOS", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STaGq49-HyxipomuD8fIS385A9TR9aWTl4PiIb-nkI2YLw30AxQlnUP5VRF7JgKzec2w9kp_N1QUeTmVuzwUYHa4hBOFrGdGban_ZcUKpNkoWhIxp4ad4HMuAZaQzaoNEfh27BhAkjoPIDD1K8hCR7EVEOkvgWK8ubHr4_aXtbJOwtDAxbSGBPgUfqKSA7p3hZsvJYEZrXES9eE8rdqzAIXk_LzezqGOAM_=w1280' },
+            { desc: 'Camilla, artefact qui boost lorina, plus lente qu\'Angelica Pecheresse', img: '/images/tutoriels/chasses/caides1.png' },
+            { desc: 'Sc Lorina : le plus de dégats possible artefact DDJ', img: '/images/tutoriels/chasses/caides2.png' },
+            { desc: 'Angélica Pécheresse : max 180 speed, 200 ER, artefact qui boost la team', img: '/images/tutoriels/chasses/caides3.png' },
+            { desc: "Iseria 220/240 speed, 65% efficacité, artefact d'elphelt, Nakhwol ou SOS", img: '/images/tutoriels/chasses/caides4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />

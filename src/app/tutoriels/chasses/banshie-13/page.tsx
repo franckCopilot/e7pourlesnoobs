@@ -83,10 +83,10 @@ export default function Banshie13() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Léo niveau 50, le plus rapide de la team. artefact d'elphelt, Nakhwol ou SOS", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STZldSN1tFYrZkVgQGYbTRWAat3hAj9p8972-vSxlaYVDm588M8kuP6pZSXeOG9PQ61JUC2XRSiRqSxZMpmUEwT1-_pFr5UJghy4krD9q6LTgRT8pJtMNFT_xTjWlv3kSYJdp8ypkmJj62nFWbmVBHMcvCSPnxBZGRdTlW1DcK3N3QPl2O14T94JPzma0Te6gNhBERjuZ9X68t22dG0xwDq0mIWLgIpmXWUfn8=w1280' },
-            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQS4PZvNjr-Hu5kSxY3TxLsnJDbyadnVk7iLQURes8ltjirOTD9gp0j8qYd8rT7r9BiDH5r9zjqIBoYw-HHY0088lI9eYgtYqW4FpBwV4BFp9pgQkanSV2thx7VRNZcH633qq5Am0sD41btCAaR45QyFViYOo01q4rfiy78FC9eoib_PDWl5_PcAq2Xrgxo2PKZACgVvo5qgRlH-2578Trgjs9iOmtMWqvI_zo=w1280' },
-            { desc: 'Baiken en set Rage + infiltration + artefact à rajouter (DDJ)', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SRqwCzbRdeHI8w20BmtaZUWD2SGHMeg9ar6ReJ0155emTKi0kHdg6nl1x9_oX9OBoBNCfEmOyFzJyYvXY4PJBgxK-X9NaQGUfEEviOaujZXBSU7_I8I2MQ1lB_zWud1Ye9uVldA8zcJQrXgmJtVFUH4Fp_2chKdljVVXOYhTFhXEZNxa413mbV0MIaMgy-KgNShDYM-SsEXxQb1szT9AOkXqsDZMkgzQuvz=w1280' },
-            { desc: "AE-giselle : variante avec artefact Kal'adra", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SRRxwLiEfql3cq80U7qHDSC3j9-BHsjqc8N65mtnqU62p5N4GJ5l0MSxArKgLaSLMKkDEFB-KXVBketAw4QbjF58I-6_Z2VhQTNOHXyDx26tLbb51pwRI1x18kkzStylzREULesnGkuEOxtIHrGaMUW8Alr0wm2lQEGkT9jcny7_GvWii7yb90F1nJx1X7z90ebVE2WUd9l7w-7yWM2nGFmBDwxAOaSt0_NasY=w1280' },
+            { desc: "Léo niveau 50, le plus rapide de la team. artefact d'elphelt, Nakhwol ou SOS", img: '/images/tutoriels/chasses/banshie1.png' },
+            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: '/images/tutoriels/chasses/banshie2.png' },
+            { desc: 'Baiken en set Rage + infiltration + artefact à rajouter (DDJ)', img: '/images/tutoriels/chasses/banshie3.png' },
+            { desc: "AE-giselle : variante avec artefact Kal'adra", img: '/images/tutoriels/chasses/banshie4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
