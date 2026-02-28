@@ -158,7 +158,7 @@ export default function LesBases() {
           </div>
 
           <div className={styles.infoBlock}>
-            <h3 className={styles.sectionTitle}>Talismans et poudres d'amélioration</h3>
+            <h3 className={styles.sectionTitle}>Talismans et poudres d&apos;amélioration</h3>
             <div className={styles.infoBlock}>
               <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
             </div>

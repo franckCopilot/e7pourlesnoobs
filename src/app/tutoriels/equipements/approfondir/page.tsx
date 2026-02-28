@@ -95,7 +95,7 @@ export default function Approfondir() {
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Exemples d'évolution d'équipement</h2>
+          <h2 className={styles.sectionTitle}>Exemples d&apos;évolution d&apos;équipement</h2>
           <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '32px' }}>
             <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>3 caractéristiques secondaires qui synergisent avec le set</div>
@@ -106,7 +106,7 @@ export default function Approfondir() {
               <img src="/images/tutoriels/equipements/approfondir5.jpg" alt="Bonne moyenne avec un mauvais roll" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
             <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
-              <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>C'était rentable de le reforge pour équiper un personnage</div>
+              <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>C&apos;était rentable de le reforge pour équiper un personnage</div>
               <img src="/images/tutoriels/equipements/approfondir6.jpg" alt="Rentable de reforge" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
             <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
