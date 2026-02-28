@@ -40,8 +40,8 @@ export default function Magnar() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Fenne avec beaucoup d'HP, 85% de CC, 350 DCC en destruction et infiltration. Artefact de guilde : drapeau de victoire", img: '/images/tutoriels/constellations/magnar1.png' },
-            { desc: "Furious avec un tout petit peu d'HP pour survivre tour 1. Il doit mourir avant son tour 2.", img: '/images/tutoriels/constellations/magnar2.png' },
+            { desc: "Fenne avec beaucoup d'HP, 85% de CC, 350 DCC en destruction et infiltration. Artefact de guilde : drapeau de victoire", img: '/images/tutoriels/constellations/magnar1.jpg' },
+            { desc: "Furious avec un tout petit peu d'HP pour survivre tour 1. Il doit mourir avant son tour 2.", img: '/images/tutoriels/constellations/magnar2.jpg' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />

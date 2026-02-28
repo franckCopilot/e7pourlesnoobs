@@ -41,10 +41,10 @@ export default function Herais() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Aram avec le plus de santé possible, aux alentours des 230 de vitesse et l'artefact gaieté de l'idole.", img: '/images/tutoriels/constellations/herais1.png' },
-            { desc: "Hazel avec le plus de santé possible, aux alentours des 215/220 de vitesse avec l'artefact branche de l'arbre divin", img: '/images/tutoriels/constellations/herais2.png' },
-            { desc: "Achates avec le plus de santé possible aux alentours des 205 de vitesse en fonction de votre speedtune. Cor de guerre est requis. troisième EE.", img: '/images/tutoriels/constellations/herais3.png' },
-            { desc: "Tiera avec le plus de dégâts possible en set destru et infiltration. il faut qu'elle ait un peu de vitesse et au moins 14 500 HP. Joker de réverie est requis.", img: '/images/tutoriels/constellations/herais4.png' },
+            { desc: "Aram avec le plus de santé possible, aux alentours des 230 de vitesse et l'artefact gaieté de l'idole.", img: '/images/tutoriels/constellations/herais1.jpg' },
+            { desc: "Hazel avec le plus de santé possible, aux alentours des 215/220 de vitesse avec l'artefact branche de l'arbre divin", img: '/images/tutoriels/constellations/herais2.jpg' },
+            { desc: "Achates avec le plus de santé possible aux alentours des 205 de vitesse en fonction de votre speedtune. Cor de guerre est requis. troisième EE.", img: '/images/tutoriels/constellations/herais3.jpg' },
+            { desc: "Tiera avec le plus de dégâts possible en set destru et infiltration. il faut qu'elle ait un peu de vitesse et au moins 14 500 HP. Joker de réverie est requis.", img: '/images/tutoriels/constellations/herais4.jpg' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
