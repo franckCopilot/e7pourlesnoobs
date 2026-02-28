@@ -159,17 +159,30 @@ export default function LesBases() {
 
           <div className={styles.infoBlock}>
             <h3 className={styles.sectionTitle}>Talismans et poudres d&apos;amélioration</h3>
-            <div className={styles.infoBlock}>
-              <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
-            </div>
-            <div className={styles.infoBlock}>
-              <img src="/images/tutoriels/equipements/base8.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
-            </div>
-            <div className={styles.infoBlock}>
-              <img src="/images/tutoriels/equipements/base9.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
-            </div>
-            <div className={styles.infoBlock}>
-              <img src="/images/tutoriels/equipements/base10.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(4, 1fr)',
+                gap: '32px',
+                justifyContent: 'center',
+                marginBottom: '32px',
+                maxWidth: '1280px',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+              }}
+            >
+              <div className={styles.infoBlock}>
+                <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+              </div>
+              <div className={styles.infoBlock}>
+                <img src="/images/tutoriels/equipements/base8.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+              </div>
+              <div className={styles.infoBlock}>
+                <img src="/images/tutoriels/equipements/base9.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+              </div>
+              <div className={styles.infoBlock}>
+                <img src="/images/tutoriels/equipements/base10.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+              </div>
             </div>
             <div className={styles.infoText}>
               <p>Depuis plusieurs mises à jour, il est possible d&apos;améliorer ses équipements avec des <strong>talismans</strong> ou des <strong>poudres d&apos;équipement</strong>.</p>
