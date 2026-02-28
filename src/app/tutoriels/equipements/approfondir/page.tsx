@@ -123,6 +123,16 @@ export default function Approfondir() {
           <h2 className={styles.sectionTitle}>DPS</h2>
           <p>Les héros DPS sont destinés à infliger des dégâts. Ils sont généralement vulnérables mais ont besoin d&apos;<strong>attaque</strong>, de <strong>vitesse</strong>, de <strong>chances de coup critique</strong> et de <strong>dégâts en coup critique</strong>.</p>
           <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/base10b.png" alt="base10b" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base11.png" alt="base11" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base12.png" alt="base12" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base13.png" alt="base13" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base14.png" alt="base14" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base15.png" alt="base15" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base16.png" alt="base16" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/base17.png" alt="base17" style={{ height: '64px' }} />
+          </div>
         </section>
 
         <section className={styles.section}>
