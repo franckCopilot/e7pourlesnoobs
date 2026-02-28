@@ -69,10 +69,10 @@ export default function Golem13() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: 'Ml Vivian en équipement PvP', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQ3XHUmjH1vURAp1GPvaF57UvoA13eOXVbFbaBfCjo4KdlH-xoBQv0VgVfJKyZR1cdcri3K3p3ivo8VuFBdZapprLukiVHZ0FCpCjPg2wy4n0JgFP9Kbzmv7Q7pB57bZCsujk-eykW0VSqTlz83ZDWf1Olyjw9n13jW8TWpF8FgHt567c2DTq46ErQaEBUGgpzYJ8ZfwLQlMn1cC4qe-xqMoM6YNle6G2c_=w1280' },
-            { desc: 'Cermia en set Rage + infiltration + artefact à rajouter, 1er EE', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SR2DQG2ifgAhT7C-B2AvYHOehzmSwnXUQ75kCIaz4WPBUsayOhaUxiy0B10dUOpijRaB3J2RAQH-IGsAvo9kUF_WNa3Q-LCC7i9ZpYZY6zYnSbCkmYkwP7BylLU70EoCbEdKfBH9Hl9tm6Iq2pI7kmAZtnG28bl7_IE-HN4uEl79ljn7DdcjyuGwlmQu6Njn6g4ZX2u9ONmDCqzxdF9sWjUGpV6bG_GRRaJ=w1280' },
-            { desc: "Léo, même équipement que la banshie artefact d'elphelt, Nakhwol ou SOS", img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSCfD9Qr36-62HnLUPf1fRWdzi0OBZJgeBVLUfeBn039sBCbnbMGYVk1CvhjHlAvyerci2AznDj9XHM-nM3ZmQfKw58W2HrjCt32IgPKFnsqjgA6SyY6Wng9Strkuh2JPPqkBWVFXtGkzJ7Dw8nZf4Q4jKkSkZaOyaZ_nqGWCvbPFC8_OP5AkWlTJ7j7nRJ_VLY1DxfHl8MQ0LNgM3CiwK3cjNZ92oS-IedflY=w1280' },
-            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SR60kYG9y3xQwdJbjDpV3D-VL_D2sbn0g7YP26Wc8E9jDfjUL2qV_3Ej8vZMhhXcWH7mxnGMOPlQpsrG5RfGRkfEREYXm9j13K2zmEq-LKNWH2w6OBlgybwmM59jKamKbvIpc22RFM6J4GTxy2j-GNd3YghnbIv_1P6JuBLieIXhqZf-N2M2sgd5IsaY5Ta2h3PznoJSPdbDf-Kgf0FqvtZ-Au1yqUzFgDH_zk=w1280' },
+            { desc: 'Ml Vivian en équipement PvP', img: '/images/tutoriels/chasses/golem1.png' },
+            { desc: 'Cermia en set Rage + infiltration + artefact à rajouter, 1er EE', img: '/images/tutoriels/chasses/golem2.png' },
+            { desc: "Léo, même équipement que la banshie artefact d'elphelt, Nakhwol ou SOS", img: '/images/tutoriels/chasses/golem3.png' },
+            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: '/images/tutoriels/chasses/golem4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
