@@ -204,6 +204,8 @@ export default function LesBases() {
             <img src="/images/tutoriels/equipements/base6.png" alt="Variation des caractéristiques" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
           </div>
         </section>
+
+        <p>Vous connaissez maintenant les bases des équipements sur Epic Seven, pour affiner votre connaissance sur les équipements, une deuxième partie est disponible <a href="/tutoriels/equipements/approfondir" style={{ color: '#b89c4c', textDecoration: 'underline' }}>ici</a>.</p>
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
