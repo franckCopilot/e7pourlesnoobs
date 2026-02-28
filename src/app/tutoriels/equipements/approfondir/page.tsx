@@ -30,12 +30,12 @@ export default function Approfondir() {
           <p>La fabrication améliorée vous permet de choisir la caractéristique principale et le set de votre équipement.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSZkXVni-tvM_ICdgcUCrLqAQgVYusxp-oG25kSNyKQvfytYHCHAIuB050yJZbBqtxTiCPv7Mv46RCHrRNzCNYlnu5ENKazW3qsihJlZxXaqC7qaMir5UrB-AZ-ywxPYiHyz1_JQvkqj4XBi9PDBj21iY_1Qv5WtBdk-EJ5CdW1gZTaOoKjgXEs5jKb-1UdR-r9mXpVtszgYjTWYCwXZxwK4RoWTYaiPXK2GrU=w1280" alt="Atelier d'acier" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir1.jpg" alt="Atelier d'acier" className={styles.infoImage} />
             <div className={styles.infoText}><p>Atelier d&apos;acier — Fabrication standard</p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS2Gtt28RvgGmnGCDe86LraGxnuXN1Ws0Tj4VOOiocsU0LOERvHeHyUz15_8jsJuQSZ85yYxh0WGjoRglTHWk2DpQp4LS3A1sfFXEsDMPZvO_iv7_dgdFd43bw6MYOrF9DNuPU0MRqE0JyX5rFPkeaW9CwWM_0zFrLfPhFTl-cUOiJfQ02Xriwoy-1H9Rm5HcvoKtq3dfYjJ0LrhMyvuR8sij_3WQS3aWoZ=w1280" alt="Clocher de l'alchimiste" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir2.jpg" alt="Clocher de l'alchimiste" className={styles.infoImage} />
             <div className={styles.infoText}><p>Clocher de l&apos;alchimiste — Fabrication améliorée</p></div>
           </div>
         </section>
@@ -55,7 +55,7 @@ export default function Approfondir() {
           </ul>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STzhVLLIe5tDxy5Dvmq5SVaPukQiuAq9_BZQGb2H3nxM7shjEGvrGmTc3dgxIoPOWB9UCE5xg1bJDZR8-fFpKGhtz33tUmY3cS50NCELx1LAVU8oi9cGcnel8yx67XOxvVg7l81NPoYX8XBtRusaJwvb_lfTy7umgwPP39878XNdi5Va00O4Va59NhB0UqDB736MS7QcMiIgj6zoTNxRYD-_ZwN5-B1n_v6-BA=w1280" alt="Points d'équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir3.jpg" alt="Points d'équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Les <strong>points d&apos;équipement (PE)</strong> sont une valeur numérique basée sur la somme des caractéristiques d&apos;une pièce d&apos;équipement.</p>
               <p>La règle générale est de continuer d&apos;améliorer un équipement en +9 si vous avez <strong>55/60+ de PE</strong>.</p>
@@ -66,22 +66,22 @@ export default function Approfondir() {
           <p>Idéalement, vous devriez roll seulement les équipements qui ont un Set + une caractéristique principale + <strong>3 caractéristiques secondaires</strong> qui synergisent. 4 serait parfait, mais 3 est déjà acceptable.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SToW81U8MPDGWlgEKktxq8JkWZjvTPJDOlEBziSpgNzE5e3u77cTLG35L5CT4AKZRSxkDXNR5Eexa3yhWp4wwyioo5ks7RptvjnWMWHFCTQATAgZz3zusJOVRaQ77MeVR7tQpyZMXYrPHOK-g2ElUkXhTmp6yFtTZBOibscsTz-XmEJOcLy2bsSRCr8oCT_dXtICPmldfOlLG-kdru8D1TqZ0v3wtdLA7K3dHA=w1280" alt="3 caractéristiques synergisantes" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir4.jpg" alt="3 caractéristiques synergisantes" className={styles.infoImage} />
             <div className={styles.infoText}><p>3 caractéristiques secondaires qui synergisent avec le set</p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0ST8r2fDZMqB9OT42acfOX-MtBKD5hbkkC-X8gLNX0TlIbWKllNWnP3vD_AvhVZtiZ9wn_OzqhQR8fgpVPeuFzfL6wQen8_t7kI3zppUXkaN6t9iQtONN2vKVHGMHTIrJMwatA0wKPVU8ANa-jYYJWsjOeEmK6FHIPjK_5GjM6KjaQDE0mJow25tGypHjgcnwUMbFlCkAvsNG30UQO-_xuUQaO0asFcNY5pR=w1280" alt="Bonne moyenne avec un mauvais roll" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir5.jpg" alt="Bonne moyenne avec un mauvais roll" className={styles.infoImage} />
             <div className={styles.infoText}><p>Une bonne moyenne avec un roll dans une mauvaise caractéristique</p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STEJNbHC1-awkC5rKQyNbRiOS-F1xSGTmGXdlM-wqKYeARnSnmjpwi1rVm_R6QJvdUIjmqIB7Km1ih28Mo0RNfO8HQ6paz8w14je4FpQ8Ks7c64qH77NK5a46UjhFgbePxGPNOoStvGxddnNmZkRcyICM34YGP9T62EFt6D-jottx1K6EgazXxjflk43rQ1A6wZmTVUNog8VJJHZhLWa4IHdGqtcKc6pw=w1280" alt="Rentable de reforge" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir6.jpg" alt="Rentable de reforge" className={styles.infoImage} />
             <div className={styles.infoText}><p>C&apos;était rentable de le reforge pour équiper un personnage</p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQY6fHIf41n4erqKnO_-AgxIeFvtuFBwUxGm6UWsdvMLwU8ZglV6T_yaXkIVnJLJoJXqTIcJAKNAkhesr54EjUXJvLc4gUcRBOLx2zejHUjPyK-lBsboazkW3eR3kOyFNmYPMh6SDOoMES6C4ou2j2k2B5hmuW5_FAX6b-_oEqMPg8BVVsprjT6Xx4tKT3yBuNC2i_dtg4j4zlL8zSK6aFVAcNMow4gpM6hvuQ=w1280" alt="Pierre de permutation" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir7.jpg" alt="Pierre de permutation" className={styles.infoImage} />
             <div className={styles.infoText}><p>La mauvaise caractéristique est modifiée avec une <strong>pierre de permutation</strong></p></div>
           </div>
 
