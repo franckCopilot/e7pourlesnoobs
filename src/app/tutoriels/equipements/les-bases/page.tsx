@@ -30,7 +30,7 @@ export default function LesBases() {
           <p>Vous pouvez équiper <strong>6 équipements</strong> et <strong>1 artefact</strong> pour chaque héros.</p>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/bases1.jpg" alt="Structure d'un équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base1.png" alt="Structure d'un équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Chaque équipement possède une <strong>caractéristique principale</strong> unique :</p>
               <p><strong>Côté gauche :</strong></p>
@@ -49,7 +49,7 @@ export default function LesBases() {
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/bases2.jpg" alt="Caractéristiques principales" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base2.png" alt="Caractéristiques principales" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Pour le côté gauche, la caractéristique principale sera toujours la même. Seuls les <strong>colliers, anneaux et bottes</strong> peuvent avoir une caractéristique principale qui varie.</p>
               <p className={styles.note}><strong>NOTE</strong> : il est impossible d&apos;avoir de la défense % et flat sur les armes.</p>
@@ -59,7 +59,7 @@ export default function LesBases() {
 
           <div style={{ textAlign: 'center', margin: '24px 0' }}>
             <p>Voici un résumé de ce qu&apos;il est possible d&apos;avoir sur chaque équipement :</p>
-            <img src="/images/tutoriels/equipements/bases3.jpg" alt="Résumé équipements" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
+            <img src="/images/tutoriels/equipements/base3.png" alt="Résumé équipements" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
           </div>
         </section>
 
@@ -146,7 +146,7 @@ export default function LesBases() {
           <p>L&apos;amélioration d&apos;équipement est coûteuse et peut dépenser le million de gold pour améliorer un équipement de tier 6 en +15.</p>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/bases4.jpg" alt="Amélioration d'équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base4.png" alt="Amélioration d'équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>De manière générale, un équipement va d&apos;abord améliorer ses caractéristiques secondaires avant d&apos;en ajouter de nouvelles.</p>
               <p>Il est recommandé d&apos;améliorer seulement les équipements <strong>épiques</strong> voire <strong>héroïques</strong>.</p>
@@ -154,7 +154,7 @@ export default function LesBases() {
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/bases5.jpg" alt="Enhancement examples" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/base5.png" alt="Enhancement examples" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Depuis plusieurs mises à jour, il est possible d&apos;améliorer ses équipements avec des <strong>talismans</strong> ou des <strong>poudres d&apos;équipement</strong>.</p>
             </div>
@@ -172,7 +172,7 @@ export default function LesBases() {
             <li>Vitesse : <strong>1 à 4</strong> (5 seulement épique et très rare)</li>
           </ul>
           <div style={{ textAlign: 'center', margin: '24px 0' }}>
-            <img src="/images/tutoriels/equipements/bases6.jpg" alt="Variation des caractéristiques" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
+            <img src="/images/tutoriels/equipements/base6.png" alt="Variation des caractéristiques" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
           </div>
         </section>
       </div>
