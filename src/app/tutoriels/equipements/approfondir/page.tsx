@@ -121,8 +121,6 @@ export default function Approfondir() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>DPS</h2>
-          <p>Les héros DPS sont destinés à infliger des dégâts. Ils sont généralement vulnérables mais ont besoin d&apos;<strong>attaque</strong>, de <strong>vitesse</strong>, de <strong>chances de coup critique</strong> et de <strong>dégâts en coup critique</strong>.</p>
-          <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
             <img src="/images/tutoriels/equipements/base10b.png" alt="base10b" style={{ height: '64px' }} />
             <img src="/images/tutoriels/equipements/base11.png" alt="base11" style={{ height: '64px' }} />
@@ -133,6 +131,21 @@ export default function Approfondir() {
             <img src="/images/tutoriels/equipements/base16.png" alt="base16" style={{ height: '64px' }} />
             <img src="/images/tutoriels/equipements/base17.png" alt="base17" style={{ height: '64px' }} />
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros DPS sont destinés à infliger des dégâts.</p>
+              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>Ils sont généralement vulnérable mais ont besoin d&apos;attaque, de vitesse, de chances de coup critique et de dégât en coup critique.</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/h1.png" alt="h1" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/h2.png" alt="h2" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/h3.png" alt="h3" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/h4.png" alt="h4" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div>
+          
+          <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
+
         </section>
 
         <section className={styles.section}>
