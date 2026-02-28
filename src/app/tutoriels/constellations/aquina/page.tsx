@@ -40,10 +40,10 @@ export default function Aquina() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Violet avec le plus de dégâts possible en destruction et infiltration. Il faut plus de 14 500 hp, un peu de vitesse et surtout un artefact évasion.", img: '/images/tutoriels/chasses/aquina1.png' },
-            { desc: "Charles avec le plus de dégâts possible en destruction et infiltration. Il faut plus de 14 500 hp, un peu de vitesse, son troisième EE et un artefact dégâts.", img: '/images/tutoriels/chasses/aquina2.png' },
-            { desc: "Roenna avec le plus de santé possible en set contre-attaque requis. Il faut des bottes vitesse et l'artefact stella Harpa.", img: '/images/tutoriels/chasses/aquina3.png' },
-            { desc: "Bernard avec le plus de santé possible en set contre-attaque requis. Il faut des bottes vitesse et pas mal de vitesse. Celestine est un artefact utile.", img: '/images/tutoriels/chasses/aquina4.png' },
+            { desc: "Violet avec le plus de dégâts possible en destruction et infiltration. Il faut plus de 14 500 hp, un peu de vitesse et surtout un artefact évasion.", img: '/images/tutoriels/constellations/aquina1.png' },
+            { desc: "Charles avec le plus de dégâts possible en destruction et infiltration. Il faut plus de 14 500 hp, un peu de vitesse, son troisième EE et un artefact dégâts.", img: '/images/tutoriels/constellations/aquina2.png' },
+            { desc: "Roenna avec le plus de santé possible en set contre-attaque requis. Il faut des bottes vitesse et l'artefact stella Harpa.", img: '/images/tutoriels/constellations/aquina3.png' },
+            { desc: "Bernard avec le plus de santé possible en set contre-attaque requis. Il faut des bottes vitesse et pas mal de vitesse. Celestine est un artefact utile.", img: '/images/tutoriels/constellations/aquina4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />

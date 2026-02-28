@@ -30,7 +30,7 @@ export default function LesBases() {
           <p>Vous pouvez équiper <strong>6 équipements</strong> et <strong>1 artefact</strong> pour chaque héros.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSigphCwZtcHJu_eowRyfSAauBN2UqJism76wS_PFyWKA8nWE8PJHuLgG9hlp39_ZTJqVgPIyPMj9OM0psZEPWWG9XA8pD0z1HPfa6mLb9so5yGAekjdLDDQlQbLXA-VWyF4a6cxN8LWgrDTOeJaRU0jVaUbdaAJW_Vhhq4kks27mAS-OLraEpPuCtcx-vcoc3io084aXjC4rVJoH2GopWyZhw2nIoTVFiYEVc=w1280" alt="Structure d'un équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/bases1.png" alt="Structure d'un équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Chaque équipement possède une <strong>caractéristique principale</strong> unique :</p>
               <p><strong>Côté gauche :</strong></p>
@@ -49,7 +49,7 @@ export default function LesBases() {
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSpSeR_DxISFG81ETeOiM04YAmQWrJqIopRzF9ElA3gjkrNRoEclKtZT8hMHn2fmxORR8gC8aKRY1BqdHSAeke9aLsqxlbPbPrkHaw-OmvEBjv8FgVgtm94uy8yoQR1Smi7RnFgL7EId-f1IJDz-Zsc5e3TZyUfTP9pZ4eJx6e4upP_DJCJsHy0AvVORllcqNxbP1KC7QAktAa7mmsGN9Zn9vRrIml4TZHhams=w1280" alt="Caractéristiques principales" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/bases2.png" alt="Caractéristiques principales" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Pour le côté gauche, la caractéristique principale sera toujours la même. Seuls les <strong>colliers, anneaux et bottes</strong> peuvent avoir une caractéristique principale qui varie.</p>
               <p className={styles.note}><strong>NOTE</strong> : il est impossible d&apos;avoir de la défense % et flat sur les armes.</p>
@@ -59,7 +59,7 @@ export default function LesBases() {
 
           <div style={{ textAlign: 'center', margin: '24px 0' }}>
             <p>Voici un résumé de ce qu&apos;il est possible d&apos;avoir sur chaque équipement :</p>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STVuLZXWhSWqDb8-gLfd8D2WlFSkRzSjA4KTocCKjH33obHh0YiagFVUKwPNS57iklxQ_4xSClB1ddEd5Gg8L8CykXM8B63SDmmdVAIV5dYUPEMTBDBBuRrE-yn8ctFkNO1I3_HTi0sKApkBIKS7kOwjpPB0l1KPTJVGV8-a8kg28gqyFJL9kAVpgxrgTBfIOyGYVqgAKP_jVqrmG2cgfV59DQPTHZYUi47=w1280" alt="Résumé équipements" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
+            <img src="/images/tutoriels/equipements/bases3.png" alt="Résumé équipements" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
           </div>
         </section>
 
@@ -146,7 +146,7 @@ export default function LesBases() {
           <p>L&apos;amélioration d&apos;équipement est coûteuse et peut dépenser le million de gold pour améliorer un équipement de tier 6 en +15.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQf0ns3f1dcrAqnrOFg8u2l-lunPbQ9_IbiKytU9p8S_wwB719cuZ1dKR4uKpOV7O17UeQfYn_dccDpW6ldJ8pLrV7mwcjAS7kbBR4Z74w1bMOBde936a9ffTOKX3xWhlBbme-Ep1CJlfYxEpKtlSBAQir6DSkTubgutrMNf3kanj1NnWIpHKeM_31GCI5WpHNLR-5MlssMYkLdAUdh5sJ9tnBP6AbsEa69=w1280" alt="Amélioration d'équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/bases4.png" alt="Amélioration d'équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>De manière générale, un équipement va d&apos;abord améliorer ses caractéristiques secondaires avant d&apos;en ajouter de nouvelles.</p>
               <p>Il est recommandé d&apos;améliorer seulement les équipements <strong>épiques</strong> voire <strong>héroïques</strong>.</p>
@@ -154,7 +154,7 @@ export default function LesBases() {
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQV8w9Z9HoXl7ybz_tWYpJjihiM79ymFCMbXlA4Ew8BZ5n7ZSwYe40a1lCNU-syGbikVjiEq28ESGifmfmBmIeVVC2TTiCKtw5t-M0k2aMf811xYpq4zbDND7lGHtfnyO1yDCnXcMcSmxShT51J187NX3a_a8PwpsP1KdDgBLeLcWd7Il0zGBgDYDUpv9zf11MAWwi6ggUGTsEQzlF1Ryn7GDb7uTuNMS3aCVk=w1280" alt="Enhancement examples" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/bases5.png" alt="Enhancement examples" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Depuis plusieurs mises à jour, il est possible d&apos;améliorer ses équipements avec des <strong>talismans</strong> ou des <strong>poudres d&apos;équipement</strong>.</p>
             </div>
@@ -172,7 +172,7 @@ export default function LesBases() {
             <li>Vitesse : <strong>1 à 4</strong> (5 seulement épique et très rare)</li>
           </ul>
           <div style={{ textAlign: 'center', margin: '24px 0' }}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQYH9HitoASdVckAl0Q_oU2_cnq0bPh9lpCWSuLtsBtJd7BW-GxZ0y0BmUMUxNco7ln-onFww-FPvCO4cC5KXaVH3fHpS5H5UgdZNEu-O1Jvz1ZfAm4t_XScOHHnN85p_ZR9T9g2bJznCQKuMHqO6KI4stx9eatErC1qDxEUIlY83RAhiBQ_Xw4W0UtGDENfjBc0yJ2D43z2I3QbjBrtzag1jr09otGdN5HIgA=w1280" alt="Variation des caractéristiques" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
+            <img src="/images/tutoriels/equipements/bases6.png" alt="Variation des caractéristiques" style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }} />
           </div>
         </section>
       </div>
