@@ -62,36 +62,8 @@ export default function Approfondir() {
             </div>
           </div>
 
-          <p>En général, il est recommandé d&apos;éviter les caractéristiques <strong>flat</strong> (sans pourcentage). Dans de rares cas, la défense flat est meilleure que la défense % (souvent sur les assassins).</p>
-          <p>Idéalement, vous devriez roll seulement les équipements qui ont un Set + une caractéristique principale + <strong>3 caractéristiques secondaires</strong> qui synergisent. 4 serait parfait, mais 3 est déjà acceptable.</p>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir4.jpg" alt="3 caractéristiques synergisantes" className={styles.infoImage} />
-            <div className={styles.infoText}><p>3 caractéristiques secondaires qui synergisent avec le set</p></div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir5.jpg" alt="Bonne moyenne avec un mauvais roll" className={styles.infoImage} />
-            <div className={styles.infoText}><p>Une bonne moyenne avec un roll dans une mauvaise caractéristique</p></div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir6.jpg" alt="Rentable de reforge" className={styles.infoImage} />
-            <div className={styles.infoText}><p>C&apos;était rentable de le reforge pour équiper un personnage</p></div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir7.jpg" alt="Pierre de permutation" className={styles.infoImage} />
-            <div className={styles.infoText}><p>La mauvaise caractéristique est modifiée avec une <strong>pierre de permutation</strong></p></div>
-          </div>
-
-          <p style={{ marginTop: '24px' }}>En général, vous devez chercher des rolls supérieurs à la moyenne :</p>
-          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-            <li><strong>6%+</strong> pour l&apos;attaque, la santé, la défense, l&apos;efficacité, l&apos;ER</li>
-            <li><strong>5%+</strong> pour les dégâts en coup critique</li>
-            <li><strong>3+</strong> pour la vitesse</li>
-            <li><strong>4%+</strong> pour les chances de coup critique</li>
-          </ul>
+          <p>En général, il est recommandé d'éviter les caractéristiques flat (sans pourcentage). Dans de rares cas, la défense flat est meilleure que la défense % (souvent sur les assassins), et il est aussi possible d'avoir envie d'accumuler santé flat et santé %, ou attaque flat et attaque % pour maximiser une caractéristique de vos héros. Cependant, ces cas sont rares et de manière globale, les caractéristiques flat sont à éviter.</p>
+          <p>Idéalement, vous devriez roll seulement les équipements qui ont un Set + une caractéristique principale + 3 caractéristiques secondaires qui synergisent. Dans l'idéal, 4 caractéristiques secondaires qui synergisent serait parfait, mais 3 est déjà acceptables. Vous pouvez vous laisser une marge de manœuvre d'un mauvais roll une fois dans une mauvaise caractéristique : plus d'une et votre équipement sera généralement mauvais. Cependant, un mauvais roll peut être modifié sans perdre trop de points d'équipement grâce aux <a href="/ressources/pierres-de-permutation/" style={{ color: '#b89c4c', textDecoration: 'underline' }}>pierres de permutation</a></p>
         </section>
 
         <section className={styles.section}>
@@ -126,6 +98,26 @@ export default function Approfondir() {
             </div>
           </div>
         </section>
+
+        <section className={styles.section}>
+          <p>Il est recommandé d'estimer le potentiel d'un équipement une fois en +9 pour vérifier s'il a bien roll dans les caractéristiques que vous souhaitez. Vous pourrez ensuite choisir de continuer à améliorer votre équipement ou économiser vos ressources. </p>
+
+          <p style={{ marginTop: '24px' }}>En général, vous devez chercher des rolls supérieurs à la moyenne :</p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li><strong>6%+</strong> pour l&apos;attaque, la santé, la défense, l&apos;efficacité, l&apos;ER</li>
+            <li><strong>5%+</strong> pour les dégâts en coup critique</li>
+            <li><strong>3+</strong> pour la vitesse</li>
+            <li><strong>4%+</strong> pour les chances de coup critique</li>
+          </ul>
+          <p style={{ textAlign: 'center' }}>Dans l'exemple précédent : </p>
+          <p>4% chance de coup critique, 4% CC, 4% CC + 5% de base = 4.25% ➜ <span style={{ color: 'green', fontWeight: 600 }}>supérieur à la moyenne</span></p>
+          <p>6% attaque, +8% de base = 7% ➜ <span style={{ color: 'green', fontWeight: 600 }}>supérieur à la moyenne</span></p>
+          <p>28 défense flat ➜ <span style={{ color: 'red', fontWeight: 600 }}>mauvais roll, mais perfectible avec une pierre de permutation.</span> </p>
+        </section>
+        <section className={styles.section}>
+          <p>Passons maintenant aux archétypes génériques et aux les sets / caractéristiques qui synergisent que vous allez devoir rechercher pour les équipements que vous allez fabriquer ou trouver.</p>
+        </section>
+
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>DPS</h2>
