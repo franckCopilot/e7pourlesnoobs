@@ -155,9 +155,15 @@ export default function Approfondir() {
               <img src="/images/tutoriels/equipements/h6.png" alt="h2" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
             </div>
           </div>
-          <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
-
-        </section>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/t1.png" alt="base10b" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/t2.png" alt="base11" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/t3.png" alt="base12" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/t4.png" alt="base13" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/t5.png" alt="base14" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/t6.png" alt="base15" style={{ height: '64px' }} />
+          </div>
+        </section> 
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Bruiser</h2>
