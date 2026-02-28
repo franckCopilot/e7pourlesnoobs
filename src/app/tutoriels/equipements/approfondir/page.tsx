@@ -62,7 +62,7 @@ export default function Approfondir() {
             </div>
           </div>
 
-          <p>En général, il est recommandé d'éviter les caractéristiques flat (sans pourcentage). Dans de rares cas, la défense flat est meilleure que la défense % (souvent sur les assassins), et il est aussi possible d'avoir envie d'accumuler santé flat et santé %, ou attaque flat et attaque % pour maximiser une caractéristique de vos héros. Cependant, ces cas sont rares et de manière globale, les caractéristiques flat sont à éviter.</p>
+          <p>En général, il est recommandé d&apos;éviter les caractéristiques flat (sans pourcentage). Dans de rares cas, la défense flat est meilleure que la défense % (souvent sur les assassins), et il est aussi possible d&apos;avoir envie d&apos;accumuler santé flat et santé %, ou attaque flat et attaque % pour maximiser une caractéristique de vos héros. Cependant, ces cas sont rares et de manière globale, les caractéristiques flat sont à éviter.</p>
           <p>Idéalement, vous devriez roll seulement les équipements qui ont un Set + une caractéristique principale + 3 caractéristiques secondaires qui synergisent. Dans l&apos;idéal, 4 caractéristiques secondaires qui synergisent serait parfait, mais 3 est déjà acceptables. Vous pouvez vous laisser une marge de manœuvre d&apos;un mauvais roll une fois dans une mauvaise caractéristique : plus d&apos;une et votre équipement sera généralement mauvais. Cependant, un mauvais roll peut être modifié sans perdre trop de points d&apos;équipement grâce aux <a href="/ressources/pierres-de-permutation/" style={{ color: '#b89c4c', textDecoration: 'underline' }}>pierres de permutation</a></p>
         </section>
 
