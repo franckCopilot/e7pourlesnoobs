@@ -155,6 +155,22 @@ export default function LesBases() {
 
           <div className={styles.infoBlock}>
             <img src="/images/tutoriels/equipements/base5.png" alt="Enhancement examples" className={styles.infoImage} />
+          </div>
+
+          <div className={styles.infoBlock}>
+            <h3 className={styles.sectionTitle}>Talismans et poudres d'amélioration</h3>
+            <div className={styles.infoBlock}>
+              <img src="/images/tutoriels/equipements/base7.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+            </div>
+            <div className={styles.infoBlock}>
+              <img src="/images/tutoriels/equipements/base8.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+            </div>
+            <div className={styles.infoBlock}>
+              <img src="/images/tutoriels/equipements/base9.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+            </div>
+            <div className={styles.infoBlock}>
+              <img src="/images/tutoriels/equipements/base10.png" alt="Talismans et poudres d'amélioration" className={styles.infoImage} />
+            </div>
             <div className={styles.infoText}>
               <p>Depuis plusieurs mises à jour, il est possible d&apos;améliorer ses équipements avec des <strong>talismans</strong> ou des <strong>poudres d&apos;équipement</strong>.</p>
             </div>
