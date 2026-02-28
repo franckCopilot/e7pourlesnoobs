@@ -159,6 +159,100 @@ export default function Approfondir() {
             <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Attaque %</div>
+                <div>Vitesse</div>
+                <div>Chances Crit</div>
+                <div>Dégât Crit</div>
+                <div>Santé %</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Attaque %</div>
+                <div>Vitesse</div>
+                <div>Chances Crit</div>
+                <div>Dégât Crit</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Vitesse</div>
+                <div>Chances Crit</div>
+                <div>Dégât Crit</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Chances Crit</div>
+                <div style={{ fontWeight: 'bold' }}>Dégât Crit</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Attaque %</div>
+                <div>Vitesse</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Attaque %</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div>Chances Crit</div>
+                <div>Dégât Crit</div>
+                <div>Vitesse</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Vitesse</div>
+                <div style={{ fontWeight: 'bold' }}>Attaque %</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div>Chances Crit</div>
+                <div>Dégât Crit</div>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Bruiser</h2>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/b1.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b2.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b3.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b4.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b5.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b6.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b7.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b8.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b9.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b10.png" alt="" style={{ height: '64px' }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros bruiser sont destinés à infliger des dégâts mais ont des caractéristiques défensives leur</p>
+              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>permettant de survivre plus longtemps.</p>
+              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>La plupart des caractéristiques sont bien sur eux et ils peuvent utiliser la plupart des équipements.</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/br1.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/br2.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/br3.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/br4.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div> 
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>*la caractéristique principale est en gras</p>
+            </div> 
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/br5.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/br6.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontSize: '18px', marginBottom: '4px' }}>Attaque %</div>
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
@@ -210,44 +304,6 @@ export default function Approfondir() {
                 <div style={{ fontStyle: 'italic' }}>Santé %</div>
                 <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
-            </div>
-          </div>
-        </section> 
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Bruiser</h2>
-          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
-            <img src="/images/tutoriels/equipements/b1.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b2.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b3.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b4.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b5.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b6.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b7.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b8.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b9.png" alt="" style={{ height: '64px' }} />
-            <img src="/images/tutoriels/equipements/b10.png" alt="" style={{ height: '64px' }} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
-            <div style={{ flex: 1 }}>
-              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros bruiser sont destinés à infliger des dégâts mais ont des caractéristiques défensives leur</p>
-              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>permettant de survivre plus longtemps.</p>
-              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>La plupart des caractéristiques sont bien sur eux et ils peuvent utiliser la plupart des équipements.</p>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-              <img src="/images/tutoriels/equipements/br1.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
-              <img src="/images/tutoriels/equipements/br2.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
-              <img src="/images/tutoriels/equipements/br3.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
-              <img src="/images/tutoriels/equipements/br4.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
-            </div>
-          </div> 
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
-            <div style={{ flex: 1 }}>
-              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>*la caractéristique principale est en gras</p>
-            </div> 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-              <img src="/images/tutoriels/equipements/br5.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
-              <img src="/images/tutoriels/equipements/br6.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
             </div>
           </div>
         </section>
