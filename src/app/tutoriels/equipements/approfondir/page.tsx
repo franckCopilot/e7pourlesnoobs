@@ -96,20 +96,31 @@ export default function Approfondir() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Exemples d&apos;évolution d&apos;équipement</h2>
-          <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '32px' }}>
-            <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              gap: '32px',
+              justifyContent: 'center',
+              marginBottom: '32px',
+              maxWidth: '1280px',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}
+          >
+            <div style={{ background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>3 caractéristiques secondaires qui synergisent avec le set</div>
               <img src="/images/tutoriels/equipements/approfondir4.jpg" alt="3 caractéristiques synergisantes" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
-            <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
+            <div style={{ background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>Une bonne moyenne avec un roll dans une mauvaise caractéristique</div>
               <img src="/images/tutoriels/equipements/approfondir5.jpg" alt="Bonne moyenne avec un mauvais roll" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
-            <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
+            <div style={{ background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>C&apos;était rentable de le reforge pour équiper un personnage</div>
               <img src="/images/tutoriels/equipements/approfondir6.jpg" alt="Rentable de reforge" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
-            <div style={{ width: '300px', background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
+            <div style={{ background: '#f5e6c8', borderRadius: '8px', padding: '16px', boxSizing: 'border-box', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, color: '#b89c4c', marginBottom: '12px', fontSize: '17px' }}>La mauvaise caractéristique est modifiée avec une permutation</div>
               <img src="/images/tutoriels/equipements/approfondir7.jpg" alt="Pierre de permutation" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }} />
             </div>
