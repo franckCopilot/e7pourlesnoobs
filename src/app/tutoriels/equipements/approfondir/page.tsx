@@ -144,6 +144,17 @@ export default function Approfondir() {
             </div>
           </div>
           
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>*la caractéristique principale est en gras</p>
+              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>*En italic, il suffit de prendre seulement une des deux caractéristiques : l&apos;armure peut avoir de la santé.</p>
+              <p style={{ textAlign: 'center', fontSize: '18px', marginTop: '0', marginBottom: '0' }}>ou de la défense mais pas les deux</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/h5.png" alt="h1" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/h6.png" alt="h2" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div>
           <p>Caractéristiques recherchées : Attaque %, Vitesse, CC, DCC, Santé %, Défense %</p>
 
         </section>
