@@ -47,7 +47,7 @@ export default function Vouivre13() {
           <h2 className={styles.sectionTitle}>La première team wyvern F2P pour débutant</h2>
           <div style={{ textAlign: 'center' }}>
             <img
-              src="/chasses/vouivre-13/team-f2p.png"
+              src="/images/tutoriels/chasses/vouivre1.png"
               alt="Team F2P débutant Wyvern 13"
               style={{ maxWidth: '100%', borderRadius: '8px', border: '1px solid rgba(212,175,55,0.15)' }}
             />
@@ -94,10 +94,10 @@ export default function Vouivre13() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: 'Rem en set rage et infiltration, artefact joker de rêverie pour taper fort', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSZ7llH-68m6psEAUdvEGUb1xPk0-Fs-4Ark3xXdLY5bId0RU6f2W3TOi7BUrAGE53QqhYlotjmoK2KINdOa7ndHGvsYp3kwmuos9JcTjnhgVGtvmfW_EeE_I4lpMpzyloZoEHA0THeMVtkhgtJuOplQ1vqRHg6WUGETfcjbhlRhyj_MKGgxNTuPwzA6DTPVOLb412LqDEGW2ba1MOk3oN4iYkZiv6IoejeAlo=w1280' },
-            { desc: 'Angelica pécheresse moins de 200 speed, 200 ER, artefact qui boost la team', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQn9dBtpkV6M9wxDm_asIvC40vlO1rDiaT0zRfUPyJguRsd2G9qqPw9K5C-qR5zhl6tykyqEx10kXEm5DeZC_fZAXTgdwX-v69pKk0UwQ5cGlVlI84lcfI9-I6zlmyJ7ivIaFQ7jeWF7_JGVbzH07VvBFmTzFn845y0u6tHFDdYU5OVx5f7tZSW4UR7oLq6eG7LHmDix_x7tTCFEuWqwCfgJA1Jp5p_idLcIL8=w1280' },
-            { desc: 'Bellona plage : joue après Sangi et tape fort, 2eme EE', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SRK0W0-iFUz58wyMjYkfEWZanHw0lafpAyqxI--VqwlW5k9QdgWwETgr7d_n11UmPCBAjMPX3_2GHK49SmVUMyXGTOG6EIjGLEHUd3N0qxjrH84X-8nVHe8bOCfpMAPrIF0FFXlb-O9nbnYxDEcaFrO1K4QeMAAiBdsd82KHPJ76AcVDFREd-AeLdxoHeBPTQtyj2UMg1WmrmiSKRhEVrrzhtX21sb2C_fybXc=w1280' },
-            { desc: 'Camilla : équipement optimisé pour le caides', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQE5w5Bxg-hzmkgr8SFpWBPgKrxEKTEBkDJyoisG245Ocy0fqVnAcLJAwsfEU-hIrfvCj7h52acem8htCDt2bqZN5gAHiH_zYJI9Y-3B8LbuQ3i9-WVqEp-t4M-8g12rvm-d6K5WN_Vj-09NCCZ-LhWvadV2i1tW3sWh8anms6o_nLo8lggo_8A4R9VJMpJTk-42ewRMwyNzjhAnzDSkHzHMw601taazvXKSwo=w1280' },
+            { desc: 'Rem en set rage et infiltration, artefact joker de rêverie pour taper fort', img: '/images/tutoriels/chasses/vouivre2.png' },
+            { desc: 'Angelica pécheresse moins de 200 speed, 200 ER, artefact qui boost la team', img: '/images/tutoriels/chasses/vouivre3.png' },
+            { desc: 'Bellona plage : joue après Sangi et tape fort, 2eme EE', img: '/images/tutoriels/chasses/vouivre4.png' },
+            { desc: 'Camilla : équipement optimisé pour le caides', img: '/images/tutoriels/chasses/vouivre5.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
