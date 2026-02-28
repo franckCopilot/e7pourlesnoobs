@@ -100,7 +100,7 @@ export default function Approfondir() {
         </section>
 
         <section className={styles.section}>
-          <p>Il est recommandé d'estimer le potentiel d'un équipement une fois en +9 pour vérifier s'il a bien roll dans les caractéristiques que vous souhaitez. Vous pourrez ensuite choisir de continuer à améliorer votre équipement ou économiser vos ressources. </p>
+          <p>Il est recommandé d&apos;estimer le potentiel d&apos;un équipement une fois en +9 pour vérifier s&apos;il a bien roll dans les caractéristiques que vous souhaitez. Vous pourrez ensuite choisir de continuer à améliorer votre équipement ou économiser vos ressources. </p>
 
           <p style={{ marginTop: '24px' }}>En général, vous devez chercher des rolls supérieurs à la moyenne :</p>
           <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
