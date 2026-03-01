@@ -60,7 +60,7 @@ export default function Ardeur() {
           <p>Il est possible de cumuler Politis et ML Yufine dans la même équipe pour diminuer de 100% le gain d&apos;ardeur au combat des adversaires et ainsi nullifier l&apos;effet de gain.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRqI-5bUI_Fpzd3XxL-gQHOfrw8TAmYHsG6wKW8xOOzErr0-SnO5hCZQ7ZGSZrPVo77zdPg3-d9sSF7NJ_cH0EHs_x4GlQ6YuhXjSegEXODJFoYgiiZJhIqMBBbvryXOH85eE9ASpQeC30cLzXBCEjRVVXSI2xucDlNgSslBNUGJh7aMGQUHCIyYH0=w1280" alt="Malus entrave" className={styles.infoImage} />
+            <img src="/images/tutoriels/de-tutoriels/red.png" alt="Malus entrave" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Le malus <strong>Entrave</strong> empêche les adversaires de gagner de l&apos;ardeur au combat au travers de leurs compétences. <strong>Peira</strong> peut infliger ce malus.</p>
             </div>
@@ -74,17 +74,17 @@ export default function Ardeur() {
           <p>Il existe le <strong>malus vitesse (Slow)</strong> qui diminue la vitesse de l&apos;entité.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STQrDYPSXuc6EUXhT47-SjLz0iC5ORUVQaPiWMMV85ocEMqEAcTWQWthCAD11rSmUBBbzRTXhT70tXazwp3otbtXhXvivnL3wxkQYVMCUBpkEBztisOHSifBzWQdD6cBfNxQ68CQTokvHCi71vht3QpfmroSifqr-ssDk_uuROjdwj4tXiD_FVK=w1280" alt="Vitesse" className={styles.infoImage} />
+            <img src="/images/tutoriels/de-tutoriels/vitesse.png" alt="Vitesse" className={styles.infoImage} />
             <div className={styles.infoText}><p><strong>Vitesse</strong></p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SR3at6lVLQ_YTzM1MWjDDjfN77CK0vgyL1AQ54tTm6WidRIEOCL3qdmvaYSSdRByRRHBcDMMTNjo1Bf48zjVQ5ehe_hJ7kLj1-vqUQS-J7y9JUR21jOfWhcvZGz-mNQ2BwiDvGZ-lNlB1h0XGVzd3l2oRWdh33ifqnOx1QMy5H7wF877kULHgBOX1A=w1280" alt="Enragé" className={styles.infoImage} />
+            <img src="/images/tutoriels/de-tutoriels/enrage.png" alt="Enragé" className={styles.infoImage} />
             <div className={styles.infoText}><p><strong>Enragé</strong></p></div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS2pQxEgzMyK4RZKn1jaAehqB8-0CMAXrZq07-8agJ6HBFgjjIauzOeMJhrUAqnVkA3ZEHllOXWiqcxjlHuG5ggSnv5y_Cxc9RuLymHnlac9hcDN85M91qjhRxZdNYe7B37r-zGvbXcu7Ftik5Y7KPsRRV0BvLPHlfBmpCLaTnna_X_bJDzGpMg35o=w1280" alt="Slow" className={styles.infoImage} />
+            <img src="/images/tutoriels/de-tutoriels/slow.png" alt="Slow" className={styles.infoImage} />
             <div className={styles.infoText}><p><strong>Slow</strong></p></div>
           </div>
 
@@ -93,7 +93,7 @@ export default function Ardeur() {
           <p><strong>Deuxième effet</strong> : impacte directement les dégâts de certaines entités. C&apos;est par exemple le cas de <strong>Cidd</strong>, de <strong>ML Krau</strong> ou encore <strong>Vildred</strong>. Ce sont des héros qui infligent une partie de leurs dégâts en fonction de leur vitesse.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRyRbEqfpmIU4n79Q1vqdZ1vMSV6OIISVm2FxwxE0tT1OJXEKiIMCstd7rAwPRu4H8eGZOrg7D_nC0Mox2oKF6726mX2zW5pLV1p6ng6XhAIxqlAQNLCaptACmeCd_1vpjJUlpKow7JRSTZSINOaI5-J8NHth4ciiiue2iL7cYuOU-gzXQRoCqUeiVd5k22K1s6K6tUlrUnrO5vSFc1zWPY1PKIj7u-N4nGso0=w1280" alt="Exemple bonus vitesse" className={styles.infoImage} />
+            <img src="" alt="Exemple bonus vitesse" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Dans cet exemple, on voit que <strong>Cidd</strong> bénéficie d&apos;un bonus Enragé et d&apos;un bonus vitesse. Il va ainsi taper beaucoup plus fort car une partie de ses dégâts infligés sont calculés en fonction de sa vitesse. De plus à chaque tour de jeu, il va gagner davantage d&apos;ardeur au combat que sans ses bonus, ce qui peut lui permettre de &quot;lapper un adversaire&quot;.</p>
             </div>
