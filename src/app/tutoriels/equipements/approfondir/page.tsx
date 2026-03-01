@@ -341,53 +341,53 @@ export default function Approfondir() {
             <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Vitesse</div>
                 <div>Santé %</div>
-                <div>Résistance d'effet</div>
+                <div>Résistance d&apos;effet</div>
                 <div>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Vitesse</div>
                 <div>Santé %</div>
                 <div>Défense %</div>
-                <div>Résistance d'effet</div>
+                <div>Résistance d&apos;effet</div>
                 <div style={{ fontStyle: 'italic' }}>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Vitesse</div>
                 <div>Santé %</div>
                 <div>Défense %</div>
-                <div>Résistance d'effet</div>
-                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div>Défense %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense</div>
                 <div>Vitesse</div>
-                <div>Résistance d'effet</div>
-                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div>Défense %</div>
-                <div>Résistance d'effet</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div style={{ fontWeight: 'bold' }}>Résistance d&apos;effet</div>
                 <div>Vitesse</div>
                 <div style={{ fontStyle: 'italic' }}>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div style={{ fontWeight: 'bold' }}>Vitesse</div>
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div>Défense %</div>
-                <div>Résistance d'effet</div>
-                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
               </div>
             </div>
-          </div>
+          </div> 
         </section>
 
 
