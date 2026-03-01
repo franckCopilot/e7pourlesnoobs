@@ -52,9 +52,23 @@ export default function Malus() {
           <p className={styles.note}><strong>NOTE 2</strong> : Rater sa compétence réduit les dégâts infligés de 25%, empêche les coups critiques et ne permet pas d&apos;infliger de malus.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQsY-3x15a-3TeekmRjzt1eTwI-_YJi0EttP165AMkLFTvPKiOWcjXqg5T-Zf2Tn9UG7eSnyInmccHAujCdXcptBtciEjhscO6kX-u3FkYkii_rCn6K-tTQvh5ruz93J2iPg8m0PQ4_hPOYA7FgviZeGfKWTop8Ax0_GYB1YImbfIuFUIOvwPnl=w1280" alt="Blind" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS46HEA8JJ7QTgYDLVHeLWvmNyIxoKwp9EdyPU2rxypINm34zPEhHBWLVlMiM8yoFhdgN5l_KyUetygRcZuLMBhgayyH_tUlG5o2-G75gXcHMXlrMcHAZ40UrTl7qJfcT-t73WdqExGfK_Rm48qU17SasZ-edjXaEaHGQLtQo8-cfGj1gxVgqZw=w1280" alt="Blind" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Blind</strong> — Malus réduction des chances de coup réussi.</p>
+            </div>
+          </div>
+
+          <div className={styles.infoBlock}>
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SROEqurnCLK5qn5hrVxLC4kdxT2SrjER8A8dSrIiH43-Pv2piP_v-Aa1Dz7It2SNbK3vlH1stMjebHv8push2pUVfrNkZB4AahlwMmGsTo8Xg5Z7wS11emsSnTcmlptbYqeF6QrJpdKnBVNh6Ie-f-HQvWWGktGRTWBJh7fIddv6bDyyEor_kHBPYP8CSMoaXV3Fw06xmCMPThAqLkKXBv9rcs-Tpkomz_WMrQ=w1280" alt="Evasion" className={styles.infoImage} />
+            <div className={styles.infoText}>
+              <p><strong>Évasion</strong> — Réduit vos chances de coup réussi sur la cible.</p>
+            </div>
+          </div>
+
+          <div className={styles.infoBlock}>
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRLoBM10Xt1xw6iVV8fYwoM9oa48cqMc58S-60hOE7DKRIIi4HTRsh00PBIi7XZvNRJkvY-YHmleIGdCfUUsNY1r9jBhpPUHHN_sQXxLLWPJ6HwxGk2OFE2-qx_ANwch9eFttLWIrsoxmfBZxArbpTf-dl2qiLA8pgepwYfpg09GK4kvcAoko4LigHOdYji2JcGY8Oe5N9pNLuFAVkC8TDcQ10nJiy0yh-79AY=w1280" alt="Avantage élémentaire" className={styles.infoImage} />
+            <div className={styles.infoText}>
+              <p><strong>Avantage élémentaire</strong> — Le désavantage élémentaire réduit les chances de coup réussi de 50%.</p>
             </div>
           </div>
 
@@ -65,6 +79,20 @@ export default function Malus() {
             <li>Bonus Hit (ex : <strong>ML Ludwig</strong> +50% avec son S2)</li>
             <li>Artefacts (ex : <strong>Symbole d&apos;unité</strong>)</li>
           </ul>
+
+          <div className={styles.infoBlock}>
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQNkdKgATYEvwpp-uAy4-GpZgE8RPXkMFyZBqOLLAR7nXEefZo0WR6juwGlnd1wT_IMnum6sTd1jV5rf-lOdQuWwyJlgpFumuowZ3E5SspH0TBcL87ZPqu_VhKlK5u-y3E2fz12COjuAntTYDJrQNPk-fAHoe0lCqtjm5NTmkL85PS1rsISS5Jq62o=w1280" alt="Cible" className={styles.infoImage} />
+            <div className={styles.infoText}>
+              <p><strong>Cible</strong> — Réduit l&apos;esquive de l&apos;adversaire de 15%, il subira de plus 15% de dégâts supplémentaires.</p>
+            </div>
+          </div>
+
+          <div className={styles.infoBlock}>
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STiRKPLOKNKaBoki2Vz7RAP5iVewM6TEQD2oY0DlRlWEkDZaEgK3VvA1EXQ5EGGLFSPGY2fB8kKb3A7HmZZP_W3B1rfLDA89KwFMOZmrpBD1QQYVmXFpDM-aTbfX2QmdjRp_NB6mlJaGiRZvKInDn6nKxEHFs3wXTLmPm9VzI9OBDmK4CrJX6N6OfQ=w1280" alt="Hit" className={styles.infoImage} />
+            <div className={styles.infoText}>
+              <p><strong>Hit</strong> — Augmente les chances de coup réussi du lanceur.</p>
+            </div>
+          </div>
         </section>
 
         <section className={styles.section}>
@@ -72,7 +100,7 @@ export default function Malus() {
           <p>Une fois que le lanceur a validé l&apos;étape 1 et réussi son coup sur la cible, il faudra s&apos;intéresser aux chances de la compétence d&apos;infliger un malus.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSIiPHzPL3Pa1AiRsyXo1MM6t8t20h5EIsks0x5akpp8acY1SqKF4ybywKOyaMIeGXHSa9tr1ZXxI57lu26LUs6UP8k3xA-dSreJ5s4iNRD5H1O3sdtgppCOT4JjBnNou6MYfuXpQxSae0OqH4xj7quasIKt7pglynRKl3mCflSGQmBv30r0FMq5YTSTPM7OtUv51HqNnLriq63bVe5xxEj_yRZ5Q2w8tR74E0=w1280" alt="Chances d'effet" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STstsnEFBHFIPFl8TQGLGsw-3hZsSSZUsn_uy6TRv7RTJLnM2p2fJxD_vAtpmpB85NppQJT-IjHbgjsuQn0IcRkCGLb_hu0ZwhSUqrDQe_qGaZ6SnO6ZaiPQ26rIIKmXRgyqi0OmyH1GUpcm3PrsVotG2T7yWlS1CcLBL0l39K7xGcKyrQ01rUtLmdS8iI74ZtXx3XTNk0cM8CyhdyBwvVRO3zLLzOZXNRRXNM=w1280" alt="Chances d'effet" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Exemple : la première compétence de <strong>Bellona Plage</strong> a 75% de chances de cibler l&apos;ennemi. Elle aura donc seulement 75% de chance de lancer sa compétence avec son malus.</p>
             </div>
@@ -91,7 +119,7 @@ export default function Malus() {
           <p style={{ marginTop: '16px' }}>On note qu&apos;il y a un bonus de 100% de chances qui bénéficie au lanceur. Même si le lanceur a 0% d&apos;efficacité, il faudra toujours 100% d&apos;ER supplémentaire à la cible pour être certain de ne pas subir un malus.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSpdyHTJO7XXXRSSfPYONZxqxZzrpqqgkhxkjhxG8r94pfWxPprrPthait00X2MNkYsjBvaBMF099tLOWbjgRZZP4Ou_6Z75P2fB5ej6Ihioygb9mZilljORiUEy1swB2TntFGZ0GcdunJGdup0snoRwr0uQDAmzVzUp09oJhec3gDBNz823r4orEAyZ4RC9o9nX_r9JQXsSOsLZw5zrotrS_SVzyFIg_QQ=w1280" alt="Exemple Wyvern 13" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STq5CP5vixP04mb0b0Q5p0Zz3hPINkrW0VwX-Hys0ADXUhCZLxF9lnhO8_qeseZa0Wnl1AUo9GRF7qSiR--4q5SFTCGutSU9vZ9cr3eSyxh4VQRmbNGdRDFUjflvN--O7KFgTAOIXJZMcWeJZSiGNBYyfRO6F5F2GcDVvDYqlmL8yxlsb6yHDnlvNtBhDEgoz-9GCjNnENYl4RyN6Vn8A1GtJguPpVIVyiA=w1280" alt="Exemple Wyvern 13" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Exemple : Wyvern 13</strong></p>
               <p>Furious possède 110% d&apos;efficacité, la Wyvern 13 possède 80% d&apos;ER.</p>
@@ -106,7 +134,7 @@ export default function Malus() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>BONUS : Ignore la résistance d&apos;effet</h2>
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRfdywbjolPPisY-_RGH6j4abtJ8aSsYZzp2TiHvOiYiBXjhtPAhga8ZNnjo6Nit8TZwF5vClZZhzr139XBoZCJZa7nZlyy9PgV4yKPii2utuz3QmIfreoX8S17XeCARzgBc4QyQafs97euXUl1asJfvpT_F6kBlWVyVZkRiWh7Cqbg3orC-hC9O65K3sHyhz9y5CIGBc5MTbyVH3glhnWHyhI6Vm7XpJ-2SxY=w1280" alt="Soulburn ignore ER" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STAC84vFHfRwxtEYtsArvs4pqlNgyJ9vawdOPug7trbL-wKKtMJAPhy1fwPrUdmW7gsGHy5hpF0Tf22f_ewurEz5fVGX8RNnQfdKOrK7B9s0DNW8SlKIvG6aX7hmV6IFtN3xFmVXvXbn1jarlRK9chmPkraddxDnC7X8R6nHBXnrSKyFyjZDQjI3tYL8Qg3IdJ7wA5TtSfreW3pUrk3snCv_jB7xCZ2X0lafbU=w1280" alt="Soulburn ignore ER" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Il existe une mécanique spéciale, qui se déclenche généralement avec l&apos;effet <strong>braise d&apos;âme (SoulBurn)</strong>, qui permet d&apos;<strong>ignorer la résistance d&apos;effet</strong> de la cible.</p>
               <p>Cette mécanique passe outre le bridage automatique de 85% pour atteindre les <strong>100%</strong>.</p>
