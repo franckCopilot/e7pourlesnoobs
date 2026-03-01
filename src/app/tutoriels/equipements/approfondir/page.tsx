@@ -404,8 +404,8 @@ export default function Approfondir() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
             <div style={{ flex: 1 }}>
               <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros buffer et debuffer ont besoin de vitesse en priorité. Leurs équipements sont similaires aux</p>
-              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>tanks et healers, mais avec une vitesse élevée. Ils sont aussi plus souvent intéressés par l'efficacité</p>
-              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>quand c'est possible.</p>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>tanks et healers, mais avec une vitesse élevée. Ils sont aussi plus souvent intéressés par l&apos;efficacité</p>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>quand c&apos;est possible.</p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
               <img src="/images/tutoriels/equipements/buf1.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
