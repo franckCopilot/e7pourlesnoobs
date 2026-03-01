@@ -60,7 +60,7 @@ export default function Ardeur() {
           <p>Il est possible de cumuler Politis et ML Yufine dans la même équipe pour diminuer de 100% le gain d&apos;ardeur au combat des adversaires et ainsi nullifier l&apos;effet de gain.</p>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/de-tutoriels/red.png" alt="Malus entrave" className={styles.infoImage} />
+            <img src="/images/tutoriels/de-tutoriels/red.png" alt="Malus entrave" style={{ width: 64, height: 64 }} className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Le malus <strong>Entrave</strong> empêche les adversaires de gagner de l&apos;ardeur au combat au travers de leurs compétences. <strong>Peira</strong> peut infliger ce malus.</p>
             </div>
@@ -73,19 +73,19 @@ export default function Ardeur() {
           <p>Il existe le <strong>bonus vitesse</strong> et le bonus inhérent (ne peut être dissipé) <strong>Enragé</strong> qui augmentent la vitesse de l&apos;entité. Ces deux bonus peuvent se cumuler.</p>
           <p>Il existe le <strong>malus vitesse (Slow)</strong> qui diminue la vitesse de l&apos;entité.</p>
 
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/de-tutoriels/vitesse.png" alt="Vitesse" className={styles.infoImage} />
-            <div className={styles.infoText}><p><strong>Vitesse</strong></p></div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/de-tutoriels/enrage.png" alt="Enragé" className={styles.infoImage} />
-            <div className={styles.infoText}><p><strong>Enragé</strong></p></div>
-          </div>
-
-          <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/de-tutoriels/slow.png" alt="Slow" className={styles.infoImage} />
-            <div className={styles.infoText}><p><strong>Slow</strong></p></div>
+          <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start', margin: '16px 0' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+              <img src="/images/tutoriels/de-tutoriels/vitesse.png" alt="Vitesse" style={{ width: 64, height: 64 }} />
+              <strong>Vitesse</strong>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+              <img src="/images/tutoriels/de-tutoriels/enrage.png" alt="Enragé" style={{ width: 64, height: 64 }} />
+              <strong>Enragé</strong>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+              <img src="/images/tutoriels/de-tutoriels/slow.png" alt="Slow" style={{ width: 64, height: 64 }} />
+              <strong>Slow</strong>
+            </div>
           </div>
 
           <p>Ces bonus et malus ont <strong>deux effets</strong> sur le combat.</p>
