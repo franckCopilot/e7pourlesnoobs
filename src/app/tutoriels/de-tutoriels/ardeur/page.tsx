@@ -109,6 +109,17 @@ export default function Ardeur() {
           <p>Nakwhol lance sa troisième compétence de zone. La compétence passive d&apos;Iseria Tropicale se déclenche, et tous les alliés gagnent 15% d&apos;ardeur au combat. Iseria Tropicale aura 105% (affiché 100%) et Eda aura 100%.</p>
           <p>La compétence passive d&apos;Iseria Tropicale déclenche par effet de domino la compétence passive d&apos;Eda, qui voit son ardeur au combat augmenter de nouveau de 20%. Ainsi Eda passera à 120% (affiché 100%), elle sera donc la prochaine entité à jouer, devant Iseria Tropicale et ses 105%, même si les deux héros affichent 100%.</p>
         </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Version Vidéo du tutoriel</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Ardeur au combat — Tutoriel complet</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('AaoQV1J4b8c')}>
+              <img src="https://img.youtube.com/vi/AaoQV1J4b8c/hqdefault.jpg" alt="Ardeur au combat tutoriel" className={styles.videoThumb} />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+        </section>
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
