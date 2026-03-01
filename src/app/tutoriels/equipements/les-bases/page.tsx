@@ -206,6 +206,32 @@ export default function LesBases() {
         </section>
 
         <p>Vous connaissez maintenant les bases des équipements sur Epic Seven, pour affiner votre connaissance sur les équipements, une deuxième partie est disponible <a href="/tutoriels/equipements/approfondir" style={{ color: '#b89c4c', textDecoration: 'underline' }}>ici</a>.</p>
+
+
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi/q32E5I1Xrek/sddefault.jpg" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi_webp/SbjcZc-TTlw/sddefault.webp" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi_webp/rBfWWD8kNyg/sddefault.webp" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi/fQVF_Ym5vhI/sddefault.jpg" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi/iqVMWsRj-kg/sddefault.jpg" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>
+        <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+          <img src="https://i.ytimg.com/vi/6vJcvv5ggmI/sddefault.jpg" alt="" className={styles.videoThumb} />
+          <div className={styles.playButton}>▶</div>
+        </div>        
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}

@@ -352,7 +352,7 @@ export default function Approfondir() {
                 <div>Santé %</div>
                 <div>Défense %</div>
                 <div>Résistance d&apos;effet</div>
-                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+                <div>Efficacité</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
@@ -376,8 +376,8 @@ export default function Approfondir() {
                 <div style={{ fontWeight: 'bold' }}>Défense %</div>
                 <div style={{ fontWeight: 'bold' }}>Résistance d&apos;effet</div>
                 <div>Vitesse</div>
-                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
-              </div>
+                <div>Efficacité</div>
+              </div> 
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Vitesse</div>
@@ -390,11 +390,90 @@ export default function Approfondir() {
           </div> 
         </section>
 
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Buffer / Debuffer</h2>
-          <p>Les héros buffer et debuffer ont besoin de <strong>vitesse en priorité</strong>. Leurs équipements sont similaires aux tanks et healers, mais avec une vitesse élevée. Ils sont aussi plus souvent intéressés par l&apos;efficacité quand c&apos;est possible.</p>
-          <p>Caractéristiques recherchées : Vitesse, Santé %, Défense %, Résistance d&apos;effet, Efficacité</p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/b8.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b1.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b11.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b7.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b12.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b13.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b14.png" alt="" style={{ height: '64px' }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros buffer et debuffer ont besoin de vitesse en priorité. Leurs équipements sont similaires aux</p>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>tanks et healers, mais avec une vitesse élevée. Ils sont aussi plus souvent intéressés par l'efficacité</p>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>quand c'est possible.</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/buf1.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/buf2.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/buf3.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/buf4.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div> 
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>*la caractéristique principale est en gras</p>
+            </div> 
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/buf5.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/buf6.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Vitesse</div>
+                <div>Santé %</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Vitesse</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div>Vitesse</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense</div>
+                <div>Vitesse</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Efficacité</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div style={{ fontWeight: 'bold' }}>Résistance d&apos;effet</div>
+                <div>Vitesse</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Vitesse</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
+              </div>
+            </div>
+          </div> 
         </section>
 
         <section className={styles.section}>
