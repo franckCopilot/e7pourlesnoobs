@@ -53,22 +53,22 @@ export default function Constellations() {
           <div className={styles.infoGrid}>
             <div className={styles.infoCell}>
               <p>Les constellations se trouvent dans l&apos;onglet <strong>saison</strong></p>
-              <img src="/images/tutoriels/constellations/screenshot-1.jpg" alt="Onglet saison" className={styles.infoCellImage} />
+              <img src="/images/tutoriels/constellations/screenshot-3.jpg" alt="Onglet saison" className={styles.infoCellImage} />
             </div>
             <div className={styles.infoCell}>
               <p>La difficulté de chacun des boss est indépendante</p>
-              <img src="/images/tutoriels/constellations/screenshot-2.jpg" alt="Difficulté indépendante" className={styles.infoCellImage} />
+              <img src="/images/tutoriels/constellations/screenshot-4.jpg" alt="Difficulté indépendante" className={styles.infoCellImage} />
             </div>
           </div>
 
           <div className={styles.infoGrid}>
             <div className={styles.infoCell}>
               <p>L&apos;onglet <strong>bénédiction des constellations</strong> vous permettra de booster vos personnages durant une saison complète.</p>
-              <img src="/images/tutoriels/constellations/screenshot-3.jpg" alt="Bénédictions" className={styles.infoCellImage} />
+              <img src="/images/tutoriels/constellations/screenshot-5.jpg" alt="Bénédictions" className={styles.infoCellImage} />
             </div>
             <div className={styles.infoCell}>
               <p>Chaque <strong>constellation</strong> apporte un bonus différent avec des paliers de bonus supplémentaires à débloquer</p>
-              <img src="/images/tutoriels/constellations/screenshot-4.jpg" alt="Bonus constellation" className={styles.infoCellImage} />
+              <img src="/images/tutoriels/constellations/screenshot-1.jpg" alt="Bonus constellation" className={styles.infoCellImage} />
             </div>
           </div>
 
@@ -85,7 +85,7 @@ export default function Constellations() {
               <p className={styles.note}><strong>NOTE 2</strong> : il est possible de réinitialiser ses bénédiction de constellation contre 100 pierraciels, ce qui n&apos;est pas recommandé, mais il faudra attendre 1 semaine pour le faire à nouveau.</p>
             </div>
             <div className={styles.infoCell}>
-              <img src="/images/tutoriels/constellations/screenshot-5.jpg" alt="Bénédictions détail" className={styles.infoCellImage} />
+              <img src="/images/tutoriels/constellations/screenshot-2.jpg" alt="Bénédictions détail" className={styles.infoCellImage} />
             </div>
           </div>
         </section>
