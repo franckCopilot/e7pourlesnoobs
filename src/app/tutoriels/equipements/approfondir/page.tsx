@@ -310,9 +310,88 @@ export default function Approfondir() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Tank / Healer</h2>
-          <p>Les héros tank et healer ont des équipements similaires. Ces héros veulent basiquement survivre le plus longtemps possible et proposer de la survie au reste de votre équipe.</p>
-          <p>Caractéristiques recherchées : Vitesse, Santé %, Défense %, Résistance d&apos;effet, Efficacité</p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <img src="/images/tutoriels/equipements/b8.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b1.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b11.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b7.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b12.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b13.png" alt="" style={{ height: '64px' }} />
+            <img src="/images/tutoriels/equipements/b14.png" alt="" style={{ height: '64px' }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>les héros tank et healer ont des équipements similaires. Ces héros veulent basiquement survivre le plus</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/tank1.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/tank2.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/tank3.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/tank4.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div> 
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0', gap: '32px' }}>
+            <div style={{ flex: 1 }}>
+              <p style={{ textAlign: 'center', fontSize: '20px', marginBottom: '8px', marginTop: '0' }}>longtemps possible et proposer de la survie au reste de votre équipe.</p>
+            </div> 
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <img src="/images/tutoriels/equipements/tank5.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+              <img src="/images/tutoriels/equipements/tank6.png" alt="" style={{ width: '64px', height: '64px', borderRadius: '50%' }} />
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', alignItems: 'center', margin: '24px 0' }}>
+            <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Santé %</div>
+                <div>Résistance d'effet</div>
+                <div>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d'effet</div>
+                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d'effet</div>
+                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div>Défense %</div>
+                <div>Vitesse</div>
+                <div>Résistance d'effet</div>
+                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d'effet</div>
+                <div>Vitesse</div>
+                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
+                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div>Défense %</div>
+                <div>Résistance d'effet</div>
+                <div style={{ fontStyle: 'italic' }}>Efficacité</div>
+              </div>
+            </div>
+          </div>
         </section>
+
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Buffer / Debuffer</h2>
