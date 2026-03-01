@@ -1,7 +1,12 @@
+'use client';
+
+import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
+import VideoModal from '@/components/VideoModal';
 import styles from '../../tutoriels.module.css';
 
 export default function Moroi() {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   return (
     <MainLayout>
@@ -10,6 +15,13 @@ export default function Moroi() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Expédition Lumière</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Expedition Lumière / light AUTO 500k/1m – Guide Epic Seven 2022</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('YX0rqwizzH8')}>
+              <img src="https://img.youtube.com/vi/YX0rqwizzH8/hqdefault.jpg" alt="Expedition Lumière AUTO 500k/1m" className={styles.videoThumb} />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
           <p>Favorisez les <strong>héros RGB</strong> pour maximiser votre score dans l&apos;expédition light.</p>
           <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
             <li>Utilisez un <strong>chevalier qui Bdef</strong> à droite : <strong>Ras</strong>, <strong>Cécilia</strong> ou <strong>Brigg</strong> sont les meilleures options.</li>
@@ -22,10 +34,10 @@ export default function Moroi() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: 'Top Model Luluca avec un équipement PvP', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STvs5Qerc0fnJiXgI5RwYPzHCEiCO_ILk_L_S4UCcpDsA-qbznEbmoYEGtkXB-VA-zPOyO41_lM4ODZ4WZ6FGThoDpQhF5dilIy0yhMgOqell_Hs-oNZwux3VsD1C8dnNUkQhiM3ai2wGtHKS5gGAe8Oags1OZe3loL8r19S3eau0JUwmutt20uZLMHkCTQbZjrP-PLbAQs2vCb1uLvXJDzJb6D9xYxa6osTCY=w1280' },
-            { desc: 'Cermia avec son premier Équipement Exclusif (EE)', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SRZvEkOMijvHXAhiiuzuk95W4sc1N6JToDnfAYLA0rfEu8et09FXOFsGrYTuzbdWv3AmqSzjfUsEihvdxz5tetHv70ePMlBcppyxqIlb2qZS4TihDDIb6e3wf1KHWF5nVnOi_if-jho_SsKay7nbNP9WNN1S2FqERF1jOnQ0zqS5Qk447G3-Sx25xeAZY6G3OXyqljIaHfzekUMxm1Ew6dlSDO9RAJDBhqatf0=w1280' },
-            { desc: 'Cerise avec des équipements rapides non utilisés', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SRcmbcmEmKa01hW8Xe6xuONjlVtxdlRzUaTJ0fOia7TRrpow1zRdD59iZTNOpdiQUTIqIzL8V-ldNJOGRUFov4QjHFCY4Zz3GhNtim3I7OJE5O7e4eAM42ceR-uCoYkqE1werAPtW_KJ26-ffFdkHIQQqReGGDIhl-fpGEPj71jhJ3y3PrCJbA9jhhZvtQyyiDv-zHqowpFpuGMAHwIbrmTBjpVUpwpptbtS8Y=w1280' },
-            { desc: 'Sc Ras avec un équipement PvP', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSlQGuq-a65kldtyv_9vnmrWzmZGZGGBvX6rfPCgbigwcnQjT6SKeWL5vmP5jhQK2CGD5MaWoDlH9-dtEBjx4GaIZQHpzHYnERdTo8CDfLayb4P5cVHVhZZjkqsaaTI9rfzyjySQZxQ7DD7RoA33qgPekBdLd-a9nTJ40PDNLin6WN0kKFq2KYOX9Dx3LANDcv0n-DH8uObz6J_xAzGfG4y6t7zEoTkrxGxydI=w1280' },
+            { desc: 'Top Model Luluca avec un équipement PvP', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSlVRepf-xUUSjgKPlCaqIh5IxUAizohegNIXfqr3XqGiI8tXqSEnuKGjFgaqVVzprkZmFiHK1N-1FmTiq4zC4FdF90pSzL1L4HTtbY9UrUIY3O7Mc9e5shqZ4BAl211XPQeOIpbnzTwpUH6zwSJyMz5MjstqthMnta6BaRvDjSd-UlbtIPzQrxW2w6LAbrxdVwNEUir8hCLw0EJrwUc1FHTlZINeFWQgCg60I=w1280' },
+            { desc: 'Cermia avec son premier Équipement Exclusif (EE)', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STR-SkvC2QntHSpjxVJWziDLbuLeY9smibv25mOnYZ2JjE62HtMWnVfHgUmwJT2FuApwb2ES34X_Yv8VnGh3ciTvRMGT63jfi74XBRBobv63lczVPb0qqliJ8Wr4VeuDDDUovIyvi59OQXy3GBCPtULwFr4Jh5ILug09wF0uzghSgin-j-siBP7s6ek_XTIqQgDXjfDKBp9f8MhKzWbkkZFL9BUDmpEgc3LVm4=w1280' },
+            { desc: 'Cerise avec des équipements rapides non utilisés', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSoBuNK4JnK0FbfxP_vVQmfW_lQ2ym2jkmNrP60Xhvv9SkMc2FJSpkPBnomg3ubNMol0FkO3nVyML5GmmbGk8Fa4xY_ZQmdflqEov4wTp4k5TSkz4pK39ljLlUE5p-ciuxF-_4wYFt2CHIHZFCGSuLEA6USZo1F1sgKEDYvJEs6T_kkbEn7432rvke_SfgeFY14c8A-5CDpks16cVjFcvoB8-YXZsVf7amXyyA=w1280' },
+            { desc: 'Sc Ras avec un équipement PvP', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STWNa2cXCOcZQSKi5wvPwsEYjH41d2sEVoaeNFd0ygsxoKMjQgzx8c7gmqVqsKDf97An0esFkxRrcw_kMw7El1nYaFvOwtICR8-oztEBzE-HNTCL8LYuRpOL5H1VV3BPDB4lh-K3UqalJG3-Xc_TpUueXH5E3g7NV6J015YtnZ5DYYrOMjcy-o-lZwT8CNbF4G71xvN_CgZY3GhZoBVFr36WPuudBjG_fFYEq8=w1280' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
@@ -37,6 +49,7 @@ export default function Moroi() {
         </section>
       </div>
 
+      {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );
 }
