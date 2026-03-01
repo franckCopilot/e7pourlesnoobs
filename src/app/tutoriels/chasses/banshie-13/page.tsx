@@ -83,10 +83,10 @@ export default function Banshie13() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: "Léo niveau 50, le plus rapide de la team. artefact d'elphelt, Nakhwol ou SOS", img: '/images/tutoriels/chasses/banshie1.png' },
-            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: '/images/tutoriels/chasses/banshie2.png' },
-            { desc: 'Baiken en set Rage + infiltration + artefact à rajouter (DDJ)', img: '/images/tutoriels/chasses/banshie3.png' },
-            { desc: "AE-giselle : variante avec artefact Kal'adra", img: '/images/tutoriels/chasses/banshie4.png' },
+            { desc: "Léo niveau 50, le plus rapide de la team. artefact d'elphelt, Nakhwol ou SOS", img: '/images/tutoriels/chasses/banshee1.png' },
+            { desc: 'Vivian, même équipement à chaque contenu, 2eme EE pour la chasse', img: '/images/tutoriels/chasses/banshee2.png' },
+            { desc: 'Baiken en set Rage + infiltration + artefact à rajouter (DDJ)', img: '/images/tutoriels/chasses/banshee3.png' },
+            { desc: "AE-giselle : variante avec artefact Kal'adra", img: '/images/tutoriels/chasses/banshee4.png' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
