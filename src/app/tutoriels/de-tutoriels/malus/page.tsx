@@ -53,14 +53,14 @@ export default function Malus() {
           <p className={styles.note}><strong>NOTE</strong> : Attaquer avec l&apos;avantage élémentaire augmentera vos dégâts de 10% et augmentera vos chances de coup critique de 15%.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS46HEA8JJ7QTgYDLVHeLWvmNyIxoKwp9EdyPU2rxypINm34zPEhHBWLVlMiM8yoFhdgN5l_KyUetygRcZuLMBhgayyH_tUlG5o2-G75gXcHMXlrMcHAZ40UrTl7qJfcT-t73WdqExGfK_Rm48qU17SasZ-edjXaEaHGQLtQo8-cfGj1gxVgqZw=w1280" alt="Blind" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS46HEA8JJ7QTgYDLVHeLWvmNyIxoKwp9EdyPU2rxypINm34zPEhHBWLVlMiM8yoFhdgN5l_KyUetygRcZuLMBhgayyH_tUlG5o2-G75gXcHMXlrMcHAZ40UrTl7qJfcT-t73WdqExGfK_Rm48qU17SasZ-edjXaEaHGQLtQo8-cfGj1gxVgqZw=w1280" alt="Blind" style={{ width: 64, height: 64 }} className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Blind</strong> — Malus réduction des chances de coup réussi.</p>
             </div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SROEqurnCLK5qn5hrVxLC4kdxT2SrjER8A8dSrIiH43-Pv2piP_v-Aa1Dz7It2SNbK3vlH1stMjebHv8push2pUVfrNkZB4AahlwMmGsTo8Xg5Z7wS11emsSnTcmlptbYqeF6QrJpdKnBVNh6Ie-f-HQvWWGktGRTWBJh7fIddv6bDyyEor_kHBPYP8CSMoaXV3Fw06xmCMPThAqLkKXBv9rcs-Tpkomz_WMrQ=w1280" alt="Evasion" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SROEqurnCLK5qn5hrVxLC4kdxT2SrjER8A8dSrIiH43-Pv2piP_v-Aa1Dz7It2SNbK3vlH1stMjebHv8push2pUVfrNkZB4AahlwMmGsTo8Xg5Z7wS11emsSnTcmlptbYqeF6QrJpdKnBVNh6Ie-f-HQvWWGktGRTWBJh7fIddv6bDyyEor_kHBPYP8CSMoaXV3Fw06xmCMPThAqLkKXBv9rcs-Tpkomz_WMrQ=w1280" alt="Evasion" style={{ width: 64, height: 64 }} className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Évasion</strong> — Réduit vos chances de coup réussi sur la cible.</p>
             </div>
@@ -82,14 +82,14 @@ export default function Malus() {
           </ul>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQNkdKgATYEvwpp-uAy4-GpZgE8RPXkMFyZBqOLLAR7nXEefZo0WR6juwGlnd1wT_IMnum6sTd1jV5rf-lOdQuWwyJlgpFumuowZ3E5SspH0TBcL87ZPqu_VhKlK5u-y3E2fz12COjuAntTYDJrQNPk-fAHoe0lCqtjm5NTmkL85PS1rsISS5Jq62o=w1280" alt="Cible" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQNkdKgATYEvwpp-uAy4-GpZgE8RPXkMFyZBqOLLAR7nXEefZo0WR6juwGlnd1wT_IMnum6sTd1jV5rf-lOdQuWwyJlgpFumuowZ3E5SspH0TBcL87ZPqu_VhKlK5u-y3E2fz12COjuAntTYDJrQNPk-fAHoe0lCqtjm5NTmkL85PS1rsISS5Jq62o=w1280" alt="Cible" style={{ width: 64, height: 64 }} className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Cible</strong> — Réduit l&apos;esquive de l&apos;adversaire de 15%, il subira de plus 15% de dégâts supplémentaires.</p>
             </div>
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STiRKPLOKNKaBoki2Vz7RAP5iVewM6TEQD2oY0DlRlWEkDZaEgK3VvA1EXQ5EGGLFSPGY2fB8kKb3A7HmZZP_W3B1rfLDA89KwFMOZmrpBD1QQYVmXFpDM-aTbfX2QmdjRp_NB6mlJaGiRZvKInDn6nKxEHFs3wXTLmPm9VzI9OBDmK4CrJX6N6OfQ=w1280" alt="Hit" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STiRKPLOKNKaBoki2Vz7RAP5iVewM6TEQD2oY0DlRlWEkDZaEgK3VvA1EXQ5EGGLFSPGY2fB8kKb3A7HmZZP_W3B1rfLDA89KwFMOZmrpBD1QQYVmXFpDM-aTbfX2QmdjRp_NB6mlJaGiRZvKInDn6nKxEHFs3wXTLmPm9VzI9OBDmK4CrJX6N6OfQ=w1280" alt="Hit" style={{ width: 64, height: 64 }} className={styles.infoImage} />
             <div className={styles.infoText}>
               <p><strong>Hit</strong> — Augmente les chances de coup réussi du lanceur.</p>
             </div>
