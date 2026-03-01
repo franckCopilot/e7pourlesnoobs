@@ -6,7 +6,7 @@ import VideoModal from '@/components/VideoModal';
 import styles from '../../tutoriels.module.css';
 
 export default function Pherus() {
-  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+  const [activeVideo] = useState<string | null>(null);
 
   return (
     <MainLayout>
@@ -43,11 +43,11 @@ export default function Pherus() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Équipements des héros</h2>
           {[
-            { desc: 'Brigg avec un équipement bruiser HP.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SSLyMLvBAQhrTRL60srdc3D6zgPVDJ8-sU2LWQK8hcstuymnfW-ce17qLsDSCNAh2d2noSbmDByfjP5UEPG0VU3YE-uIYrBj3nKOux5fbXcrMD3J0qAJbvTCL6u3OSdRNk16ZbWgAtidSd27vuz_AK8_hQcQhfLC2OeZIbxfDaD0pGxifuctqqPxym29ETDj4_YxezethnFYgOOnP3bY7eKQgfTNqqMGX8J_Xw=w1280' },
-            { desc: 'Camilla avec un équipement basé sur la chasse du Caides 13.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SR3kbhHGot72NDrx2O7EG5RbVroogWwjh86vn2bSEwWqurVXJSejWSibZMsKKmuE7eSdCYThI148f36j2OhBLdDMtf7pt_Kl1-5UwZDtFpnQXD_FbpV78r2QqkOyObzKxksHxLRXb2gMylq0MbVkw6_shB3pKBKF7lHhcSs_gdA-Y73jdYRfLHpfrjs5G8L4eh8CicnXf7anmgxYYXQ5qAxFAuOF1xfAAChsyE=w1280' },
-            { desc: 'Sc Lorina avec l\'équipement gratuit des étages de l\'abîme, il peut largement être amélioré.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0ST3orDhP5LK_xxSXA0gXXubhLmGMH9SWtD4_enqwx66HWPVBjcAu1jvsi8B6OMcaJuIFgG9gyHLhhBVpjqczBU7FX-8di0z72QK1cs9Agr8IvI0NZj4j-Vw8boSU3zUDZ8fxktm0YjRxuxvMP8_g3iU4N4M0sJEFx64OwbbBIJmNMRIXkSpohnXG3xCIfqnHhO5UfbXB_wed6CMiZ3T2Vl9hRA6jw6A1Pec=w1280' },
-            { desc: 'Tamarinne avec un équipement optimisé pour le raid cauchemar en mode automatique.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STxBdNMqndj5Hof0Bv5Ki1c7N2iiwr8h_zYo1HFtgc7f669Qb_RJamKt1Eerw3iIGBKo1WDgzuFDh7xFmCNflnFnrfhrBEIQdku5yBUTRi-3nXqbe3OE_ht2ttj-FPdaH-n_HenoijzFubdldvZ_nulymK2wdWotooTOdQFpuEaRd-C1hSBXmJLNtPxwDCsuxAsIGjLyGDKBvY8Sm4F4iVBWcYiFeIeoSxd4l0=w1280' },
-            { desc: 'Variante avec Luna à la place de Sc Lorina', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SS24qZNapfagkon6qDBDr6V6t9FCDWhxmyPt9z_aicQthmU7f_D7iPNeYNcDMLPZa8FCBoihGV_OrYevYhG1medDc9_NPvTYYcO-39_AkvrJvCEBbzgaGqwKd21QhSWZ2L0tjrO-I27aOSOTPHEzlcMVJ5Obr3HdnfHJqelVHc4lKtlJeDB0IjP0Rv4oneFKe2wVwwP6T7YjVTgavLQxxmSrl8FXnQ_0Q=w1280' },
+            { desc: 'Brigg avec un équipement bruiser HP.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQ-C9Mo8F9AntJbtF8xwbjrnxeERNGHUt_-t3SvuIwwiGl9paAgfomvPom-rra3QPJ5pOsdusbe3ssyI3fVbDpcf0zC-wLQUyxaCKpyX8Axu4eXbSQx3yHGb5pL2jBqm1xeKnwkxXVEKoaox2TT9A9dyqKy18-7LxiwbuiJEoUrPmeuIYXUyHUoZxuBnca9nmofBq9v6D79eR1KY-EA0BuqzzpNYBlrgfoHkIM=w1280' },
+            { desc: 'Camilla avec un équipement basé sur la chasse du Caides 13.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0STmKE8jyjM43z6We8SCmK8WSQOHvEljK4yJbSHM6YIRFbY2O3bcknLfXl5ynf5HM9B46xQ7NGzM9ReZ5dR8frDDY3Gqvzh5gVSSoDLxPZ03CKHHX1OwOWbOVWq0mRY3tvv7uRB-YeIhfKgyiQdlP-o7zy-LxNxOL_ObdG74CRkPqOAfUVVB3PwrBt2aMSxHkwByCCoURtmU7b-V2zq5G3nVuKZSJQRYCjIaK7I=w1280' },
+            { desc: 'Sc Lorina avec l\'équipement gratuit des étages de l\'abîme, il peut largement être amélioré.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQ_RCSASSxuDGLA75a5Q8sqnQxpZMK_V8s1ScS0284IURfEJX2GxfEOn8QOMzpSNfwSnweGqv_T3ziniZBqTPUlE_GcRjNv_2X2dy_l6pBGUe1NcGJ0PDuL1-traUyNwo2QZllPzDYQVgDWo8TJhzmKmn-dooexjQLl8DNLDYdh49MFVJhym3So-vkWfgaRoaZab3-OF68WU8IVXP0YbHpY3rgK21ixjWSc=w1280' },
+            { desc: 'Tamarinne avec un équipement optimisé pour le raid cauchemar en mode automatique.', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0SQd0tf0g3zejmLjTdHbIVkXJpeOxEEGpOguffcNrr1CqvQutAYsGfDXrWZUX6w4G2qFOL0HPHjReocn-SZf-lShpCgmL2i2pSho-pcFHFXMMb6ectHaNaNVy8WTlzYQ7a5sCS5vVnAbQgvc856-6BHN4WVCwBjyBABluEFY8wcqrq6JvLpWocnGbJVNKj6b7B1Q_8bue6y8mUJuPrwmMKEqE27xVDQLP_sUBvg=w1280' },
+            { desc: 'Variante avec Luna à la place de Sc Lorina', img: 'https://lh3.googleusercontent.com/sitesv/APaQ0ST005_sv6-FHSQmFyteCNbafIY2hy3YZgTDprei4B6m00EPrWNdCd2fvu6yifMNhfNXjQrgPu2N3id3cuWDLSaD1RMofXwFx4VG_uAFJ1b5Ka_hxqi50pLPW5W896oOq-0-3aWOjk3aE6Vn6S04adPMdnrvCz5DpeWX7bSDJSjCAWU_SH_qYl_7rld1l6goTW0tGVho9AunHCgRRTtKuftf2xGJmoN5vw=w1280' },
           ].map((hero, i) => (
             <div key={i} className={styles.infoBlock}>
               <img src={hero.img} alt={hero.desc} className={styles.infoImage} />
@@ -59,7 +59,7 @@ export default function Pherus() {
         </section>
       </div>
 
-      {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
+      {activeVideo && <VideoModal videoId={activeVideo} onClose={() => {}} />}
     </MainLayout>
   );
 }
