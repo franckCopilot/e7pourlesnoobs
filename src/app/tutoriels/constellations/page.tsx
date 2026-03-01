@@ -91,7 +91,6 @@ export default function Constellations() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
               <img src="/images/tutoriels/constellations/screenshot-5.jpg" alt="Bénédictions détail" style={{ width: '100%', maxWidth: 400, borderRadius: 8, boxShadow: '0 2px 8px #0001' }} />
-              <img src="/images/tutoriels/constellations/screenshot-6.jpg" alt="Sélection constellation" style={{ width: '100%', maxWidth: 400, borderRadius: 8, boxShadow: '0 2px 8px #0001' }} />
             </div>
           </div>
         </div>
