@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
@@ -7,50 +6,33 @@ import styles from '../../tutoriels.module.css';
 
 export default function Carmainerose() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
-
   return (
     <MainLayout>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>CARMAINEROSE</h1>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRlskAfvGIiClP8aJ-dE-v9Bfhg6gGjGaMOuJEkb0yABhKgYDgEhqvVE6EHoR3Wm0mYqPnVpFVhS7r4wuHuiAFWjTnUgCbr6wMRVfQX-LXKf4b7VVMoUfgcmm8WedBYLSnZrw3S4Uo73hwZm8paTHQVLMumJcxd-bm0vC6D0pCJlSfupkSRJVT52Q=w1280"
-              alt="Carmainerose"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STznXDrj6MP-TYmBI_l-qcT_ObHSf5SIIRNbyhl6Y-R6Bt8kRFz9Svn_mp1aCXcy184aJPeVoZozZc9ozOrF_JQ4ViQy5iTa2QzhzJK-ij-WSdKw22GCCqC-B7g51ylSgd5pmNFeIwA4MG0Gk5f7Zm7D4Di3WalVoBZV5mWD_MG0D-T4ChUrwqpdYI=w1280" alt="Carmainerose" className={styles.infoImage} />
           </div>
-          <p>
-            Carmainerose est une Guerrière de type Lumière. Son évolution est optionnelle,
-            utilisée principalement en expédition Lumière. Elle s&apos;obtient via les
-            Invocations de la prophétie.
-          </p>
+          <p>L&apos;évolution de Carmainerose est principalement utilisée en PvE pour effectuer l&apos;expédition lumière.</p>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment obtenir Carmainerose ?</h2>
-          <p>Carmainerose s&apos;obtient via les <strong>Invocations de la prophétie</strong>.</p>
+          <h2 className={styles.sectionTitle}>Comment débloquer Carmainerose ?</h2>
+          <p>Carmainerose s&apos;obtient en invoquant, principalement avec les <strong>Invocations de la prophétie</strong>.</p>
         </section>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STZ1q6cfyJEmfMwLPjkTz3fQmHB_bWpR0ZsTf7s6VyCz5kqoQY9QVpM0lEUVEQV5nbH4FT6qB_S7pknr6T0ZCd9XnM0L3MqCKFj1VL8sgjB3CmvYOPMsJh4g7nNx53SKCdlHiLCXg1TjE2h8L6JQIhRz9WxNf7LkIYN1KVA4PXTOvB_8RcHBo2pP9A=w1280"
-              alt="Mission Carmainerose"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ4IvEKu663oYLOMYv3MJCRK0vJy9IiskRgyQEdrK4hNKuiLiaew_ftlpLdXO-MQIz9zK_8aAgKoCjrglfWBQRE4SYeHI7TGix6WRDFhoyvCdgK-eaVenYyrDVp53lhzkJ2aOVaYzB2EgIZuFHA0XCv9WJ6xdC2zTE7bN92gnk2x0jwLH6mcSCCL4wm6FXZevIaO-zR0fN8iq-nKH0Tzsfkt70XiZ2rVfCqpmk=w1280" alt="Mission Carmainerose" className={styles.infoImage} />
           </div>
-          <p><strong>Éliminer 250 Monsters from the Sacred Kingdom :</strong></p>
+          <p><strong>Éliminer 250 monsters from the Sacred Kingdom :</strong></p>
           <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-            <li>UH 19 : 5 éliminations par run — 50 répétitions</li>
-            <li>EP1 6-5 labyrinthe : 11 éliminations par run — 23 répétitions</li>
+            <li>Histoire non répertoriée (UH) 19 : 5 éliminations pour 50 répétitions</li>
+            <li>EP1 6-5 (labyrinthe) : 11 éliminations pour 23 répétitions</li>
           </ul>
         </section>
       </div>
-
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

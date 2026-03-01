@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
@@ -7,50 +6,33 @@ import styles from '../../tutoriels.module.css';
 
 export default function SectAxe() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
-
   return (
     <MainLayout>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>SECT AXE</h1>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Niche</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR-nB0j0r45kKXJV8ym5hM4VGXZ4-RJCjSa_GS_0Q-3Xt7fF2FkBsaCDOEbkefL9UOlq12F3MVJz2V8ZD1gkVnNEME-A-wJR3Iknj6-N0E1P-5vR4XjxcivFvVEBBH00H1RlE-a2jDpWsxvW5lWFZOiMOlFRCg7fjrOiPxn7XPTyMVbR3kVQhEYJm0=w1280"
-              alt="Sect Axe"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSF9K4W5AVau0PFDYsBDE26Ri6TeNmDFRF5rnHQqzZtogakJWmMK0Q-cR-8bXpv4qa55i7ikNZ1cIR1G2k8C3gMjpHuFzNC4A0VRDX_ncoXKeg0RLXkrdQBcWuMfRpz41jyVKH9flPGIkMs0rjILCvGiPui0Zh-jxSUkgJ0LyHrTJ7xzr0r9KDWUQI=w1280" alt="Sect Axe" className={styles.infoImage} />
           </div>
-          <p>
-            Sect Axe est un Guerrier de type Glace. Son évolution est de niche,
-            utilisée en PvP pour contrer les héros de type Lumière.
-            Il s&apos;obtient via les Invocations Lunaires.
-          </p>
+          <p>L&apos;évolution de Sect Axe est peu jouée, c&apos;est un personnage PvP orienté dégâts pour contrer les personnages lumière.</p>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment obtenir Sect Axe ?</h2>
-          <p>Sect Axe s&apos;obtient via les <strong>Invocations Lunaires</strong>.</p>
+          <h2 className={styles.sectionTitle}>Comment débloquer Sect Axe ?</h2>
+          <p>Sect Axe s&apos;obtient en invoquant, principalement avec les <strong>Invocations Lunaires</strong>.</p>
         </section>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STbD8ESTXPjExKa0UH5lf0jS0cFi4yFaKCUAUJ0vTJo7hqvb3n_4B64yIFsPenrJtMdEm7Vl3G-cvP3XP_u1lSIWsGDJqxjikfxfE0JIDPmSiJHu89Z7EFZmxPW4j2Vd0MhzV0LD2YO-K0DVXlWuI7jj19LDFLvGn0E7JzVzAPz_OG0u77_WkyAtK0=w1280"
-              alt="Mission Sect Axe"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQNgaCp0HvReaoAORbYCjdD96JgWVHtIF9Eiasorq78zgWcv1tS9EwV1uJ7YtiqcDsZzuTEmFBX85uT89cV1Y-e3glwLIMYOo_D4ZZUSvUekdVnecehfIFvXpzcNDlpEpmQqDd74inRcK6h6EIaE4qcIxlq3eeVuVimX45g5CGnc7r2ORCgK7_zzpJuqjIWDyfCmwbqR5ur1ZW0kXeno2Ci5rb21UdFImnNS40=w1280" alt="Mission Sect Axe" className={styles.infoImage} />
           </div>
           <p><strong>Éliminer 500 Church of Ilryos Devotees :</strong></p>
           <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-            <li>UH 12, UH 13 ou UH 22 : 6 éliminations par run — 84 répétitions</li>
-            <li>EP1 9-7 labyrinthe : 6 éliminations par run — 84 répétitions</li>
+            <li>Histoire non répertoriée (UH) 12, 13 ou 22 : 6 éliminations pour 84 répétitions</li>
+            <li>EP1 9-7 (labyrinthe) : 6 éliminations pour 84 répétitions</li>
           </ul>
         </section>
       </div>
-
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

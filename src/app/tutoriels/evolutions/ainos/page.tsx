@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
@@ -7,7 +6,6 @@ import styles from '../../tutoriels.module.css';
 
 export default function Ainos() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
-
   return (
     <MainLayout>
       <div className={styles.subContainer}>
@@ -16,37 +14,25 @@ export default function Ainos() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQOKJVEFX-NuuIwmPUl7oL7VE6Z0OvjD0lIVdH8nJWRUcWNiSYWbGYrBUy77fqvFVGvHj3-xSfqeMV7cPi3Spu3bT-xgZrk05dCfMFz3xnZD5-j5GnxeFJB5TGVBDNp5aFqVZgLH-GcJDMbE-UdAB5sI0rp2W2a1JgAVoGJpkVkuJx1TJ5SqnUA0=w1280"
-              alt="Ainos"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STvMOCAxaidVkEIgU8U3lfTvbb-FuVK0Kuz8B0C8kW9P0uZweYSRshaaxXbYRvuHlI86wm9ZJWbGjOWNcIi7XU1bovW-AjOvWeU7Oxgt571Mfc7LXH59uAeZX98JKeDuJTRRZ6pTiiWBXo7ei2NCU7J_zVAPwgu7JVtr--JY0-QP56-flqyKlB_xd0=w1280" alt="Ainos" className={styles.infoImage} />
           </div>
-          <p>
-            Ainos est un héros de type Serviteur (Mage). Il est peu utilisé dans le méta actuel,
-            mais peut servir dans certaines compositions de niche. Son évolution se débloque via
-            des Invocations Lunaires.
-          </p>
+          <p>L&apos;évolution d&apos;ainos est plaisante à jouer en PvP pour booster sa team et en PvE pour les challenges de l&apos;abîme ou pour les teams OS de la chasse A13.</p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment obtenir Ainos ?</h2>
-          <p>Ainos s&apos;obtient via les <strong>Invocations Lunaires</strong>.</p>
+          <h2 className={styles.sectionTitle}>Comment débloquer Ainos ?</h2>
+          <p>Ainos s&apos;obtient en invoquant, principalement avec les <strong>Invocations Lunaires</strong>.</p>
         </section>
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSKVwLIDzkY6hH8mWj5xRjfz1XSfVkTF5wEJZxBgpR0Y0LVkAHIknA6f4MGAB4E2IjUibbE-q7MSmElZlipf_Fk6xwXbSlI5oGQzRzSqNBxbrRGIe0i6cxgpDJXhJAHGpGSCXnMvWQhI9nqBfQd6dvJdA9RPaJfLTuyD7u4cJvVMZC0VCHWPmCA=w1280"
-              alt="Mission Ainos"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRDskgeMLShnW6g1O_tn2RNdndwBOwUvfpS-BqtQBCB1Imi28FACwrKNKN1o3iz0CJR6uZbou15aUm3CREx2FZN2wdbCNecyvIrTKvDWn8xU1UxrhD3Pznxxzdfsed-5b887S1vU9sBOW1-TPk9QftXvsFM7zV_A33asrli6FcBXC9kSiSSnLvCIBOduR6FXQId3-7NCLPSe399Q-qlVlXKdr5uoVU0zLmmFgA=w1280" alt="Mission Ainos" className={styles.infoImage} />
           </div>
-          <p><strong>Éliminer 30 Analysis Drone avec Ainos dans l&apos;équipe :</strong></p>
+          <p><strong>Éliminer 30 Analysis Drone monsters avec Ainos dans l&apos;équipe :</strong></p>
           <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-            <li>EP3 7S-5 ou 10-S1 : 1 élimination par run — 30 répétitions</li>
-            <li>EP3 6-5 ou 6-9 labyrinthe : 2 éliminations par run — 15 répétitions</li>
+            <li>EP3 7S-5 ou 10-S1 : 1 élimination pour 30 répétitions</li>
+            <li>EP3 6-5 ou 6-9 (labyrinthe) : 2 éliminations pour 15 répétitions</li>
           </ul>
         </section>
 
@@ -55,28 +41,19 @@ export default function Ainos() {
           <div className={styles.videoSection}>
             <p className={styles.videoLabel}>Vidéo de présentation d&apos;Ainos</p>
             <div className={styles.videoWrapper} onClick={() => setActiveVideo('8xd-IP-eT1M')}>
-              <img
-                className={styles.videoThumb}
-                src="https://img.youtube.com/vi/8xd-IP-eT1M/maxresdefault.jpg"
-                alt="Vidéo de présentation d'Ainos"
-              />
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/8xd-IP-eT1M/maxresdefault.jpg" alt="Présentation Ainos" />
               <div className={styles.playButton}>▶</div>
             </div>
           </div>
           <div className={styles.videoSection}>
             <p className={styles.videoLabel}>Vidéo d&apos;Ainos avec Dass qui apprécie le héros</p>
             <div className={styles.videoWrapper} onClick={() => setActiveVideo('-nzjlIEA_k4')}>
-              <img
-                className={styles.videoThumb}
-                src="https://img.youtube.com/vi/-nzjlIEA_k4/maxresdefault.jpg"
-                alt="Ainos avec Dass"
-              />
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/-nzjlIEA_k4/maxresdefault.jpg" alt="Ainos avec Dass" />
               <div className={styles.playButton}>▶</div>
             </div>
           </div>
         </section>
       </div>
-
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

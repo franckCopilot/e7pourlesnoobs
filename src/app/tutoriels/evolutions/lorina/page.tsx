@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
@@ -7,48 +6,31 @@ import styles from '../../tutoriels.module.css';
 
 export default function Lorina() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
-
   return (
     <MainLayout>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>LORINA</h1>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros fortement recommandé</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STy-Tf0vscASGlT3TbDMm52BOABbHHT6JFxnbVpMvvNHkjWuSPMqjcwHJpQiVOcFz9ld0R9BXqQv1iEMtTqAOIJ-4JTT2LuFSAoA2Qd6sLFV1DKbkQYCGTAtMbrV7WfrZIp4uOxoX4CflV9MG9YmZlgNjaSF7v4D72VDp6klGUBxHsJF_ItdVrT4E=w1280"
-              alt="Lorina"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0ST7lx6Zw15KarOv3TJircqu08kOSy8MycWMhwY5rjjgSQ_3rucOg9YEMwysyJnEemNdgNpglL_0YQlRZRcUV_wFnIo5ACLFCFkikQHO0DbKlW3WB1PmqVERp_2uKwHnPFZXeQOQq4EXIi7y7M7jqYlLaIjnNUf2kbieoDp_r_us5mzpxsRtIltmTkE=w1280" alt="Lorina" className={styles.infoImage} />
           </div>
-          <p>
-            Lorina est une Guerrière de type Glace. Son évolution est <strong>fortement recommandée</strong>.
-            Elle est une excellente DPS monocible en PvE, très efficace en expédition Feu,
-            lors de la chasse du Caides, et dans le Raid.
-            Elle s&apos;obtient via les <strong>Relations</strong> (3 missions simples).
-          </p>
+          <p>L&apos;évolution de Lorina est l&apos;un des meilleurs DPS monocible du jeu en PvE. Elle est très populaire dans presque tous les contenus PvE du jeu : dans les abîmes, en expédition feu, en chasse du Caides ou encore en Labyrinthe.</p>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment obtenir Lorina ?</h2>
-          <p>Lorina s&apos;obtient via les <strong>Relations</strong> — 3 missions simples.</p>
+          <h2 className={styles.sectionTitle}>Comment débloquer Lorina ?</h2>
+          <p>Lorina s&apos;obtient dans les relations : onglet Héros → Recrutement.</p>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQPTc6Y8vn1vHzLbDC3JhtYWgLdBz1HRD-O0a-7hfKT9pF7Ygr5GvKN9vqL_1Z-W3mGV8PPbW5pSE4YjHhPSKfJKLLO-FS_QBnr4VJ-3qF7lpf8WGp8Ie_Ynh65sn1y2ydm3bZPaFQpfxB_Xe7hqU_D-LpjFHZe0gzg3NZXZ_3lcN_BHq-jGrCzWw=w1280"
-              alt="Lorina Relations"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRDAlKb6q3yX-7HEtWV-NcAhBPzWJWft4Og3dQUmZiclap3a6jZj9iFw6iwu7IY7T7otP5JTCN5MtINlxFWdFFQATF8AitgvE50MW6vgWG4Zk_5Zqr_f1IkH1VkNOZh6g0FAvIDxF5Ua7PUw58uNZVWkFMaaefBNzHWNFNAIVPo1a5VMJIse3ycyYvMlHogiBOJW9ccIkRXueo39iUNA9m692cpcYKqQHec=w1280" alt="Relations Lorina" className={styles.infoImage} />
           </div>
+          <p>Puis dans Relations, il y aura 3 missions faciles à effectuer.</p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQr3IY6Ivg-1VH5l-2LqM3FsJ08s9p-38dBRExHHw5c0w1nczeMkWTa9AVEVfIjJrj6bFXFlVyaBnkEY0Dv7tP5gvwP5rfnrp2_VFjJ5lEVr9JEEq0L26J7Z_jkB3p5g7q1D-glP8XBNy2-dGJ2Ij10dqjEv_bFqZQyH4jRdVc89Lfq6UJv3xKZ4d4=w1280"
-              alt="Lorina missions"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STLKKXe5szKPjWforytnM_qe7e-mnhw8zUk9ESEVuAL2gm3bjzeDbJ7Mqi08zwD9ioyQepJCoKgugcmbSrrEdAVgtaQMzXQDqh5Q82RrRNwkO4wF9K1758tb7Nfb76pRXVsH3dfjIgTP7wrBJi0CCI-ccnIVyyPoWBl-E2XV7_qpQshwKFSwN4If7K-Ivu5yT4ELoVqJTg_WIcxXVWsn48Nt5KRc8wzSOlT=w1280" alt="Mission Lorina" className={styles.infoImage} />
           </div>
         </section>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Vidéos</h2>
           <div className={styles.videoSection}>
@@ -74,7 +56,6 @@ export default function Lorina() {
           </div>
         </section>
       </div>
-
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

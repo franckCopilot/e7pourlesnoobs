@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
@@ -7,113 +6,65 @@ import styles from '../../tutoriels.module.css';
 
 export default function Alexa() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
-
   return (
     <MainLayout>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>ALEXA</h1>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros fortement recommandé</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRbgEA1kTySaO8VrOF3kJgCE9JBfO3A0GstdJrGCaGSIGNRiyJQn2ue5OQq6k2Jv4EBBNxH4faTDluvqXivr4dvq6h9f-y34ZTnJBJvamLRJx3w0MuLONq4T0EuGTYN8mU7sMFhN3N-3kShGqAQPcaYJO2_OeBf5HBj7rJvXB9n6tL3zc_T7NxXKFy=w1280"
-              alt="Alexa"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ079bV3KkTsNprN1LzXjiD_kVm7D4kAFDy5rIiYKrkJuMAU81QnqR9zg2-At0VeAxgzzio2EDETdgz4CGKkE3CXAlwDewIK1Wcd_pT73P2P4kadJ2nWaWGu19GfLZHCa5ThPudn7JKWh91zTzzOflZu9A_BPvIkWm368mpJSxaE6ZbV2ZQa0JF0Ew=w1280" alt="Alexa" className={styles.infoImage} />
           </div>
-          <p>
-            Alexa est une Guerrière de type Terre. Son évolution est <strong>fortement recommandée</strong> car
-            elle remplace avantageusement Sigret pour le Wyvern 13, ce qui vous permet d&apos;économiser vos
-            molagoras. C&apos;est une évolution limitée disponible via les Relations.
-          </p>
-          <p>
-            En plus de remplacer Sigret en W13, elle permettra d&apos;économiser 900 Skystones ainsi qu&apos;un
-            Livre extra-temporel (Ordre de l&apos;Épée, Seigneur de l&apos;été).
-          </p>
+          <p>L&apos;évolution d&apos;Alexa est unique : elle ne nécessite pas de catalyseurs ni de moraleaux. Elle s&apos;obtient entièrement via les Relations et le scénario extra-temporel. C&apos;est un DPS poison très utile contre Sigret dans les premières phases du jeu, ainsi qu&apos;en labyrinthes.</p>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment obtenir Alexa ?</h2>
-          <p>Alexa s&apos;obtient via les <strong>Relations</strong> (évolution limitée).</p>
+          <h2 className={styles.sectionTitle}>Comment débloquer Alexa ?</h2>
+          <p>Alexa s&apos;obtient dans les relations : onglet Héros → Recrutement.</p>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STxToI-q-iLqMMXTD9vdqzZ7l6C5SBCWlKenDv6kLVvZMnqK9RwJnOnUH4Vy5rmZ7bsAHscF2hpiI_ZW2HX4HnX7JkHb1KVnXBfHLVY2RzLpX8lzjJj9HKWJlZwSGS7sCvqxEJNBbq_eWLWHoF5r5fEIq29uM1gicnAHbFB-7EbWHcVbDxEJn2y0Q=w1280"
-              alt="Alexa Relations"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQZP7nhcnA7X9wpmBr7L9i5kS3W_xkOMbEZW-sIfJcYPm_TrR2CU0TsStPR490Yab8o1tcgJimPzQRa3EnCfHXsuVRx2YSnEpASCtGhKBxRkE4m48gnNdo_Di_rIdU-5hPqPjSwnpqpBf_ggRmmOJuskkA7OK06Lpw36v0Hqe57cSPmazrR1xsT0YfTzZEszbJ6IK4Tt2g5kMaSngnApm704bHYiISy4TaM=w1280" alt="Recrutement Alexa" className={styles.infoImage} />
           </div>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution — Relations</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR21WMe2lzdUaKSh7O8i9jDdToWCEp3O5b5lJULOYKMxP0d0gJgJCxAVDvJBlJjHSvzVXxQ-IvJlxXuLGK-V0blXB3CG4-YGFS_0uMXk0gScilBEHuvHiRfq6SyRZgbHhFUSV7z8c0SBRkJuehD-ZGJHNH0cGGiHxEhNbhV2ZFMW0yNFflOiAi5Q=w1280"
-              alt="Missions Alexa"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRvXCQRRh2Qq75xZGIaubaMZ2NeBW8PFkgWHg4cLgoJrbfbrCDcbgqdGJRUeRBZOa7eHvaTBnAS05X2IIAYM6J6EaarHJCm1nuP-sOZ-AhpBhB73KbaEpOaWhbo9vyOd-CGWOvQ5bFDeECcvpObgFoM2pWnN7pOKyxO1gaFxVG-clnCQkZHunutCabJKFvx8824JQ9-yw9DI6rF-KwTUZt4wxDuH9MWtG4c=w1280" alt="Missions Relations Alexa" className={styles.infoImage} />
           </div>
-          <p>
-            <strong>Éliminer 50 monstres dans le Labyrinthe Capitale royale Azmakalis :</strong>
-          </p>
+          <p>Alexa a 3 missions dans les Relations à compléter pour son évolution.</p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Scénario Extra-Temporel</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ-1Dw1wDg7OE2fGe1XbGMJqdgTwc62vHWq71RFtVXnlBRPgjLnFz7rZNIyAUZqWbKJZ49yq0zf2DhGzJ6Y49gVcrwBRgYjETnGSGRjXJh4K3xrWEolG52GVT3WLNS-f_g3Yh8z3avZhDQcMV4I25yQsWw1cDNZCRiX3Zna2dIPPANz5KAFq5jJoU=w1280"
-              alt="Labyrinthe Azmakalis"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRTAw_UVrGjRLIgFtifETn7yABMhZ_cdxr1RalhtD0TY5QDQaV-Im3-9F2bPymrp5xpdzCeZuMSE9G87c5Ba-hh4nJxHvlXhlFcXygRHlgkhPPne6burvgrZ53z5bq7cOMPvEzhk_KH2Q9D3JvZ2dRaebi2mYrz-f9_yZq5S9xV-1cirixkmMGGVtQ-XR1iBhvblaSwF5I_q-jB99PRdBRIsxtFuwiqsWJE6z0=w1280" alt="Scénario Extra-Temporel Alexa" className={styles.infoImage} />
           </div>
-          <p>
-            <strong>Missions de Relations (3 missions simples) :</strong>
-          </p>
+          <p>Terminer le scénario Extra-Temporel d&apos;Alexa est nécessaire pour finaliser son évolution.</p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Mission Labyrinthe</h2>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQOybnNiHHWL9xDG7eRUKNiyv10RTuoZ7oM-9JqxPlKkH7_JZHRMwlCR2zVXjoCH9F-XlkzxL_a4-YrFaS7VBbPAGCLLbCfqR9jAiR8cPFbXGKfbrLXHF8aHJDSvXy-OHwZWnj5pG9AKJFG0B3AeBh3JLUlVDl7i20WG_dMMzbnuGRi2DEH9jz9PgD=w1280"
-              alt="Missions Relations Alexa"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSd_ZxwcXCPFtJ8u8-fL7WWI6PbX4BjOqm4_1vr4vhmd-vjq3hjKlGNfDJa6kwi3If0Y86KAvtKjXfhltMQcY2XjblhJiLMYKnWd-sF2T79KRQKQ006gaMKHpFuIk_pb08pF6bteCJg3qnICg1fLuIPGX-sV_BvewT9JswZFaes3E68WOMi77_6yWJvESq-lvBSY-emFakl_QtjhmbPIDiwdr2iscOTFHSw1ns=w1280" alt="Labyrinthe Alexa" className={styles.infoImage} />
           </div>
-          <p>
-            <strong>Livre extra-temporel requis :</strong> Ordre de l&apos;Épée, Seigneur de l&apos;été —
-            900 Skystones.
-          </p>
           <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRiYBqAkhQ2wBhlPkaSEYRBwuJwc0t31OdyYjqJjwKAOB4mHmpJQfN2l0pGkXbTEsxVcVJ1-MMVB5YHVXAQfXZGvbXE9VdyipbnUd_bm6x9S0AEyRkMBzqMeBbxcg8O5BpYLUhQHTKrlwj_4mxz5qdPc8NMn8pPR5cBW7pYlC0lCR22ZmkLABiGnbA=w1280"
-              alt="Livre extra-temporel Alexa"
-              className={styles.infoImage}
-            />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0ST0aw8aZ95VDD5QVm7jqOqky19I6JQyxJ8M0cKOFVRh7lVnaq6_0UoCFKa90yUaadMtQSO0oaVT9GZpSEe9oXipQIMtvQb8ELTavY0JTS4BQEnFSIM3KD2AaRvBkf3C56WBNd5LDLfpjM5ItZJLBMdDH3msFFZZf3YZwm0Tauxzr39jYx7KR8FLynQ=w1280" alt="Guide compétences Alexa" className={styles.infoImage} />
           </div>
         </section>
-
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Vidéos</h2>
           <div className={styles.videoSection}>
-            <p className={styles.videoLabel}>Alexa en Wyvern 13</p>
+            <p className={styles.videoLabel}>Vidéo de présentation d&apos;Alexa</p>
             <div className={styles.videoWrapper} onClick={() => setActiveVideo('hfEAxmDsGAc')}>
-              <img
-                className={styles.videoThumb}
-                src="https://img.youtube.com/vi/hfEAxmDsGAc/maxresdefault.jpg"
-                alt="Alexa en Wyvern 13"
-              />
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/hfEAxmDsGAc/maxresdefault.jpg" alt="Présentation Alexa" />
               <div className={styles.playButton}>▶</div>
             </div>
           </div>
           <div className={styles.videoSection}>
-            <p className={styles.videoLabel}>Alexa — présentation et missions</p>
+            <p className={styles.videoLabel}>Alexa pour remplacer Sigret</p>
             <div className={styles.videoWrapper} onClick={() => setActiveVideo('cagdP9gN53I')}>
-              <img
-                className={styles.videoThumb}
-                src="https://img.youtube.com/vi/cagdP9gN53I/maxresdefault.jpg"
-                alt="Alexa présentation"
-              />
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/cagdP9gN53I/maxresdefault.jpg" alt="Alexa vs Sigret" />
               <div className={styles.playButton}>▶</div>
             </div>
           </div>
         </section>
       </div>
-
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );
