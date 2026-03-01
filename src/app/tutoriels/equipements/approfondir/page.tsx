@@ -35,7 +35,7 @@ export default function Approfondir() {
           </div>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir2.jpg" alt="Clocher de l'alchimiste" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir2.jpg" alt="Clocher de l&apos;alchimiste" className={styles.infoImage} />
             <div className={styles.infoText}><p>Clocher de l&apos;alchimiste — Fabrication améliorée</p></div>
           </div>
         </section>
@@ -55,7 +55,7 @@ export default function Approfondir() {
           </ul>
 
           <div className={styles.infoBlock}>
-            <img src="/images/tutoriels/equipements/approfondir3.jpg" alt="Points d'équipement" className={styles.infoImage} />
+            <img src="/images/tutoriels/equipements/approfondir3.jpg" alt="Points d&apos;équipement" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Les <strong>points d&apos;équipement (PE)</strong> sont une valeur numérique basée sur la somme des caractéristiques d&apos;une pièce d&apos;équipement.</p>
               <p>La règle générale est de continuer d&apos;améliorer un équipement en +9 si vous avez <strong>55/60+ de PE</strong>.</p>
@@ -171,44 +171,43 @@ export default function Approfondir() {
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div>Santé %</div>
-                <div>Défense %</div>
+                <div style={{ fontStyle: 'italic' }}>Santé %</div>
+                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div>Santé %</div>
-                <div>Défense %</div>
+                <div style={{ fontStyle: 'italic' }}>Santé %</div>
+                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Chances Crit</div>
                 <div style={{ fontWeight: 'bold' }}>Dégât Crit</div>
-                <div>Santé %</div>
-                <div>Défense %</div>
                 <div>Attaque %</div>
                 <div>Vitesse</div>
+                <div style={{ fontStyle: 'italic' }}>Santé %</div>
+                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div>Attaque %</div>
-                <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div style={{ fontWeight: 'bold' }}>Attaque %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
+                <div style={{ fontStyle: 'italic' }}>Santé %</div>
+                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div>Vitesse</div>
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
-                <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div style={{ fontWeight: 'bold' }}>Défense %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-              </div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>              </div>
             </div>
           </div>
         </section> 
@@ -253,59 +252,58 @@ export default function Approfondir() {
             <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Attaque %</div>
+                <div>Attaque %</div>
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Attaque %</div>
+                <div>Attaque %</div>
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
+                <div>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t3.png" alt="Armure" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div style={{ fontStyle: 'italic' }}>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
+                <div>Santé %</div>
+                <div>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Chances Crit</div>
                 <div style={{ fontWeight: 'bold' }}>Dégât Crit</div>
+                <div style={{ fontStyle: 'bold' }}>Santé %</div>
+                <div style={{ fontStyle: 'bold' }}>Défense %</div>
                 <div>Attaque %</div>
                 <div>Vitesse</div>
-                <div style={{ fontStyle: 'italic' }}>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Attaque %</div>
+                <div style={{ fontWeight: 'bold' }}>Attaque %</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
-                <div style={{ fontStyle: 'italic' }}>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontSize: '18px', marginBottom: '4px' }}>Vitesse</div>
+                <div style={{ fontWeight: 'bold' }}>Vitesse</div>
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
+                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 'bold' }}>Défense %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div style={{ fontStyle: 'italic' }}>Santé %</div>
-                <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
             </div>
-          </div>
+          </div> 
         </section>
 
         <section className={styles.section}>
