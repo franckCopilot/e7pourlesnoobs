@@ -148,6 +148,17 @@ export default function Malus() {
           <p>Attention toutefois : l&apos;étape 1 (coups réussis) et l&apos;étape 2 (chances d&apos;effet) devront toujours être validées. Par exemple, la troisième compétence de <strong>Rann</strong> n&apos;aura que 85% de chance de se lancer avec une réduction de défense, malgré son SoulBurn.</p>
           <p>Les effets d&apos;ignorance de la résistance d&apos;effet sont <strong>très puissants et très utilisés</strong> sur Epic Seven.</p>
         </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Version Vidéo du tutoriel</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Malus — Tutoriel complet</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('Vj_butgmWaI')}>
+              <img src="https://img.youtube.com/vi/Vj_butgmWaI/hqdefault.jpg" alt="Malus tutoriel" className={styles.videoThumb} />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+        </section>
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
