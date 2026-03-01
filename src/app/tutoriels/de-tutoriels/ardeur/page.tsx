@@ -23,7 +23,7 @@ export default function Ardeur() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Comprendre l&apos;ardeur au combat</h2>
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSeSsmwsHQ7PJDIcv1YNbZ9CWu9Coqeys-V0VTh2opf8Qz74Ssm2cf3eP7rBNzGteSc8oyuZxOmPwc3rNgX5sQcGl4RfJ1N4ui20FnqQUQY4zn7s4-qtMDKodi-AvBIB4JSObs4dgxF_RzaAU0_AjP16KGR-d71PS-dMmfiyfvFBfBwJftYst0GOJzPMnP5M7B4JuVc-SPdO0zcxZJQ-IEHaNXCrK19ssM0=w1280" alt="Timeline ardeur au combat" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STPpJKxBrw2JKMS_AHacltizaLKTcEN07v5AVAiCNRayj7lBu69ainWp1bvS_qJS-eehJCd66QqrFZ1x5UzJZyvQr30bumCIJwbN1H6gi2NJuKylNS06NKhiZkb8sMabHSEVFBt9Pvti3MP6VsHGolmGYRO6XHW3sD6skiuLmdXs2iprPcyiVcK7uBr-OnGWCUOSFUCC5DJ3-2WltfYMNtEBxIkL-jcKojw=w1280" alt="Timeline ardeur au combat" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>La timeline à gauche définit l&apos;ordre de jeu des personnages. Pour plus de détails, cliquez sur le petit sablier en haut à gauche pour voir l&apos;ardeur au combat des alliés et adversaires en %.</p>
               <p>La dernière ligne est celle de l&apos;entité qui a le tour de jeu.</p>
@@ -38,7 +38,7 @@ export default function Ardeur() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>CR Push &amp; CR Depush</h2>
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRxyRLD7-ALTg5s70DiYWiuvuRepeRAbUTOYrvqzAUEzkovh_oGGIJULI0LT7hrTgk2RCqRazYIVLd4ltXPFfCyKGlLUjDxo0Z0nQNZQUFhfE7CKpOa4OYpN2VrKAeZSMG08insvB2eXP4BwIJTldGJsoulN_Naa7rvEL2WinWqtkXsmJqQH0lWSP9wfXpXjqnqDjEabwCPU6SELTSIxyTMavfgUuAXwUerjuI=w1280" alt="CR Push et Depush" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQT1mrAYfbk0sQkKJ75Pp-BDsRa1XPOBJZkFcK_cNldhsBdizZLWqyuJwHHl93CjziFdu9miBMKCS28BaFvlBiQUlBbgvQO6YmrWtIAf0Z_cJ37HOjjs48q0hKkwXIMn92cr3Z9Xk8Brlgj3KunahS8J1jhaAp-PNidUW9w0Hc1ojy9f_VR_faR1wEw2S-kPYX2NBJaAwwSPLlKAeTruAXHkz7-QZJCIrndBLI=w1280" alt="CR Push et Depush" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Il est possible de modifier l&apos;ordre de tour de jeu des entités du combat avec de l&apos;augmentation d&apos;ardeur au combat (<strong>CR Push</strong>) et de la diminution d&apos;ardeur au combat (<strong>CR Depush</strong>).</p>
             </div>
@@ -46,7 +46,7 @@ export default function Ardeur() {
           <p><strong>⚠ ATTENTION</strong> : la réduction d&apos;ardeur au combat des adversaires est soumise aux calculs de chances d&apos;infliger un malus. Elle n&apos;est donc pas garantie, à l&apos;exception d&apos;une mécanique d&apos;ignore de résistance d&apos;effet.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSj0-LRiK5BtNFchDlVo87zrzQICDhFXnDbc8-f-7odu4fLVjjOJ8-UkMB3rmwGL28ASNYYxCIiX1ybgPghkElvSD3OpoOUzjrxIoVkia3KrBUrgoGbqeTU3J1HLDRH6Xivkq6DHqd7f9o9ph220170hkp0p_EAavKlBBioaNHVXgm-veW1VXYL9OukdvZB86-bIAS0mSrQduq8Yl8FPB8XugdCR5pMdjNHW1o=w1280" alt="Exemple CR Push" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STlK8b5gtScJnQQSzuupXfvYSvR-RvbY4msSNS6bL5XtcHyA91hmVN06Dqrrv4uBaRKo9Zyqv3eo6hQiXl2APRyznj4bCCijW0il7sC-s7x6wIJcs0GjnXb-a0ybZPUfdBLg_HASbPP2ZkEnchhLECo04iwrBwsT0yVFQZ3wyg7pHwWPp7AAvZs9J9BaiyScLphb1xDYVb-KavSiD3tLOq7LeJeIP0-V_rAcqU=w1280" alt="Exemple CR Push" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>L&apos;augmentation d&apos;ardeur au combat (<strong>CR Push</strong>) n&apos;est pas soumise aux calculs de chances d&apos;infliger un malus, elle est donc plus puissante que la diminution d&apos;ardeur au combat.</p>
             </div>
@@ -56,7 +56,7 @@ export default function Ardeur() {
           <p>Il est possible de cumuler Politis et ML Yufine dans la même équipe pour diminuer de 100% le gain d&apos;ardeur au combat des adversaires.</p>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SR5HjAaQ5W2f06lfsCXUOY3JQ9Zv3e6RDQ7-92hlrH70OiEzTXitAkDvy5hVIfRFwIghZbl82WeJc3IaLivdQ87o3MLx6lw45XfXNLfO1KsKiQEgpa6e8C1NBA6pAKXJr44vyoYqD271GqPjkkw8lxzW8KCSXiF7f8YBSF5VPA7hRguYvoZPYAtRII=w1280" alt="Malus entrave" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRqI-5bUI_Fpzd3XxL-gQHOfrw8TAmYHsG6wKW8xOOzErr0-SnO5hCZQ7ZGSZrPVo77zdPg3-d9sSF7NJ_cH0EHs_x4GlQ6YuhXjSegEXODJFoYgiiZJhIqMBBbvryXOH85eE9ASpQeC30cLzXBCEjRVVXSI2xucDlNgSslBNUGJh7aMGQUHCIyYH0=w1280" alt="Malus entrave" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Le malus <strong>Entrave</strong> empêche les adversaires de gagner de l&apos;ardeur au combat au travers de leurs compétences. <strong>Peira</strong> peut infliger ce malus.</p>
             </div>
@@ -73,7 +73,7 @@ export default function Ardeur() {
           </ul>
 
           <div className={styles.infoBlock}>
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQV0IHjXSSdsPkbDNNSAt3jZ028rvr7M8R2YBfQsVaA1qHej4h9OEVahCIw2NhU_sPMeQP5EBrWKOGs2UoTrQwk1KNYKjwllZSyeyPxFkMiFXX8GNB_nPDOhE_S-bK6kFApthIqh89kvEAGHBaHPv-ISP_4svgmnhCnjBSAHQrzqYhA_aNnJCJ4RNzTsW2gqEZAi6RKMk2alJdX84nl9bnnpxl3B97LYhVKYvY=w1280" alt="Exemple bonus vitesse" className={styles.infoImage} />
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRyRbEqfpmIU4n79Q1vqdZ1vMSV6OIISVm2FxwxE0tT1OJXEKiIMCstd7rAwPRu4H8eGZOrg7D_nC0Mox2oKF6726mX2zW5pLV1p6ng6XhAIxqlAQNLCaptACmeCd_1vpjJUlpKow7JRSTZSINOaI5-J8NHth4ciiiue2iL7cYuOU-gzXQRoCqUeiVd5k22K1s6K6tUlrUnrO5vSFc1zWPY1PKIj7u-N4nGso0=w1280" alt="Exemple bonus vitesse" className={styles.infoImage} />
             <div className={styles.infoText}>
               <p>Ces bonus et malus ont <strong>deux effets</strong> sur le combat :</p>
               <p><strong>Premier effet</strong> : impacte directement le gain d&apos;ardeur au combat de l&apos;entité.</p>
