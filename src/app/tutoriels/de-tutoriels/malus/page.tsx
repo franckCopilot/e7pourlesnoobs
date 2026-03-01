@@ -50,6 +50,7 @@ export default function Malus() {
           </ul>
           <p className={styles.note}><strong>NOTE</strong> : l&apos;évasion d&apos;un personnage ne peut excéder 90%.</p>
           <p className={styles.note}><strong>NOTE 2</strong> : Rater sa compétence réduit les dégâts infligés de 25%, empêche les coups critiques et ne permet pas d&apos;infliger de malus.</p>
+          <p className={styles.note}><strong>NOTE</strong> : Attaquer avec l&apos;avantage élémentaire augmentera vos dégâts de 10% et augmentera vos chances de coup critique de 15%.</p>
 
           <div className={styles.infoBlock}>
             <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SS46HEA8JJ7QTgYDLVHeLWvmNyIxoKwp9EdyPU2rxypINm34zPEhHBWLVlMiM8yoFhdgN5l_KyUetygRcZuLMBhgayyH_tUlG5o2-G75gXcHMXlrMcHAZ40UrTl7qJfcT-t73WdqExGfK_Rm48qU17SasZ-edjXaEaHGQLtQo8-cfGj1gxVgqZw=w1280" alt="Blind" className={styles.infoImage} />
@@ -93,6 +94,10 @@ export default function Malus() {
               <p><strong>Hit</strong> — Augmente les chances de coup réussi du lanceur.</p>
             </div>
           </div>
+
+          <p>Une simple soustraction entre les chances de coup réussi et les chances de coup raté permet de déterminer les chances finales de réussir votre attaque.</p>
+          <p><strong>Exemple</strong> : L&apos;adversaire possède <strong>Adin</strong> avec l&apos;artefact <strong>Rêvelame Lunaire</strong> et <strong>ML Cartuja</strong>. Adin aura donc 50% d&apos;évasion passive + 20% de l&apos;artefact + 20% de ML Cartuja : un total de <strong>90% d&apos;évasion</strong>.</p>
+          <p>En face, <strong>Zahhak</strong> est équipé de l&apos;artefact <strong>Symbole d&apos;unité</strong>. Zahhak aura donc 50% de coup réussi passif + 20% de l&apos;artefact : un total de <strong>70% de chances de coup réussi</strong> supplémentaires. La différence est de 20% : j&apos;aurai donc <strong>20% de chance de rater</strong> mon attaque sur Adin.</p>
         </section>
 
         <section className={styles.section}>
