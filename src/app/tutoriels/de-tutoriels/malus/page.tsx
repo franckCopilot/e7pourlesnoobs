@@ -126,14 +126,19 @@ export default function Malus() {
           <div className={styles.infoBlock}>
             <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STq5CP5vixP04mb0b0Q5p0Zz3hPINkrW0VwX-Hys0ADXUhCZLxF9lnhO8_qeseZa0Wnl1AUo9GRF7qSiR--4q5SFTCGutSU9vZ9cr3eSyxh4VQRmbNGdRDFUjflvN--O7KFgTAOIXJZMcWeJZSiGNBYyfRO6F5F2GcDVvDYqlmL8yxlsb6yHDnlvNtBhDEgoz-9GCjNnENYl4RyN6Vn8A1GtJguPpVIVyiA=w1280" alt="Exemple Wyvern 13" className={styles.infoImage} />
             <div className={styles.infoText}>
-              <p><strong>Exemple : Wyvern 13</strong></p>
-              <p>Furious possède 110% d&apos;efficacité, la Wyvern 13 possède 80% d&apos;ER.</p>
-              <p>100% + 110% - 80% = <strong>130%</strong> de chances d&apos;infliger un malus.</p>
+              <p><strong>Exemple : Le cas le plus courant est celui de la Wyvern 13.</strong></p>
+              <p>Furious possède 110% d&apos;efficacité et on peut observer que la Wyvern 13 possède 80% d&apos;ER.</p>
+              <ul style={{ paddingLeft: '24px', marginBottom: '8px' }}>
+                <li>Furious a 100% de chance de réussir son attaque, il valide l&apos;étape 1.</li>
+                <li>Furious a 100% de chance d&apos;infliger une réduction de défense avec sa troisième compétence, il valide l&apos;étape 2.</li>
+                <li>On a donc : 100% + 110% d&apos;efficacité - 80% d&apos;ER = <strong>130%</strong> de chances d&apos;infliger un malus.</li>
+              </ul>
             </div>
           </div>
 
-          <p><strong>⚠ ATTENTION</strong> : Si le résultat est au-dessus de 85%, les chances d&apos;infliger un malus seront automatiquement bridées à <strong>85%</strong>. C&apos;est ce qu&apos;on appelle les <strong>15% de RNG</strong> sur Epic Seven.</p>
-          <p>L&apos;efficacité la plus optimale pour infliger des malus à la Wyvern 13 est donc de <strong>65%</strong> (100% + 65% - 80% = 85%).</p>
+          <p><strong>⚠ ATTENTION</strong> : Si le résultat est au-dessus de 85%, les chances d&apos;infliger un malus seront automatiquement bridées à <strong>85%</strong>.</p>
+          <p>Malgré son efficacité, Furious aura au maximum 85% de chances d&apos;infliger sa réduction de défense sur la Wyvern 13. C&apos;est ce qu&apos;on appelle les <strong>15% de RNG</strong> sur Epic Seven.</p>
+          <p>L&apos;efficacité la plus optimale pour infliger des malus à la Wyvern 13 est donc de <strong>65%</strong>, au-delà vous n&apos;aurez pas plus de chance d&apos;infliger des malus dessus avec vos héros. (100% + 65% - 80% = 85%)</p>
         </section>
 
         <section className={styles.section}>
