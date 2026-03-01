@@ -160,7 +160,7 @@ export default function Approfondir() {
             <div style={{ display: 'flex', gap: '32px', justifyContent: 'center', alignItems: 'flex-start', margin: '32px 0' }}>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t1.png" alt="Arme" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div>Attaque %</div>
+                <div><strong>Attaque %</strong></div>
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
@@ -168,7 +168,7 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t2.png" alt="Casque" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div>Attaque %</div>
+                <div><strong>Attaque %</strong></div>
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
@@ -180,12 +180,12 @@ export default function Approfondir() {
                 <div>Vitesse</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div style={{ fontStyle: 'italic' }}>Santé %</div>
+                <div style={{ fontStyle: 'italic' }}><strong>Santé %</strong></div>
                 <div style={{ fontStyle: 'italic' }}>Défense %</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 600 }}>Chances Crit</div>
+                <div style={{ fontWeight: 600 }}><strong>Chances Crit</strong></div>
                 <div style={{ fontWeight: 600 }}>Dégât Crit</div>
                 <div>Attaque %</div>
                 <div>Vitesse</div>
@@ -194,7 +194,7 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 600 }}>Attaque %</div>
+                <div style={{ fontWeight: 600 }}><strong>Attaque %</strong></div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
@@ -203,7 +203,7 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div>Vitesse</div>
+                <div><strong>Vitesse</strong></div>
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
