@@ -15,47 +15,41 @@ export default function Christy() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
-          <p>
-            L&apos;évolution de Christy est principalement utilisée en PvP pour partager la moitié
-            de sa résistance d&apos;effet à un de ses alliés, pratique contre les adversaires
-            infligeant des malus.
-          </p>
-          <div style={{ textAlign: 'center', margin: '20px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRVGrjmpmwS8eVXgzOrgIM6p8riCI6U8aNS9bUUxjMySm0bBMEAg34zIn-5kuXTFXEBdI4ButnXY28pzuK_Vnvqg3fCn9vjy9GsNHeYC_OimKf79bm2lQmQo5PGNN9pByM4jmQn8-pSbKETCaDyep4VEFMsCdDZOfoDRtJp7TuvZESg7s_SG0IZ=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SS1LLiSes0coXEX9KS9G-kLHbQrBrxKNVixYVRxVagbFB8yPz4IWxiI8-qT6FNsiqpHqSF2BJ_oe2i2VBbdQAoSdZyUWEuE5w7grpBGrZyEg4yA2-AHSGNi0xmEJAbL0UvNMMWGN_sRXMGa73BLFqY6C6A2F1VhH-IqrHwSIRGYxcxLK3Ew8sP5Y3P=w1280"
               alt="Christy"
               className={styles.infoImage}
             />
           </div>
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Christy ?</h2>
           <p>
-            Christy s&apos;obtient en invoquant, principalement avec les Invocation de la prophétie.
+            Christy est une Chevalière de type Terre. Son évolution est optionnelle,
+            principalement utile en PvP pour sa résistance aux effets. Elle s&apos;obtient
+            via les Invocations de la prophétie.
           </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
-          <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR2qbRN0KYFrZgIsKUaLt9L2i0FzxwAYSoEmjK_cic4BMWZZ_wuGguD1h0nAwMU3_g876EE3_8w1q5LqK5lDKcs1jrTnca8gZvjQ4F46HKDyALNSOiQ1cAkmm9JfBYvzxy24pTW4gOgDh2WhyPkRs2x5zjfdSAOVY02fceQPKAjgkXBiQJVZbPr45yQcFDr8tbXp0kDBIxQaAxb6khN2XqBFAi_ht64tVmtI3Y=w1280"
-              alt="Évolution Christy"
-              className={styles.infoImage}
-            />
-            <div className={styles.infoText}>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 200 Master Fighters (EP3 1-4 : 9 éliminations pour 23 répétitions)</li>
-              </ul>
-            </div>
-          </div>
+          <h2 className={styles.sectionTitle}>Comment obtenir Christy ?</h2>
+          <p>Christy s&apos;obtient via les <strong>Invocations de la prophétie</strong>.</p>
         </section>
 
-        <p className={styles.note}>
-          Conseil : Vérifiez les missions dans le journal d&apos;évolution pour suivre votre progression.
-        </p>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRiSemab2KEOzTg2mXHHH4-V8Q3c5c3wLhxJMqTnMDUoE-vWmCdJkwEBFE8pPjVEFgHzA_VXWjiqshx6_APxmT2IXmZ-K4bKaJRFy8cpbbP0QT9WbMR7AXsezZBynmQo34IgcEGv_-4F0n_9QLKZFZ0Fd2t0hSiB5N9n8FJP6FHvI2RvMa4ykmjQuk=w1280"
+              alt="Mission Christy"
+              className={styles.infoImage}
+            />
+          </div>
+          <p><strong>Éliminer 200 Master Fighters :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>EP3 1-4 : 9 éliminations par run — 23 répétitions</li>
+          </ul>
+        </section>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

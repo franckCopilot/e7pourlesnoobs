@@ -15,56 +15,31 @@ export default function Alexa() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros fortement recommandé</h2>
-          <p>
-            L&apos;évolution d&apos;Alexa est particulière, c&apos;est l&apos;unique héros avec une
-            évolution limitée. L&apos;évolution d&apos;Alexa permet de remplacer Sigret dans la team
-            W13 aussi bien pour débuter le jeu qu&apos;effectuer des teams OS avec. Le principal avantage
-            d&apos;Alexa par rapport à Sigret est l&apos;amélioration de ses compétences qui ne nécessite
-            pas de molagora. Une ressource rare et limitée sur Epic Seven. L&apos;évolution d&apos;Alexa
-            est aussi puissante voire plus forte que Sigret.
-          </p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRRbuGtlklCIJSyrUdZ57UG5IV3TFYwvOAoXQfOS4xehOVy9Q849JggbUoF-eYJubFtwc1TuCpSfDpQRAmi4702dGqyKXlf-qxwAnEc8P62rj8EZi4N6M0jbMDwId9rYCcGhThnh52J8EPkM23s7TKbmWr4tba1SKXOnJm5xAzDwXScSO6-3bsFgG8=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRbgEA1kTySaO8VrOF3kJgCE9JBfO3A0GstdJrGCaGSIGNRiyJQn2ue5OQq6k2Jv4EBBNxH4faTDluvqXivr4dvq6h9f-y34ZTnJBJvamLRJx3w0MuLONq4T0EuGTYN8mU7sMFhN3N-3kShGqAQPcaYJO2_OeBf5HBj7rJvXB9n6tL3zc_T7NxXKFy=w1280"
               alt="Alexa"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Alexa est une Guerrière de type Terre. Son évolution est <strong>fortement recommandée</strong> car
+            elle remplace avantageusement Sigret pour le Wyvern 13, ce qui vous permet d&apos;économiser vos
+            molagoras. C&apos;est une évolution limitée disponible via les Relations.
+          </p>
+          <p>
+            En plus de remplacer Sigret en W13, elle permettra d&apos;économiser 900 Skystones ainsi qu&apos;un
+            Livre extra-temporel (Ordre de l&apos;Épée, Seigneur de l&apos;été).
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Alexa ?</h2>
-          <p>
-            Alexa s&apos;obtient dans les relations : onglet Héros &gt; Recrutement. Puis dans Relations,
-            il y aura 3 missions faciles à effectuer.
-          </p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Alexa ?</h2>
+          <p>Alexa s&apos;obtient via les <strong>Relations</strong> (évolution limitée).</p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQkCqF3tOHAwWbFin6544s6EWDH8DcQO3XpvvmhSgvtCS33_xDg6-MyrwbDzHb_PGtZmcYwW__zJao5mWj-dc3vEV7Z0YwmSn1Qun5Qp8GoR3WdMvPOmvKZfHJn5YDxrUedOoxIvk2lf40dM9N-p9OynjDp7EBHOwU94wxNnjvW_lmvPHNCN7xzeJ1L3eDt3Yu9ZUdw6GNk9q_FeIFz9H3F3XwPNJ35AE3G=w1280"
-              alt="Relations Alexa"
-              className={styles.infoImage}
-            />
-            <div className={styles.infoText}>
-              <p>
-                Recrutez Alexa via l&apos;onglet Relations dans le menu Héros.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Débloquer l&apos;évolution</h2>
-          <p>
-            L&apos;évolution se débloque dans l&apos;histoire secondaire &gt; Livre extra-temporel.
-            Il faudra acheter l&apos;Ordre de l&apos;Épée et le Seigneur de l&apos;été contre un
-            Indicateur temporel qui s&apos;achète dans la boutique contre 900 Skystones.
-            900 Skystones sont moins rares que les 33 molagoras économisées pour améliorer les
-            compétences de Sigret.
-          </p>
-          <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0ST_7zrwIWRLbdHevs6NdkCqaraYt2GT3Vw5Ff8DMui7off1__wS98_X-NBS5k7J0VmhOv_gifHi3-gdvVUMRZVhCy9FfSBCtyy-8QZRRAsudtLjKNMT-3VBADOQCWhzsAn5SERvyYqjFm2EDSJ874LUbr3WKvoFsS-0jlTwH-2hpWl9Nni6FIRC770ejbFDtfAJ_c1SjCoBvpLR3Pcco8VNE4ukjkXyJE2q=w1280"
-              alt="Livre extra-temporel"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0STxToI-q-iLqMMXTD9vdqzZ7l6C5SBCWlKenDv6kLVvZMnqK9RwJnOnUH4Vy5rmZ7bsAHscF2hpiI_ZW2HX4HnX7JkHb1KVnXBfHLVY2RzLpX8lzjJj9HKWJlZwSGS7sCvqxEJNBbq_eWLWHoF5r5fEIq29uM1gicnAHbFB-7EbWHcVbDxEJn2y0Q=w1280"
+              alt="Alexa Relations"
               className={styles.infoImage}
             />
           </div>
@@ -72,49 +47,71 @@ export default function Alexa() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
-          <p>
-            Voici les missions à compléter pour débloquer l&apos;évolution d&apos;Alexa :
-          </p>
-          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-            <li>
-              <strong>Éliminer 50 monstres</strong> dans le Labyrinthe Capitale royale Azmakalis.
-            </li>
-            <li>
-              Le chemin le plus simple se fait en une seule entrée.
-            </li>
-          </ul>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STebqspSfvVJeggHinQV6xEWxm07Hr2YnBz31DSyfhUxSY7Ij3Nl32CQrud6cCLB9dyv9Ki2jJ7a8XD5GOfddRflEQCBLqoEpx4psibaifjf8CgAILtGJFn-E-7jpqWh7o2YvMzIht803qffAXKDqYwlCMDyH8LXdzQKdjDPskNr1mgufXdMaZITAJrkav77XxbGuqJRB7Tk_I6cUqL0S9Bo-Tx8zezhxMg5ME=w1280"
-              alt="Carte du labyrinthe Azmakalis"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR21WMe2lzdUaKSh7O8i9jDdToWCEp3O5b5lJULOYKMxP0d0gJgJCxAVDvJBlJjHSvzVXxQ-IvJlxXuLGK-V0blXB3CG4-YGFS_0uMXk0gScilBEHuvHiRfq6SyRZgbHhFUSV7z8c0SBRkJuehD-ZGJHNH0cGGiHxEhNbhV2ZFMW0yNFflOiAi5Q=w1280"
+              alt="Missions Alexa"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Suivez le chemin indiqué sur la carte pour éliminer 50 monstres en une seule entrée.</p>
-            </div>
+          </div>
+          <p>
+            <strong>Éliminer 50 monstres dans le Labyrinthe Capitale royale Azmakalis :</strong>
+          </p>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ-1Dw1wDg7OE2fGe1XbGMJqdgTwc62vHWq71RFtVXnlBRPgjLnFz7rZNIyAUZqWbKJZ49yq0zf2DhGzJ6Y49gVcrwBRgYjETnGSGRjXJh4K3xrWEolG52GVT3WLNS-f_g3Yh8z3avZhDQcMV4I25yQsWw1cDNZCRiX3Zna2dIPPANz5KAFq5jJoU=w1280"
+              alt="Labyrinthe Azmakalis"
+              className={styles.infoImage}
+            />
+          </div>
+          <p>
+            <strong>Missions de Relations (3 missions simples) :</strong>
+          </p>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQOybnNiHHWL9xDG7eRUKNiyv10RTuoZ7oM-9JqxPlKkH7_JZHRMwlCR2zVXjoCH9F-XlkzxL_a4-YrFaS7VBbPAGCLLbCfqR9jAiR8cPFbXGKfbrLXHF8aHJDSvXy-OHwZWnj5pG9AKJFG0B3AeBh3JLUlVDl7i20WG_dMMzbnuGRi2DEH9jz9PgD=w1280"
+              alt="Missions Relations Alexa"
+              className={styles.infoImage}
+            />
+          </div>
+          <p>
+            <strong>Livre extra-temporel requis :</strong> Ordre de l&apos;Épée, Seigneur de l&apos;été —
+            900 Skystones.
+          </p>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRiYBqAkhQ2wBhlPkaSEYRBwuJwc0t31OdyYjqJjwKAOB4mHmpJQfN2l0pGkXbTEsxVcVJ1-MMVB5YHVXAQfXZGvbXE9VdyipbnUd_bm6x9S0AEyRkMBzqMeBbxcg8O5BpYLUhQHTKrlwj_4mxz5qdPc8NMn8pPR5cBW7pYlC0lCR22ZmkLABiGnbA=w1280"
+              alt="Livre extra-temporel Alexa"
+              className={styles.infoImage}
+            />
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Utilisation en Wyvern 13</h2>
-          <p>
-            Pour remplacer Sigret dans votre composition de la Wyvern 13, suivez simplement le guide
-            classique avec les mêmes équipements que Sigret. Vous pourrez améliorer ses compétences au
-            maximum ainsi que son arbre de compétence.
-          </p>
-          <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQ5oITfVzQ4Dk23li-pBpS_sFlqj5tFjviK1DqJcI-o-DiVyuc0W6rTv2Uupgl5hSFnaF1x2hGj2ZL9X9_BA2fpAXwDLPO0ihr7vYFoAkFdkBcgaKTQIpfiItRZd5UB8we7yd0MJgDTYagbOWwNh4tVYUDAyptVyLFx5IGEnEZCV5xr_gj_lP-IBYI=w1280"
-              alt="Build Alexa pour W13"
-              className={styles.infoImage}
-            />
+          <h2 className={styles.sectionTitle}>Vidéos</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Alexa en Wyvern 13</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('hfEAxmDsGAc')}>
+              <img
+                className={styles.videoThumb}
+                src="https://img.youtube.com/vi/hfEAxmDsGAc/maxresdefault.jpg"
+                alt="Alexa en Wyvern 13"
+              />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Alexa — présentation et missions</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('cagdP9gN53I')}>
+              <img
+                className={styles.videoThumb}
+                src="https://img.youtube.com/vi/cagdP9gN53I/maxresdefault.jpg"
+                alt="Alexa présentation"
+              />
+              <div className={styles.playButton}>▶</div>
+            </div>
           </div>
         </section>
-
-        <p className={styles.note}>
-          Astuce : Alexa est le meilleur investissement pour les débutants souhaitant farm la Wyvern 13
-          sans dépenser de molagoras.
-        </p>
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}

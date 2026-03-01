@@ -15,49 +15,66 @@ export default function Lorina() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros fortement recommandé</h2>
-          <p>L&apos;évolution de Lorina est l&apos;un des meilleurs DPS monocible du jeu en PvE. Elle est très populaire dans presque tous les contenus PvE du jeu : dans les abîmes, en expédition feu, en chasse du Caides ou encore en Labyrinthe.</p>
-          <div style={{ textAlign: 'center', margin: '24px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRvRlj4DwK3mYp1ovTVdHLMZV1ZW31izp7L5BADVhBRtT6yr75mzguWK24pBXkTiaqn2fL99hRyByG21rCyjjUju_g8ZSMYu2tFYorRLFRfODylbYVtfzeIix-GqxLAZ8Kw-QwfOhfBsydQGAYNz2GJRszfM5YSROSAQSQ4cR0qSuxDC7LDyJKe--Q=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0STy-Tf0vscASGlT3TbDMm52BOABbHHT6JFxnbVpMvvNHkjWuSPMqjcwHJpQiVOcFz9ld0R9BXqQv1iEMtTqAOIJ-4JTT2LuFSAoA2Qd6sLFV1DKbkQYCGTAtMbrV7WfrZIp4uOxoX4CflV9MG9YmZlgNjaSF7v4D72VDp6klGUBxHsJF_ItdVrT4E=w1280"
               alt="Lorina"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Lorina est une Guerrière de type Glace. Son évolution est <strong>fortement recommandée</strong>.
+            Elle est une excellente DPS monocible en PvE, très efficace en expédition Feu,
+            lors de la chasse du Caides, et dans le Raid.
+            Elle s&apos;obtient via les <strong>Relations</strong> (3 missions simples).
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Lorina ?</h2>
-          <p>Lorina s&apos;obtient dans les relations : onglet Héros &gt; Recrutement. Puis dans Relations, il y aura 3 missions faciles à effectuer.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Lorina ?</h2>
+          <p>Lorina s&apos;obtient via les <strong>Relations</strong> — 3 missions simples.</p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSC5fT5524tV13GfwLtyIJjp498kVTIt1hU415-TSeisyOrMaLxQDzWAt8Zj98XUgA3cdhUAjCqNSqe8jnhk4pEOnBo1b5ZO8tXBdDknHu-qr4YO0tKLPIMegq17XmBZNxTPs6L1k1AwrnT9Kkg2rP7Oewgblbm8MJNxUVn22TqXlVWZIOjQz1eOCM77NZpXzX0njoJc3BR5kPsVCn4lXd6XGozBIcQ7oq9=w1280"
-              alt="Relations"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQPTc6Y8vn1vHzLbDC3JhtYWgLdBz1HRD-O0a-7hfKT9pF7Ygr5GvKN9vqL_1Z-W3mGV8PPbW5pSE4YjHhPSKfJKLLO-FS_QBnr4VJ-3qF7lpf8WGp8Ie_Ynh65sn1y2ydm3bZPaFQpfxB_Xe7hqU_D-LpjFHZe0gzg3NZXZ_3lcN_BHq-jGrCzWw=w1280"
+              alt="Lorina Relations"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Rendez-vous dans l&apos;onglet Héros &gt; Recrutement &gt; Relations pour débloquer Lorina via les missions de relations.</p>
-            </div>
+          </div>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQr3IY6Ivg-1VH5l-2LqM3FsJ08s9p-38dBRExHHw5c0w1nczeMkWTa9AVEVfIjJrj6bFXFlVyaBnkEY0Dv7tP5gvwP5rfnrp2_VFjJ5lEVr9JEEq0L26J7Z_jkB3p5g7q1D-glP8XBNy2-dGJ2Ij10dqjEv_bFqZQyH4jRdVc89Lfq6UJv3xKZ4d4=w1280"
+              alt="Lorina missions"
+              className={styles.infoImage}
+            />
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
-          <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STnY16DcCJvKfB6O-k9aG24LIGXcicys_kLsWdPlzbQtAzy07jc6aZeWljy_GZy-5VR5nqpEYsaC4cJNBP8nr5Yy-gFN_8qRzIM4T6AvU6C6mLXucbjBAgd2ynm-1yAVaBl3Pf4Ppf_EdIPz9_nBhhScj09pn6IFnsmnlVQBlgNZcmP5m51ytkcnVrd9tdFeht4AVoJcNtkiMjOFusgO1B2jpu5aEHlzJ5h=w1280"
-              alt="Évolution"
-              className={styles.infoImage}
-            />
-            <div className={styles.infoText}>
-              <p>Lorina n&apos;a pas de missions de combat spécifiques pour son évolution. Il suffit de compléter les missions de relations pour la débloquer.</p>
+          <h2 className={styles.sectionTitle}>Vidéos</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Lorina en expédition feu</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('Zz4BqN9Sbco')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/Zz4BqN9Sbco/maxresdefault.jpg" alt="Lorina expédition feu" />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Lorina dans la chasse du Caides</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/_IYBUiu-8X8/maxresdefault.jpg" alt="Lorina Caides" />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Lorina dans le raid</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('aEaM0sJEAvk')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/aEaM0sJEAvk/maxresdefault.jpg" alt="Lorina raid" />
+              <div className={styles.playButton}>▶</div>
             </div>
           </div>
         </section>
-
-        <p className={styles.note}>
-          Lorina est fortement recommandée pour tous les joueurs. Son évolution en fait l&apos;un des meilleurs DPS monocible gratuits du jeu, indispensable pour progresser en PvE.
-        </p>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

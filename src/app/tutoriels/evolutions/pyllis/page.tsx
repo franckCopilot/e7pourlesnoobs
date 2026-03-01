@@ -15,42 +15,59 @@ export default function Pyllis() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
-          <p>L&apos;évolution de Pyllis est principalement utilisée en PvP. C&apos;est un excellent héros pour affronter les compositions avec des contre-attaques, des extra-attaques ou des double-attaques. C&apos;est aussi un bon héros contre l&apos;évasion car elle ne peut pas rater sa troisième compétence.</p>
-          <div style={{ textAlign: 'center', margin: '24px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQYd0XCaVmZy-qWGDV3y_Abv_YtldUrX_dJrx8tu65jO_wtNpj4vE7ljwwQVILj1Hpovalk1VioIRkXCm6_U21dxPSGxvjrMD2WrcVUbVQTXaVQDDEPcY8V-5qpJeRDQo3ZEV2suA_JIbXAtXyr0hVOOw_-sQN9STcQ1hEwDTEvpgNONZhYxSWd024=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQKZA-qQAWwymWgWSmxJtXilNfmgWoMuwWJ_jjEfJWknIuTYNGBF3mD7aAITWcXMwdnW2L0G-Vz1Tc96GJkXnb7HFKFB4dXJoXm8yKJerNe_xhMiqHkQLFxzKXmQJCIfQ6LJnbNw-tGOIW3A8XFtakM4sBvxTmb5aVn6Y7dxX65E8yulGlQi6wJNi0=w1280"
               alt="Pyllis"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Pyllis est une Chevalière de type Feu. Son évolution est optionnelle,
+            principalement utilisée en PvP pour les contre-attaques et l&apos;évasion.
+            Elle s&apos;obtient via les Invocations Lunaires.
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Pyllis ?</h2>
-          <p>Pyllis s&apos;obtient en invoquant, principalement avec les Invocations Lunaires.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Pyllis ?</h2>
+          <p>Pyllis s&apos;obtient via les <strong>Invocations Lunaires</strong>.</p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQqE0LinhT3tqjAF2o_ZSZUWt7T2NUP-E-zYcFPwp_9QQaMOOoAMVSkPcDKsXu0UToCLXIX8qME8QN7QF3jo8HgE9p16uAH-ARGDxniGi55LaINEcFDmdxwuIJiM3nHsEYKN3t9Fzr_ojv-h3kRghpS1PdskyyT555hNA1tTwn8RKPuqRmVJMtJ-u9S4dIK8EnHJvZER4_mte2vtuSZ_mnvJfc_tEAYZFgtFXw=w1280"
-              alt="Évolution"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRhvkjqCuqp6lkpK2IUK9pnQaqQs1oSPJSw1M8smJd32X8CQipmhkfzEdsBiNzn_5WVqNPk1AMrTFDmZUKkN3GJFa9K0oQGjA_U8bR5Eh1Mxe9Xm0bRh7v6DJUOyiLxqHCfhezOhETlkIfnHxEMHv0y3ZGqPFNOuMJkJRLHsIvvpbxk0L0Ml5Q4M=w1280"
+              alt="Mission Pyllis"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Voici les missions à compléter pour évoluer Pyllis :</p>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 150 Angraf Shades (UH 33: 3 elim for 50 reps)</li>
-              </ul>
+          </div>
+          <p><strong>Éliminer 150 Angraf Shades :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 33 : 3 éliminations par run — 50 répétitions</li>
+          </ul>
+        </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Vidéos</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Quelques exemples de composition en arène avec Pyllis</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('YwQCWdYaKYU')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/YwQCWdYaKYU/maxresdefault.jpg" alt="Pyllis arène" />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Pyllis, Roenna ou Byblis et ML Cermia sont très fortes ensemble</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('8eZYyzQBNiE')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/8eZYyzQBNiE/maxresdefault.jpg" alt="Pyllis ML Cermia" />
+              <div className={styles.playButton}>▶</div>
             </div>
           </div>
         </section>
-
-        <p className={styles.note}>
-          Pyllis est un héros optionnel mais très efficace en PvP contre les compositions basées sur les attaques multiples et l&apos;évasion.
-        </p>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

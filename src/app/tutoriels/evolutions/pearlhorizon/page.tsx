@@ -15,43 +15,45 @@ export default function Pearlhorizon() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Niche</h2>
-          <p>L&apos;évolution de Pearlhorizon est peu jouée, c&apos;est un personnage PvP contrôle qui peut endormir les adversaires et effectuer des dégâts.</p>
-          <div style={{ textAlign: 'center', margin: '24px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRalzjnLOkUVcgYTX3dr_nbMDkTxSwTVbo2qyCoafVtxqrgAU_s7QFtNzbSmNcw1KgXZ5PwUVClXGmyBOeJ0z-vvii2XdCXe58L1cBfK9ZywDAKijujXJlnOqHTkr6VwjDq_FS99ZGwMPj1aOxBcvWCVPXAK4_UnUpZXaXI5HoNczNK7ESaPoWahtc=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSDXHD0OXJx5kPLInNcuLmk4wElvdRRLiocHuBjVeE6gPJrlsOFMf7m-8t6YJ9I_JbzVAWRZOq3sAn6GJ-n_Xy_E5s3e7ppAXETdUzVG_C81rSX6pgqKz0eTp8YqEMD3apSWH0VFwX8wHiD9aWdH7fHVFjPaV5mLLGPCLJ1q5_UOJiuR5wXRwExU=w1280"
               alt="Pearlhorizon"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Pearlhorizon est une Mage de type Terre. Son évolution est de niche,
+            principalement utilisée en PvP pour son contrôle et son effet de sommeil.
+            Elle s&apos;obtient via les Invocations de la prophétie.
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Pearlhorizon ?</h2>
-          <p>Pearlhorizon s&apos;obtient en invoquant, principalement avec les Invocation de la prophétie.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Pearlhorizon ?</h2>
+          <p>Pearlhorizon s&apos;obtient via les <strong>Invocations de la prophétie</strong>.</p>
         </section>
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR2qbRN0KYFrZgIsKUaLt9L2i0FzxwAYSoEmjK_cic4BMWZZ_wuGguD1h0nAwMU3_g876EE3_8w1q5LqK5lDKcs1jrTnca8gZvjQ4F46HKDyALNSOiQ1cAkmm9JfBYvzxy24pTW4gOgDh2WhyPkRs2x5zjfdSAOVY02fceQPKAjgkXBiQJVZbPr45yQcFDr8tbXp0kDBIxQaAxb6khN2XqBFAi_ht64tVmtI3Y=w1280"
-              alt="Évolution"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSSIaIDMAbh3LcYS5N2JKL2sEb48DYJ-aaVFI6Uil9HE62sH8dYK8eSTvp6H_D5NhstTzLJMBa5mQv8HnFV5jvAKCNhvRWjYN_i4mwgE4mknG9mEWgUF9PGjhXGy30KOTbv8cX_sB72IFGzGP3WtFGxjJ5r41z7mFCkUV1KqH0vMTZLtmFzIcPLq4=w1280"
+              alt="Missions Pearlhorizon"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Voici les missions à compléter pour évoluer Pearlhorizon :</p>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 500 Artificial Creatures (UH 28: 10 elim for 50 reps)</li>
-                <li>Éliminer 20 Rose apostle Priests (EP2 9-S2: 3 elim for 7 reps)</li>
-              </ul>
-            </div>
           </div>
+          <p><strong>Éliminer 500 Artificial Creatures :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 28 : 10 éliminations par run — 50 répétitions</li>
+          </ul>
+          <p><strong>Éliminer 20 Rose apostle Priests :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>EP2 9-S2 : 3 éliminations par run — 7 répétitions</li>
+          </ul>
         </section>
-
-        <p className={styles.note}>
-          Pearlhorizon étant un héros niche, son évolution n&apos;est recommandée que pour les joueurs avancés qui souhaitent l&apos;utiliser en PvP.
-        </p>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

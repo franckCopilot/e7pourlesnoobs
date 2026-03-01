@@ -15,30 +15,42 @@ export default function SectAxe() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Niche</h2>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR-nB0j0r45kKXJV8ym5hM4VGXZ4-RJCjSa_GS_0Q-3Xt7fF2FkBsaCDOEbkefL9UOlq12F3MVJz2V8ZD1gkVnNEME-A-wJR3Iknj6-N0E1P-5vR4XjxcivFvVEBBH00H1RlE-a2jDpWsxvW5lWFZOiMOlFRCg7fjrOiPxn7XPTyMVbR3kVQhEYJm0=w1280"
+              alt="Sect Axe"
+              className={styles.infoImage}
+            />
+          </div>
           <p>
-            L&apos;évolution de Sect Axe est peu jouée, c&apos;est un personnage PvP orienté
-            dégâts pour contrer les personnages lumière.
+            Sect Axe est un Guerrier de type Glace. Son évolution est de niche,
+            utilisée en PvP pour contrer les héros de type Lumière.
+            Il s&apos;obtient via les Invocations Lunaires.
           </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Sect Axe ?</h2>
-          <p>Sect Axe s&apos;obtient en invoquant, principalement avec les Invocations Lunaires.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Sect Axe ?</h2>
+          <p>Sect Axe s&apos;obtient via les <strong>Invocations Lunaires</strong>.</p>
+        </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQquTaL3jWoQxbO6Io1PsD4WUUCRRv4IMyBBJuBsIrDXctagrHCWPUHamo3DQEuJYXmD_sZg5zSthEuPhq5tt8O6eAvHHPor9ffsAKGDAc4yK8-bzPU8Ki3e6HDSznlKukKSx6smQPbocko6xXJdUT-uswukTCIhbdUGZyuK0b7KoSFqlGtxdCcO87BBPQkBb5WTtx4DK7Qh5GP8t6CTDr5q6ZdKt_Im6rEeCc=w1280"
-              alt="Évolution de Sect Axe"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0STbD8ESTXPjExKa0UH5lf0jS0cFi4yFaKCUAUJ0vTJo7hqvb3n_4B64yIFsPenrJtMdEm7Vl3G-cvP3XP_u1lSIWsGDJqxjikfxfE0JIDPmSiJHu89Z7EFZmxPW4j2Vd0MhzV0LD2YO-K0DVXlWuI7jj19LDFLvGn0E7JzVzAPz_OG0u77_WkyAtK0=w1280"
+              alt="Mission Sect Axe"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p><strong>Quêtes d&apos;évolution :</strong></p>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 500 Church of Ilryos Devotees (UH 12, 13 ou 22 : 6 elim pour 84 reps ; EP1 9-7 labyrinthe : 6 elim pour 84 reps)</li>
-              </ul>
-            </div>
           </div>
+          <p><strong>Éliminer 500 Church of Ilryos Devotees :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 12, UH 13 ou UH 22 : 6 éliminations par run — 84 répétitions</li>
+            <li>EP1 9-7 labyrinthe : 6 éliminations par run — 84 répétitions</li>
+          </ul>
         </section>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

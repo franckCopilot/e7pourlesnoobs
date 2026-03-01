@@ -15,46 +15,42 @@ export default function Helga() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
-          <p>
-            L&apos;évolution de Helga est principalement utilisée en PvE pour effectuer
-            l&apos;expédition glace.
-          </p>
-          <div style={{ textAlign: 'center', margin: '20px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQfGXw6StM7BxDTNBGN9WLUKsFhaFOYRGjJzvjOKLo_XR3a55gbPfXPZGp8K8q6lB1SE04tGu_OlCMG4FZTXidGph-d0b13PYnJ7N6ZgkPcIFmh4SifKZMaoKluq2rZ49cSXpmmlB71WQL9CggJK_ithbaqtkDjNcqy-uucjbFqE9LXHJVFNl4oHVg=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0ST0Jbov4TDyKolJe5zVOiHBXqPFdLn3YEE0bsutyBEi4g1E1iCU1SHHo8jdaF_F7l8i5X7iinzPQScBqeZ1JuCymb_JJ-JRX8ZQqe2zBvRobrwNXPkDSFr7aJPGmXiU6OJLomGh7X--4VGQyU6OaxYKy_OKiO0MhlMoH4QLnQoHfTVbJIclTQpB7g=w1280"
               alt="Helga"
               className={styles.infoImage}
             />
           </div>
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Helga ?</h2>
           <p>
-            Helga s&apos;obtient en invoquant, principalement avec les Invocation de la prophétie.
+            Helga est une Guerrière de type Glace. Son évolution est optionnelle,
+            principalement utile en expédition Glace. Elle s&apos;obtient via les
+            Invocations de la prophétie.
           </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
-          <div className={styles.infoBlock}>
-            <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR2qbRN0KYFrZgIsKUaLt9L2i0FzxwAYSoEmjK_cic4BMWZZ_wuGguD1h0nAwMU3_g876EE3_8w1q5LqK5lDKcs1jrTnca8gZvjQ4F46HKDyALNSOiQ1cAkmm9JfBYvzxy24pTW4gOgDh2WhyPkRs2x5zjfdSAOVY02fceQPKAjgkXBiQJVZbPr45yQcFDr8tbXp0kDBIxQaAxb6khN2XqBFAi_ht64tVmtI3Y=w1280"
-              alt="Évolution Helga"
-              className={styles.infoImage}
-            />
-            <div className={styles.infoText}>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 500 Cultists (UH 12, 13 ou 22 : 6 éliminations pour 84 répétitions ; EP1 4-9 laby : 39 éliminations pour 13 répétitions)</li>
-              </ul>
-            </div>
-          </div>
+          <h2 className={styles.sectionTitle}>Comment obtenir Helga ?</h2>
+          <p>Helga s&apos;obtient via les <strong>Invocations de la prophétie</strong>.</p>
         </section>
 
-        <p className={styles.note}>
-          Conseil : Vérifiez les missions dans le journal d&apos;évolution pour suivre votre progression.
-        </p>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
+          <div className={styles.infoBlock}>
+            <img
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRiSemab2KEOzTg2mXHHH4-V8Q3c5c3wLhxJMqTnMDUoE-vWmCdJkwEBFE8pPjVEFgHzA_VXWjiqshx6_APxmT2IXmZ-K4bKaJRFy8cpbbP0QT9WbMR7AXsezZBynmQo34IgcEGv_-4F0n_9QLKZFZ0Fd2t0hSiB5N9n8FJP6FHvI2RvMa4ykmjQuk=w1280"
+              alt="Mission Helga"
+              className={styles.infoImage}
+            />
+          </div>
+          <p><strong>Éliminer 500 Cultists :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 12, 13 ou 22 : 6 éliminations par run — 84 répétitions</li>
+            <li>EP1 4-9 labyrinthe : 39 éliminations par run — 13 répétitions</li>
+          </ul>
+        </section>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

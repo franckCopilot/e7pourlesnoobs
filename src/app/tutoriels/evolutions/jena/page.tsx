@@ -15,43 +15,45 @@ export default function Jena() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Niche</h2>
-          <p>L&apos;évolution de Jena est peu jouée, c&apos;est une mage PvP orientée DPS/Contrôle.</p>
-          <div style={{ textAlign: 'center', margin: '24px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQhUrkQIY3MQQwRupaP9ZbJscXboSYgMUZNuUJEYtbJFG2jPcE9FobcAZuDZxOzOO_uj5U7xVAGADKGjUvdavWG4u8uUUzeukHDX-76A9VENOjZYn5S2_KvXHTtj1Pb6E-1iqtBFEqDjtnGX0S-bWwrkzXfaLoS5UXwSE-BaJ6C-JPoKDiA3U83=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRn1VDLHlBPqpzfxeOXC-nZnlP3Jg9cAQhENFXC8HLBnS0AzfZRPnJkh46ANuYNY9u87Ixe-LJjfk13SuE0PmpqzovyRr3Wr0Gw2A-4oRXcEk6xFiWLKFenMT7CaZoJ7xlMwHpSf0kp3qlqfAoK9hDKFWzPKjA2YgPqt7WMK01vJ6xFnshLFxmH0=w1280"
               alt="Jena"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Jena est une Mage de type Feu. Son évolution est de niche, principalement
+            utilisée en PvP pour son contrôle et ses dégâts. Elle s&apos;obtient via les
+            Invocations de la prophétie.
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Jena ?</h2>
-          <p>Jena s&apos;obtient en invoquant, principalement avec les Invocation de la prophétie.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Jena ?</h2>
+          <p>Jena s&apos;obtient via les <strong>Invocations de la prophétie</strong>.</p>
         </section>
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR2qbRN0KYFrZgIsKUaLt9L2i0FzxwAYSoEmjK_cic4BMWZZ_wuGguD1h0nAwMU3_g876EE3_8w1q5LqK5lDKcs1jrTnca8gZvjQ4F46HKDyALNSOiQ1cAkmm9JfBYvzxy24pTW4gOgDh2WhyPkRs2x5zjfdSAOVY02fceQPKAjgkXBiQJVZbPr45yQcFDr8tbXp0kDBIxQaAxb6khN2XqBFAi_ht64tVmtI3Y=w1280"
-              alt="Évolution"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SS_5hj8dVxBUjhScM93C1j0pVFh0_k1biUEbegNfagfyq_k7n8dvWbYAfV7x2OX_bXCeX1SjIX0Sb_1iQGpYZQ-P5Ao2Gm8EuFJvqf9OHMpFAb7wPr-g4bK-24k7wJrHevKJ7FaFWkyaIl0pJPR1NtWNW3Y90TbXuCb7iFVSYCx8Nv3WsunT7FIg=w1280"
+              alt="Missions Jena"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Voici les missions à compléter pour évoluer Jena :</p>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Capturer 45 Church of Ilryos Devotees (UH 13: TBD)</li>
-                <li>Éliminer 25 Ilryos Devotees in the Fabricated Altar labyrinth avec Jena dans l&apos;équipe (Great Farche Labyrinth zone 2)</li>
-              </ul>
-            </div>
           </div>
+          <p><strong>Capturer 45 Church of Ilryos Devotees :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 13 : plusieurs éliminations par run</li>
+          </ul>
+          <p><strong>Éliminer 25 Ilryos Devotees dans le labyrinthe Fabricated Altar avec Jena :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>Great Farche Labyrinth zone 2</li>
+          </ul>
         </section>
-
-        <p className={styles.note}>
-          Jena étant un héros niche, son évolution n&apos;est recommandée que pour les joueurs avancés qui souhaitent l&apos;utiliser en PvP.
-        </p>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );

@@ -15,42 +15,66 @@ export default function Kluri() {
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation — Héros Optionnel</h2>
-          <p>L&apos;évolution de Kluri est utilisée en PvP pour affronter les héros avec de l&apos;évasion ou avec des esprits combattifs/concentrations. Elle est utile en PvE dans beaucoup de contenus comme les expéditions.</p>
-          <div style={{ textAlign: 'center', margin: '24px 0' }}>
+          <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SR1DdTCfTOjCJg7g82tPhc1WjHZ5XoyRLkmW1RSUx5Zyiq4UhoILbOP6Rsxa9BYTDbSaRat_mSpZ9z8pAa37XIGme_MNJ1113FRy8s2r7KQUqArBuXy06ugQZfpQcoQLrbbkggNPmZ3Y5LhotiWRK6yiUvdJJYlALCPvAiTrcqtvDtPoDt2yAWn=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRVbDoWSJqNj8PN5rDVEJI-lQ1xOL-nnJlhwUUjasV16cllIr7V1wkPKOTSmm1qSXn4kMeK0PEp3eo_sBh4_oq95bDJU4RkApkn3piAaFo5j7UMbMEomN0-E1IkLqSZ6d1y36IZRiCEOy5XVQyEW03vPCQ-ky7SFSlEzHy7r3e67qO7UBGHAenELo=w1280"
               alt="Kluri"
               className={styles.infoImage}
             />
           </div>
+          <p>
+            Kluri est une Chevalière de type Terre. Son évolution est optionnelle mais recommandée.
+            Elle est utile en PvP pour ses évasions et ses esprits combattifs, ainsi qu&apos;en expéditions.
+            Elle s&apos;obtient en terminant l&apos;Épisode 1 de l&apos;aventure.
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Comment débloquer Kluri ?</h2>
-          <p>Kluri s&apos;obtient en terminant l&apos;épisode 1 de l&apos;aventure.</p>
+          <h2 className={styles.sectionTitle}>Comment obtenir Kluri ?</h2>
+          <p>Kluri s&apos;obtient en terminant l&apos;<strong>Épisode 1</strong> de l&apos;aventure.</p>
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Missions d&apos;évolution</h2>
+          <h2 className={styles.sectionTitle}>Mission d&apos;évolution</h2>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSr3t_pz8BcXNDacKWO2IAjkhzckxCAtaHo0Q0alueDrLcQzKYffooLJdyKpcUfaKBk1muWurTqtj4tZJ-nAKAQBUO5p2XeMqKf3uU4FbVy7Nsr1ZoTIvWgg2nignTg4AM8aNOlX5vUxf1FMiZ9x4r8JtEYXP-FGtnLxbLH-3vN04CjB4M8AVh-1Jhdud7yiqEgjXEHvc4d2ZLRQbJVhLyJyqTM80UMJkbi=w1280"
-              alt="Évolution"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SS1q2Lwc5EbuONjP2wYmrv8D3-9iX1hM3VuJA4E1A5vMGJbr-q0I_o2VGQJ4FuDpIfUu7CsEllpQ3JGX9lpLNq8qFkzqD45m-qxlZoV0bOEJrW6C6ZDHe3DH_Oa2c-zv1FQIu8QBjZe5Ah4cWLTsLGiJvKhJPSXGbzMc8SxNNHr7KHYtXXCz_s8=w1280"
+              alt="Mission Kluri"
               className={styles.infoImage}
             />
-            <div className={styles.infoText}>
-              <p>Voici les missions à compléter pour évoluer Kluri :</p>
-              <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
-                <li>Éliminer 500 Wild Plants (UH 21: 8 elim for 63 reps)</li>
-              </ul>
+          </div>
+          <p><strong>Éliminer 500 Wild Plants :</strong></p>
+          <ul style={{ paddingLeft: '24px', marginBottom: '16px' }}>
+            <li>UH 21 : 8 éliminations par run — 63 répétitions</li>
+          </ul>
+        </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Vidéos</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Combat d&apos;épreuve pour l&apos;évolution de Kluri</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('8dOfmokhJOE')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/8dOfmokhJOE/maxresdefault.jpg" alt="Combat épreuve Kluri" />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Kluri depuis son Buff</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('vv0sGbQb5h4')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/vv0sGbQb5h4/maxresdefault.jpg" alt="Kluri Buff" />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Kluri en Expédition</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('64omwJinrB4')}>
+              <img className={styles.videoThumb} src="https://img.youtube.com/vi/64omwJinrB4/maxresdefault.jpg" alt="Kluri Expédition" />
+              <div className={styles.playButton}>▶</div>
             </div>
           </div>
         </section>
-
-        <p className={styles.note}>
-          Kluri est un héros optionnel mais très utile en PvP et en expéditions. Son évolution est recommandée pour les joueurs qui souhaitent diversifier leur roster.
-        </p>
       </div>
+
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
     </MainLayout>
   );
