@@ -482,6 +482,41 @@ export default function Approfondir() {
           <p>Si un équipement possède <strong>3+ vitesse</strong> en caractéristique secondaire, vous devriez roll au moins en +3. Si le roll est en vitesse, continuez de roll.</p>
           <p>Les équipements à <strong>20+ de vitesse</strong> sont très rentables mais difficiles à obtenir, il est donc important de &quot;speed check&quot; chaque équipement avec de la vitesse dessus.</p>
         </section>
+
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr 1fr',
+          gap: '24px',
+          justifyContent: 'center',
+          alignItems: 'center',
+          margin: '32px 0',
+        }}>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi/q32E5I1Xrek/sddefault.jpg" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi_webp/SbjcZc-TTlw/sddefault.webp" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi_webp/rBfWWD8kNyg/sddefault.webp" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi/fQVF_Ym5vhI/sddefault.jpg" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi/iqVMWsRj-kg/sddefault.jpg" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+          <div className={styles.videoWrapper} onClick={() => setActiveVideo('_IYBUiu-8X8')}>
+            <img src="https://i.ytimg.com/vi/6vJcvv5ggmI/sddefault.jpg" alt="" className={styles.videoThumb} />
+            <div className={styles.playButton}>▶</div>
+          </div>
+        </div>
+
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}
