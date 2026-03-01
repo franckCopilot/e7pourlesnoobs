@@ -279,10 +279,10 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Chances Crit</div>
-                <div style={{ fontWeight: 'bold' }}>Dégât Crit</div>
-                <div style={{ fontStyle: 'bold' }}>Santé %</div>
-                <div style={{ fontStyle: 'bold' }}>Défense %</div>
+                <div style={{ fontWeight: 'bold' }}><strong>Chances Crit</strong></div>
+                <div style={{ fontWeight: 'bold' }}><strong>Dégât Crit</strong></div>
+                <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
+                <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
                 <div>Attaque %</div>
                 <div>Vitesse</div>
               </div>
@@ -290,7 +290,7 @@ export default function Approfondir() {
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}><strong>Attaque %</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
-                <div style={{ fontWeight: 600 }}><strong>Défense %</strong></div>
+                <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
@@ -366,8 +366,8 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div style={{ fontWeight: 600 }}>Défense</div>
+                <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
+                <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
                 <div>Vitesse</div>
                 <div>Résistance d&apos;effet</div>
                 <div>Efficacité</div>
@@ -377,16 +377,16 @@ export default function Approfondir() {
                 <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
                 <div style={{ fontWeight: 600 }}><strong>Résistance d&apos;effet</strong></div>
-                <div><strong>Vitesse</strong></div>
-                <div><strong>Efficacité</strong></div>
+                <div>Vitesse</div>
+                <div>Efficacité</div>
               </div> 
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}><strong>Vitesse</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
-                <div><strong>Résistance d&apos;effet</strong></div>
-                <div><strong>Efficacité</strong></div>
+                <div>Résistance d&apos;effet</div>
+                <div>Efficacité</div>
               </div>
             </div>
           </div> 
@@ -457,14 +457,14 @@ export default function Approfondir() {
                 <div>Vitesse</div>
                 <div>Résistance d&apos;effet</div>
                 <div>Efficacité</div>
-              </div>
+              </div> 
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}><strong>Efficacité</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Santé %</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Défense %</strong></div>
                 <div style={{ fontWeight: 'bold' }}><strong>Résistance d&apos;effet</strong></div>
-                <div><strong>Vitesse</strong></div> 
+                <div>Vitesse</div> 
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
