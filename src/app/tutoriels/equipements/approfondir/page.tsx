@@ -53,6 +53,7 @@ export default function Approfondir() {
             <li>Résistance d&apos;effet : 4%-8%</li>
             <li>Efficacité : 4%-8%</li>
           </ul>
+          <p>*5 de vitesse a seulement 0,3% de chance de roll sur un équipement épique.</p>
 
           <div className={styles.infoBlock}>
             <img src="/images/tutoriels/equipements/approfondir3.jpg" alt="Points d&apos;équipement" className={styles.infoImage} />
@@ -184,8 +185,8 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Chances Crit</div>
-                <div style={{ fontWeight: 'bold' }}>Dégât Crit</div>
+                <div style={{ fontWeight: 600 }}>Chances Crit</div>
+                <div style={{ fontWeight: 600 }}>Dégât Crit</div>
                 <div>Attaque %</div>
                 <div>Vitesse</div>
                 <div style={{ fontStyle: 'italic' }}>Santé %</div>
@@ -193,7 +194,7 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Attaque %</div>
+                <div style={{ fontWeight: 600 }}>Attaque %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
@@ -206,7 +207,7 @@ export default function Approfondir() {
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
-                <div style={{ fontWeight: 'bold' }}>Santé %</div>
+                <div style={{ fontWeight: 600 }}>Santé %</div>
                 <div style={{ fontWeight: 'bold' }}>Défense %</div>              </div>
             </div>
           </div>
@@ -288,14 +289,14 @@ export default function Approfondir() {
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div style={{ fontWeight: 'bold' }}>Défense %</div>
+                <div style={{ fontWeight: 600 }}>Défense %</div>
                 <div>Chances Crit</div>
                 <div>Dégât Crit</div>
                 <div>Vitesse</div>
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t6.png" alt="Bottes" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Vitesse</div>
+                <div style={{ fontWeight: 600 }}>Vitesse</div>
                 <div style={{ fontWeight: 'bold' }}>Attaque %</div>
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
                 <div style={{ fontWeight: 'bold' }}>Défense %</div>
@@ -365,7 +366,7 @@ export default function Approfondir() {
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t4.png" alt="Collier" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
-                <div style={{ fontWeight: 'bold' }}>Défense</div>
+                <div style={{ fontWeight: 600 }}>Défense</div>
                 <div>Vitesse</div>
                 <div>Résistance d&apos;effet</div>
                 <div>Efficacité</div>
@@ -374,7 +375,7 @@ export default function Approfondir() {
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
                 <div style={{ fontWeight: 'bold' }}>Défense %</div>
-                <div style={{ fontWeight: 'bold' }}>Résistance d&apos;effet</div>
+                <div style={{ fontWeight: 600 }}>Résistance d&apos;effet</div>
                 <div>Vitesse</div>
                 <div>Efficacité</div>
               </div> 
@@ -458,7 +459,7 @@ export default function Approfondir() {
               </div>
               <div style={{ textAlign: 'center' }}>
                 <img src="/images/tutoriels/equipements/t5.png" alt="Anneau" style={{ width: '120px', height: '120px', marginBottom: '8px', borderRadius: '12px' }} />
-                <div style={{ fontWeight: 'bold' }}>Efficacité</div>
+                <div style={{ fontWeight: 600 }}>Efficacité</div>
                 <div style={{ fontWeight: 'bold' }}>Santé %</div>
                 <div style={{ fontWeight: 'bold' }}>Défense %</div>
                 <div style={{ fontWeight: 'bold' }}>Résistance d&apos;effet</div>
