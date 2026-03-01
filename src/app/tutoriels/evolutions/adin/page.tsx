@@ -24,7 +24,7 @@ export default function Adin() {
           </p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STg628Cs4FDwafA5guVc0bY7OnvY13VaXpEYT95EUwy9691STtWGvGDLnfHs26i66Ks90JvkgC7T_sEhho1AqV7y9bPAUfsPbp2TWDwT-zqHCtduKcKSXcGEbGIO85J5Bc-C73FdnqGT9iItavuocTwqL6_-vDZV9mLHGgpPtVc4MnwGhpPAqht2fQ=w1280"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0STE97fG9L6R_qUb3_Und76VXs3Mw-tbr-vCTuJ5j1V_OZBIIPHpWEW_gZTWMrQrYHg0cGqoCMSC9eaxuLkD8q_TkOd7TM-2ZqrSf7rVKP6HYg3lhDAktAbJ-Jrauq7mAuB9YzoaA4mwPpwJBuB7IVh6n42Ax16HWpBmCy1AtagMYZb3VKJP39fAXj8=w1280"
               alt="Adin"
               className={styles.infoImage}
             />
@@ -39,8 +39,8 @@ export default function Adin() {
           </p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STcNdPakjDc_Ue4oLkc2DkoQ6Hk4Z7nc-2kSbZXMH-pjxDKJGo0knO5bvywFazXhALOwA4-g2mAMPO8aAvRdt2CEx_s51WNTwMDCgQv7KZzAxlloy2UQr4pD_YHTLVRsTpAY0rQFuVSfxI0mQ3Nk8iwFq9Pwtv0HH1gI9LhvOtHPLTK_F2sKlbCgFxvqU0y-KNpd818XVwTU2TwouEV1DdhTkEBp9bHlrDOLag=w1280"
-              alt="Évolution Adin"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSpox0d1Hl3-BAYpOTuh2Y5yA3xCs6HRojzMeDZl0RC2ZoKRiBT5AQ4cBzUlpKzAbB0UchKDrC1h2MCEBz7Ennol5nfrZo9fYfUXiS3PzPEaI_dG1vtaGIqMNWR_sepy1SJCTZLVxPBbs-a6mDXetKEBCtaINDb1y6Uu0unHDyQvlMKHJIFGXN_PQQa3XO1KAVk6MEep_q8rmgGAVMpFdxy0r3yOnMoxQNw3vU=w1280"
+              alt="Débloquer Adin"
               className={styles.infoImage}
             />
           </div>
@@ -78,8 +78,8 @@ export default function Adin() {
           </p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SRhuYskHkdGD12Jgie65GC_50w-_Pd9dXTFLpu83sivYQWQI-DfqBDf5za7veqdQZBDM80Kc33yFty8K_PUkG9AInhEP97xyyql_Kh-L7bzB4uo6sqFBffc1XzNIPOZVD5d77hXZScvUe7dz_Wrp50bBbfoHpu1FbLJacKiyRCasnH78yjZSvIACL0DNjSNBVswUcxLjiZiuPM5MtHqtXfiQAF4Fx8NywrF=w1280"
-              alt="Changement d'élément Adin"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSZ4YLyyX_ofMw7-bHA9OLOi-dYP3k3kNrym40ikI5UVsbpvjDeJGKwxWQFu08N9dmFVoC1zN0Vj_xCNMGo0zRrSgOK99DIPpumyBhxDR1iA7ftu9rCujvT48voyiw6QzHXxPC8Eoc-0pFT9FlzBKeiOf0HBIAPBn89FXlvqCxOjtph--UIsE8VIN_J9odccyQ2yfv55IhK_8g2G3kV-aMyTeZVT7phb_y2=w1280"
+              alt="Versions d'Adin"
               className={styles.infoImage}
             />
           </div>
@@ -87,19 +87,46 @@ export default function Adin() {
             Rendez-vous dans l&apos;épisode 4 Natalon de l&apos;aventure pour accéder aux différentes
             versions d&apos;Adin : Terre, feu, glace &amp; Lumière.
           </p>
+          <p>
+            Pour changer l&apos;élément d&apos;Adin, il suffira de cliquer sur l&apos;élément souhaité puis
+            sur altération d&apos;élément. 2 ressources élémentaires vous seront demandées en échange.
+            Ces ressources peuvent être achetées dans le bureau d&apos;échange de l&apos;épisode 4 contre
+            400 Points d&apos;aventure chacune. Le premier changement d&apos;élément est gratuit.
+          </p>
           <div className={styles.infoBlock}>
             <img
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSb1MPm86dDMo28rK4zqtpxVcTbXdwg0414hzG2gwlHZxmkQa1s5UT10iuIm9bkccb5EXfj3EMVRnB1zVWWro8geiR4b8GaiAQtbVU0z5O3k-o1azmkudLcYGSVhhNhZyHpl-07RjESqZkLC9UTMSHmctNtYovyY8ARSQjMcE9vGlRnyr3PsHLO_XAHE6C6EK4XDOnZWgbvK4cV3ZZDVKbjr6BUq8tHm6BMje4=w1280"
-              alt="Achat ressources élémentaires"
+              src="https://lh3.googleusercontent.com/sitesv/APaQ0SQd278colGDyAHFCKAVNZniwE0gRjulDmOmipmhwNUgHNEGngIo5V8IgzCWWgJbLvLXs4cbKRdi4ok3PXTcKWrDuKaFAhyyy1xpe13FYM1r3KTRAIIO64hHF03kqCdoIwSuNXVhPEqdNfxSvukviZS-Ni-9LnynlHs7S_xwqunGzauUDc5Qc-ppHMVpJg6OzO1tyZOiISCgFS4kD4deS57vJL-oXwsJ-BdKhX4=w1280"
+              alt="Changement d'élément Adin"
               className={styles.infoImage}
             />
           </div>
         </section>
 
-        <p className={styles.note}>
-          Astuce : La version Lumière d&apos;Adin est la plus populaire et la plus performante.
-          Concentrez vos ressources sur cette version en priorité.
-        </p>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Vidéos</h2>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Guide complet Adin</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('rpe3jB2vTo4')}>
+              <img
+                className={styles.videoThumb}
+                src="https://img.youtube.com/vi/rpe3jB2vTo4/maxresdefault.jpg"
+                alt="Guide complet Adin"
+              />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+            <p className={styles.videoLabel}>Adin — missions et changement d&apos;élément</p>
+            <div className={styles.videoWrapper} onClick={() => setActiveVideo('-_J50kSZED0')}>
+              <img
+                className={styles.videoThumb}
+                src="https://img.youtube.com/vi/-_J50kSZED0/maxresdefault.jpg"
+                alt="Adin missions et changement d'élément"
+              />
+              <div className={styles.playButton}>▶</div>
+            </div>
+          </div>
+        </section>
       </div>
 
       {activeVideo && <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />}

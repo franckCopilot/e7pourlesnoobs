@@ -165,6 +165,25 @@
   margin: 0 auto 40px;
 }
 
+/* Simple info block: image centered */
+.infoBlock {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.infoImage {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.infoText {
+  margin-top: 12px;
+  text-align: left;
+}
+
 /* Info blocks - 2-column grid (text above, image below) */
 .infoGrid {
   display: grid;
