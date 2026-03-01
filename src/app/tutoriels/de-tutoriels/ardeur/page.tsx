@@ -56,8 +56,8 @@ export default function Ardeur() {
             </div>
           </div>
 
-          <p>Toutefois, il existe des héros pouvant diminuer le gain d&apos;ardeur au combat. C&apos;est par exemple le cas de <strong>Politis</strong> et de <strong>ML Yufine</strong> qui diminuent le gain d&apos;ardeur au combat de 50% des adversaires.</p>
-          <p>Il est possible de cumuler Politis et ML Yufine dans la même équipe pour diminuer de 100% le gain d&apos;ardeur au combat des adversaires.</p>
+          <p>Toutefois, il existe des héros pouvant diminuer le gain d&apos;ardeur au combat. C&apos;est par exemple le cas de <strong>Politis</strong> et de <strong>ML Yufine</strong> qui diminuent le gain d&apos;ardeur au combat de 50% des adversaires. Ainsi une compétence qui augmente l&apos;ardeur au combat de 20% des adversaires augmentera seulement leur ardeur au combat de 10%.</p>
+          <p>Il est possible de cumuler Politis et ML Yufine dans la même équipe pour diminuer de 100% le gain d&apos;ardeur au combat des adversaires et ainsi nullifier l&apos;effet de gain.</p>
 
           <div className={styles.infoBlock}>
             <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRqI-5bUI_Fpzd3XxL-gQHOfrw8TAmYHsG6wKW8xOOzErr0-SnO5hCZQ7ZGSZrPVo77zdPg3-d9sSF7NJ_cH0EHs_x4GlQ6YuhXjSegEXODJFoYgiiZJhIqMBBbvryXOH85eE9ASpQeC30cLzXBCEjRVVXSI2xucDlNgSslBNUGJh7aMGQUHCIyYH0=w1280" alt="Malus entrave" className={styles.infoImage} />
