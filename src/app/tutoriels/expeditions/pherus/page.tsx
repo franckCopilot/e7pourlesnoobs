@@ -1,12 +1,7 @@
-'use client';
-
-import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
-import VideoModal from '@/components/VideoModal';
 import styles from '../../tutoriels.module.css';
 
 export default function Pherus() {
-  const [activeVideo] = useState<string | null>(null);
 
   return (
     <MainLayout>
@@ -59,7 +54,6 @@ export default function Pherus() {
         </section>
       </div>
 
-      {activeVideo && <VideoModal videoId={activeVideo} onClose={() => {}} />}
     </MainLayout>
   );
 }

@@ -1,12 +1,7 @@
-'use client';
-
-import { useState } from 'react';
 import MainLayout from '@/components/MainLayout';
-import VideoModal from '@/components/VideoModal';
 import styles from '../../tutoriels.module.css';
 
 export default function Symaqus() {
-  const [activeVideo] = useState<string | null>(null);
 
   return (
     <MainLayout>
@@ -51,7 +46,6 @@ export default function Symaqus() {
         </section>
       </div>
 
-      {activeVideo && <VideoModal videoId={activeVideo} onClose={() => {}} />}
     </MainLayout>
   );
 }
