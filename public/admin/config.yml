@@ -2,7 +2,8 @@ backend:
   name: github
   repo: franckCopilot/e7pourlesnoobs
   branch: main
-  base_url: https://e7pourlesnoobs.vercel.app
+#  base_url: https://e7pourlesnoobs.vercel.app
+  base_url: https://e7pourlesnoobs-git-decap-cms-franck-ia.vercel.app
   auth_endpoint: /api/oauth
 
 media_folder: public/images/uploads
