@@ -1,0 +1,229 @@
+backend:
+  name: github
+  repo: franckCopilot/e7pourlesnoobs
+  branch: main
+#  base_url: https://e7pourlesnoobs.vercel.app
+  base_url: https://e7pourlesnoobs-git-decap-cms-franck-ia.vercel.app
+  auth_endpoint: /api/oauth
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+locale: fr
+
+collections:
+  # ─────────────────────────────────────────────
+  # Page d'accueil — articles du feed
+  # ─────────────────────────────────────────────
+  - name: home
+    label: "Accueil — Articles"
+    folder: content/home
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Ordre d'affichage", name: order, widget: number, default: 1 }
+      - { label: Type, name: type, widget: select, options: [Guides, Vidéos, Actualités] }
+      - { label: Titre, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: "Image (URL YouTube ou autre)", name: image, widget: string }
+      - { label: Date, name: date, widget: string, hint: "ex: 12 févr. 2026" }
+      - { label: "Temps de lecture", name: readTime, widget: string, hint: "ex: 12 min de vidéo" }
+      - { label: Tags, name: tags, widget: list }
+      - { label: "Mis en avant", name: featured, widget: boolean, default: false }
+      - { label: "ID YouTube", name: videoId, widget: string }
+
+  # ─────────────────────────────────────────────
+  # Actualités
+  # ─────────────────────────────────────────────
+  - name: actu
+    label: Actualités
+    folder: content/actu
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Ordre d'affichage", name: order, widget: number, default: 1 }
+      - { label: Titre, name: title, widget: string }
+      - { label: "Image (URL)", name: image, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: "Texte du lien", name: linkText, widget: string }
+      - { label: "URL du lien", name: linkUrl, widget: string }
+
+  # ─────────────────────────────────────────────
+  # Évolutions
+  # ─────────────────────────────────────────────
+  - name: evolutions
+    label: Évolutions
+    folder: content/evolutions
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - { label: Contenu, name: content, widget: markdown, required: false }
+      - label: Vidéos
+        name: videos
+        widget: list
+        required: false
+        fields:
+          - { label: "ID YouTube", name: videoId, widget: string }
+          - { label: Label, name: label, widget: string }
+
+  # ─────────────────────────────────────────────
+  # Chasses
+  # ─────────────────────────────────────────────
+  - name: chasses
+    label: Chasses
+    folder: content/chasses
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - label: Vidéos
+            name: videos
+            widget: list
+            required: false
+            fields:
+              - { label: "ID YouTube", name: videoId, widget: string }
+              - { label: Label, name: label, widget: string }
+          - { label: Contenu, name: content, widget: markdown, required: false }
+      - label: "Équipements des héros"
+        name: heroEquipments
+        widget: list
+        required: false
+        fields:
+          - { label: "Image (URL ou chemin)", name: img, widget: string }
+          - { label: Description, name: desc, widget: text }
+
+  # ─────────────────────────────────────────────
+  # Constellations
+  # ─────────────────────────────────────────────
+  - name: constellations
+    label: Constellations
+    folder: content/constellations
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - label: Vidéos
+            name: videos
+            widget: list
+            required: false
+            fields:
+              - { label: "ID YouTube", name: videoId, widget: string }
+              - { label: Label, name: label, widget: string }
+          - { label: Contenu, name: content, widget: markdown, required: false }
+      - label: "Équipements des héros"
+        name: heroEquipments
+        widget: list
+        required: false
+        fields:
+          - { label: "Image (URL ou chemin)", name: img, widget: string }
+          - { label: Description, name: desc, widget: text }
+
+  # ─────────────────────────────────────────────
+  # Expéditions
+  # ─────────────────────────────────────────────
+  - name: expeditions
+    label: Expéditions
+    folder: content/expeditions
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - label: Vidéos
+            name: videos
+            widget: list
+            required: false
+            fields:
+              - { label: "ID YouTube", name: videoId, widget: string }
+              - { label: Label, name: label, widget: string }
+          - { label: Contenu, name: content, widget: markdown, required: false }
+      - label: "Équipements des héros"
+        name: heroEquipments
+        widget: list
+        required: false
+        fields:
+          - { label: "Image (URL ou chemin)", name: img, widget: string }
+          - { label: Description, name: desc, widget: text }
+
+  # ─────────────────────────────────────────────
+  # De-Tutoriels
+  # ─────────────────────────────────────────────
+  - name: de-tutoriels
+    label: "Dé-Tutoriels"
+    folder: content/de-tutoriels
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - label: Vidéos
+            name: videos
+            widget: list
+            required: false
+            fields:
+              - { label: "ID YouTube", name: videoId, widget: string }
+              - { label: Label, name: label, widget: string }
+          - { label: Contenu, name: content, widget: markdown, required: false }
+      - label: "Équipements des héros"
+        name: heroEquipments
+        widget: list
+        required: false
+        fields:
+          - { label: "Image (URL ou chemin)", name: img, widget: string }
+          - { label: Description, name: desc, widget: text }
+
+  # ─────────────────────────────────────────────
+  # Équipements
+  # ─────────────────────────────────────────────
+  - name: equipements
+    label: Équipements
+    folder: content/equipements
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Titre, name: title, widget: string }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Titre de section", name: sectionTitle, widget: string, required: false }
+          - label: Vidéos
+            name: videos
+            widget: list
+            required: false
+            fields:
+              - { label: "ID YouTube", name: videoId, widget: string }
+              - { label: Label, name: label, widget: string }
+          - { label: Contenu, name: content, widget: markdown, required: false }
