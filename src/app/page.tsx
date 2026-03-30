@@ -1,8 +1,10 @@
 import HomeContent from '@/components/HomeContent';
-import { getAllContent } from '@/lib/content';
+import { getLatestVideos } from '@/lib/youtube';
 
-export default function Home() {
-  const items = getAllContent('home').sort((a, b) => ((a.order as number) || 0) - ((b.order as number) || 0));
-  return <HomeContent items={items as any} />;
+export const revalidate = 3600; // Re-fetch YouTube videos every hour
+
+export default async function Home() {
+  const videos = await getLatestVideos(9);
+  return <HomeContent videos={videos} />;
 }
 

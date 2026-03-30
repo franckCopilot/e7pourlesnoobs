@@ -180,3 +180,10 @@
     padding: 40px 20px;
   }
 }
+
+.emptyMessage {
+  text-align: center;
+  color: #999;
+  font-size: 1.1rem;
+  padding: 60px 20px;
+}
