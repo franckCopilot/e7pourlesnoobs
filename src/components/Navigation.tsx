@@ -31,10 +31,7 @@ export default function Navigation({ chasses = [], constellations = [], evolutio
   const MENU_ITEMS: MenuItem[] = [
   { 
     label: 'ACCUEIL', 
-    path: '/',
-    submenu: [
-      { label: 'Actu', path: '/actu' }
-    ]
+    path: '/'
   },
   { label: 'Aventure de 0', path: '/aventure-de-0' },
   { 
