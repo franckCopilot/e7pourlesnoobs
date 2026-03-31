@@ -1,12 +1,10 @@
-import MainLayout from '@/components/MainLayout'
 import { getAllContent } from '@/lib/content'
 import styles from './actu.module.css'
 
 export default function ActuPage() {
   const entries = getAllContent('actu').sort((a, b) => ((a.order as number) || 0) - ((b.order as number) || 0))
   return (
-    <MainLayout>
-      <div className={styles.container}>
+    <div className={styles.container}>
         <h1 className={styles.pageTitle}>Actualité</h1>
 
         <div className={styles.actuList}>
@@ -38,6 +36,5 @@ export default function ActuPage() {
           ))}
         </div>
       </div>
-    </MainLayout>
   )
 }

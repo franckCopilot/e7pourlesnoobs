@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from './permutation.module.css';
 
@@ -9,11 +8,10 @@ export default function PierresPermutation() {
   const [selectedVideoId, setSelectedVideoId] = useState<string | null>(null);
 
   return (
-    <MainLayout>
-      <div className={styles.container}>
-        <div className={styles.header}>
-          <h1 className={styles.title}>PIERRES DE PERMUTATION</h1>
-        </div>
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <h1 className={styles.title}>PIERRES DE PERMUTATION</h1>
+      </div>
         {/* All sections */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Présentation</h2>
@@ -269,6 +267,5 @@ export default function PierresPermutation() {
           onClose={() => setSelectedVideoId(null)} 
         />
       </div>
-    </MainLayout>
   );
 }

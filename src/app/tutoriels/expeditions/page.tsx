@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
@@ -19,7 +18,7 @@ export default function Expeditions() {
   ];
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>EXPÉDITIONS</h1>
 
@@ -162,6 +161,6 @@ export default function Expeditions() {
           onClose={() => setActiveVideo(null)}
         />
       )}
-    </MainLayout>
+    </>
   );
 }

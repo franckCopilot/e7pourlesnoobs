@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
@@ -57,7 +56,7 @@ export default function Evolutions() {
   );
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>ÉVOLUTIONS</h1>
 
@@ -177,6 +176,6 @@ export default function Evolutions() {
           onClose={() => setActiveVideo(null)}
         />
       )}
-    </MainLayout>
+    </>
   );
 }

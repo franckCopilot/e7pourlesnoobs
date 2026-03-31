@@ -1,4 +1,3 @@
-import MainLayout from '@/components/MainLayout'
 import styles from './contact.module.css'
 
 export const metadata = {
@@ -8,8 +7,7 @@ export const metadata = {
 
 export default function Contact() {
   return (
-    <MainLayout>
-      <div className={styles.container}>
+    <div className={styles.container}>
         <h1 className={styles.title}>CONTACT</h1>
 
         <div className={styles.formWrapper}>
@@ -23,6 +21,5 @@ export default function Contact() {
           </iframe>
         </div>
       </div>
-    </MainLayout>
   )
 }

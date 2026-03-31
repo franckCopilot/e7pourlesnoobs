@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from '@/app/tutoriels/tutoriels.module.css';
 
@@ -93,7 +92,7 @@ export default function EvolutionPageContent({ data }: { data: EvolutionData }) 
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>{data.title}</h1>
 
@@ -132,6 +131,6 @@ export default function EvolutionPageContent({ data }: { data: EvolutionData }) 
       {activeVideo && (
         <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />
       )}
-    </MainLayout>
+    </>
   );
 }

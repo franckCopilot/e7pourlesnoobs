@@ -1,4 +1,3 @@
-import MainLayout from '@/components/MainLayout';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
 
@@ -9,8 +8,7 @@ export default function Equipements() {
   ];
 
   return (
-    <MainLayout>
-      <div className={styles.subContainer}>
+    <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>ÉQUIPEMENTS</h1>
 
         {/* Présentation */}
@@ -35,6 +33,5 @@ export default function Equipements() {
           ))}
         </div>
       </div>
-    </MainLayout>
   );
 }

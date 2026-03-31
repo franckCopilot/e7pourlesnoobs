@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from './aventure.module.css';
 
@@ -138,7 +137,7 @@ export default function AventureDeZero() {
   const [selectedVideoId, setSelectedVideoId] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.aventureContainer}>
         <div className={styles.header}>
           <h1 className={styles.title}>AVENTURE DE 0</h1>
@@ -192,6 +191,6 @@ export default function AventureDeZero() {
         videoId={selectedVideoId} 
         onClose={() => setSelectedVideoId(null)} 
       />
-    </MainLayout>
+    </>
   );
 }

@@ -1,5 +1,4 @@
 
-import MainLayout from '@/components/MainLayout';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
 
@@ -11,8 +10,7 @@ export default function Constellations() {
   ];
 
   return (
-    <MainLayout>
-      <div className={styles.subContainer}>
+    <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>CONSTELLATIONS</h1>
 
         {/* Présentation */}
@@ -90,6 +88,5 @@ export default function Constellations() {
           </div>
         </section>
       </div>
-    </MainLayout>
   );
 }

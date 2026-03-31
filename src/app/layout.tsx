@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { PT_Sans, Merriweather } from 'next/font/google'
 import './globals.css'
+import MainLayout from '@/components/MainLayout'
 
 const ptSans = PT_Sans({ 
   weight: ['400', '700'],
@@ -42,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${ptSans.variable} ${merriweather.variable}`}>
-      <body>{children}</body>
+      <body><MainLayout>{children}</MainLayout></body>
     </html>
   )
 }

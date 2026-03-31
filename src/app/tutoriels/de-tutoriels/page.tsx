@@ -1,4 +1,3 @@
-import MainLayout from '@/components/MainLayout';
 import Link from 'next/link';
 import styles from '../tutoriels.module.css';
 
@@ -9,8 +8,7 @@ export default function DeTutoriels() {
   ];
 
   return (
-    <MainLayout>
-      <div className={styles.subContainer}>
+    <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>+ DE TUTORIELS</h1>
 
         {/* Présentation */}
@@ -40,6 +38,5 @@ export default function DeTutoriels() {
           ))}
         </div>
       </div>
-    </MainLayout>
   );
 }

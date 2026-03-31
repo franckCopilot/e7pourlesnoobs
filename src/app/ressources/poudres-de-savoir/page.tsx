@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from './poudres.module.css';
 
@@ -9,7 +8,7 @@ export default function PoudresSavoir() {
   const [selectedVideoId, setSelectedVideoId] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>POUDRES DE SAVOIR</h1>
@@ -237,6 +236,6 @@ export default function PoudresSavoir() {
         videoId={selectedVideoId} 
         onClose={() => setSelectedVideoId(null)} 
       />
-    </MainLayout>
+    </>
   );
 }

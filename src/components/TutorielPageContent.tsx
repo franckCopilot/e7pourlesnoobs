@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from '@/app/tutoriels/tutoriels.module.css';
 
@@ -99,7 +98,7 @@ export default function TutorielPageContent({ data }: { data: TutorielData }) {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.subContainer}>
         <h1 className={styles.pageTitle}>{data.title}</h1>
 
@@ -146,6 +145,6 @@ export default function TutorielPageContent({ data }: { data: TutorielData }) {
       {activeVideo && (
         <VideoModal videoId={activeVideo} onClose={() => setActiveVideo(null)} />
       )}
-    </MainLayout>
+    </>
   );
 }

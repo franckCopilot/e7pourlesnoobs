@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import VideoModal from '@/components/VideoModal';
 import styles from './runes.module.css';
 
@@ -9,7 +8,7 @@ export default function RunesReinitialisation() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <div className={styles.container}>
         <h1 className={styles.pageTitle}>RUNE DE RÉINITIALISATION</h1>
 
@@ -157,6 +156,6 @@ export default function RunesReinitialisation() {
           onClose={() => setActiveVideo(null)}
         />
       )}
-    </MainLayout>
+    </>
   );
 }

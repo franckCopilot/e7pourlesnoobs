@@ -1,4 +1,3 @@
-import MainLayout from '@/components/MainLayout';
 import Link from 'next/link';
 import styles from './ressources.module.css';
 
@@ -22,8 +21,7 @@ export default function Ressources() {
   ];
 
   return (
-    <MainLayout>
-      <div className={styles.ressourcesContainer}>
+    <div className={styles.ressourcesContainer}>
         <div className={styles.header}>
           <h1 className={styles.title}>RESSOURCES</h1>
           <p className={styles.subtitle}>
@@ -47,6 +45,5 @@ export default function Ressources() {
           ))}
         </div>
       </div>
-    </MainLayout>
   );
 }

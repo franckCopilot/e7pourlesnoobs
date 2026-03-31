@@ -1,10 +1,8 @@
-import MainLayout from '@/components/MainLayout';
 import styles from './outils.module.css';
 
 export default function Outils() {
   return (
-    <MainLayout>
-      <div className={styles.container}>
+    <div className={styles.container}>
         <div className={styles.header}>
           <h1 className={styles.title}>OUTILS</h1>
           <p className={styles.subtitle}>
@@ -127,6 +125,5 @@ export default function Outils() {
           </div>
         </section>
       </div>
-    </MainLayout>
   );
 }

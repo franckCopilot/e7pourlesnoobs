@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import MainLayout from '@/components/MainLayout';
 import Image from 'next/image';
 import VideoModal from '@/components/VideoModal';
 import styles from '@/app/home.module.css';
@@ -39,7 +38,7 @@ export default function HomeContent({ videos }: { videos: YouTubeVideo[] }) {
   const [selectedVideoId, setSelectedVideoId] = useState<string | null>(null);
 
   return (
-    <MainLayout>
+    <>
       <section className={styles.contentSection}>
         <div className={styles.container}>
           {videos.length === 0 ? (
@@ -94,6 +93,6 @@ export default function HomeContent({ videos }: { videos: YouTubeVideo[] }) {
         videoId={selectedVideoId}
         onClose={() => setSelectedVideoId(null)}
       />
-    </MainLayout>
+    </>
   );
 }
