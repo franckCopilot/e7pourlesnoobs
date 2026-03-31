@@ -2,7 +2,7 @@
 title: Constellation Ethel
 sections:
   - sectionTitle: Constellation Éternel
-    content: >-
+    content: >
       L'objectif du combat est de régulièrement **Provoquer les adds et de ne
       pas rater son attaque sur le boss**.
 
@@ -10,15 +10,13 @@ sections:
       **Composition :**
 
 
-      * Devant : **SC Pillys** est le meilleur choix.
+      - Devant : **SC Pillys** est le meilleur choix.
 
-      * **ML Cartuja** est fortement recommandé.
+      - **ML Cartuja** est fortement recommandé.
 
-      * **ML Violet** est fortement recommandé, ML Ludwig, Top Model Luluca, Tenebria spectrale et SC Lorina peuvent fonctionner. 
+      - **ML Violet** est fortement recommandé, ML Ludwig, Top Model Luluca, Tenebria spectrale et SC Lorina peuvent fonctionner. 
 
-      * **SC Wanda** est fortement recommandée.
-
-
+      - **SC Wanda** est fortement recommandée.
 
 
       **NOTE** : Le SoulBurn de **ML Violet** est très intéressant.
