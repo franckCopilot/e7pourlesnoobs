@@ -29,7 +29,9 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
   url.searchParams.set('maxResults', String(Math.min(maxResults + 5, 50)));
   url.searchParams.set('key', apiKey);
 
-  const res = await fetch(url.toString(), { next: { revalidate: 3600 } });
+  const res = await fetch(url.toString(), {
+    next: { revalidate: 3600, tags: ['youtube-videos'] },
+  });
 
   if (!res.ok) {
     console.error('YouTube API error:', res.status, await res.text());
@@ -42,9 +44,16 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
     return [];
   }
 
-  const EXCLUDED_TITLES = ['Deleted video', 'Private video'];
+  const EXCLUDED_TITLES = [
+    'Deleted video',
+    'Private video',
+    'Video supprimée',
+    'Vidéo supprimée',
+    'Vidéo privée',
+    'Video privée',
+  ];
 
-  return data.items
+  const playlistVideos: YouTubeVideo[] = data.items
     .filter((item: any) => {
       // Exclude deleted or private videos
       const status = item.status?.privacyStatus;
@@ -52,9 +61,9 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
       if (EXCLUDED_TITLES.includes(item.snippet.title)) return false;
       // Exclude items with no thumbnails (another sign of deleted videos)
       if (!item.snippet.thumbnails || Object.keys(item.snippet.thumbnails).length === 0) return false;
+      if (!item.snippet.resourceId?.videoId) return false;
       return true;
     })
-    .slice(0, maxResults)
     .map((item: any) => ({
       videoId: item.snippet.resourceId.videoId,
       title: item.snippet.title,
@@ -66,6 +75,40 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
         '',
       publishedAt: item.snippet.publishedAt,
     }));
+
+  if (playlistVideos.length === 0) {
+    return [];
+  }
+
+  // Validate IDs against the videos endpoint to exclude stale/unavailable items.
+  const ids = [...new Set(playlistVideos.map((video) => video.videoId))].slice(0, 50);
+  const detailsUrl = new URL(`${YOUTUBE_API_BASE}/videos`);
+  detailsUrl.searchParams.set('part', 'status');
+  detailsUrl.searchParams.set('id', ids.join(','));
+  detailsUrl.searchParams.set('key', apiKey);
+
+  const detailsRes = await fetch(detailsUrl.toString(), {
+    next: { revalidate: 3600, tags: ['youtube-videos'] },
+  });
+
+  if (!detailsRes.ok) {
+    console.error('YouTube videos details error:', detailsRes.status, await detailsRes.text());
+    return playlistVideos
+      .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+      .slice(0, maxResults);
+  }
+
+  const detailsData = await detailsRes.json();
+  const publicVideoIds = new Set(
+    (detailsData.items || [])
+      .filter((item: any) => item.status?.privacyStatus === 'public')
+      .map((item: any) => item.id)
+  );
+
+  return playlistVideos
+    .filter((video) => publicVideoIds.has(video.videoId))
+    .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+    .slice(0, maxResults);
 }
 
 /** Formats an ISO date string to a French locale short date (e.g. "12 mars 2026"). */

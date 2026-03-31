@@ -1,4 +1,4 @@
-import { revalidatePath } from 'next/cache';
+import { revalidatePath, revalidateTag } from 'next/cache';
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(request: NextRequest) {
@@ -9,6 +9,7 @@ export async function GET(request: NextRequest) {
   }
 
   revalidatePath('/');
+  revalidateTag('youtube-videos');
 
   return NextResponse.json({ revalidated: true, now: new Date().toISOString() });
 }
