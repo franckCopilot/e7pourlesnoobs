@@ -1,11 +1,22 @@
 import Navigation from './Navigation'
 import Image from 'next/image';
 import styles from './MainLayout.module.css';
+import { getAllContent } from '@/lib/content';
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
+  const chasses = getAllContent('chasses');
+  const constellations = getAllContent('constellations');
+  const evolutions = getAllContent('evolutions');
+  const expeditions = getAllContent('expeditions');
+
   return (
     <div className={styles.layout}>
-      <Navigation />
+      <Navigation
+        chasses={chasses}
+        constellations={constellations}
+        evolutions={evolutions}
+        expeditions={expeditions}
+      />
       <div className={styles.epicBanner}>
         <Image 
           src="/images/epic-seven-banner.jpg" 
