@@ -22,10 +22,11 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
     return [];
   }
 
+  // Request extra items to compensate for deleted/private videos that will be filtered out
   const url = new URL(`${YOUTUBE_API_BASE}/playlistItems`);
-  url.searchParams.set('part', 'snippet');
+  url.searchParams.set('part', 'snippet,status');
   url.searchParams.set('playlistId', UPLOADS_PLAYLIST_ID);
-  url.searchParams.set('maxResults', String(maxResults));
+  url.searchParams.set('maxResults', String(Math.min(maxResults + 5, 50)));
   url.searchParams.set('key', apiKey);
 
   const res = await fetch(url.toString(), { next: { revalidate: 3600 } });
@@ -41,17 +42,30 @@ export async function getLatestVideos(maxResults = 9): Promise<YouTubeVideo[]> {
     return [];
   }
 
-  return data.items.map((item: any) => ({
-    videoId: item.snippet.resourceId.videoId,
-    title: item.snippet.title,
-    description: item.snippet.description,
-    thumbnail:
-      item.snippet.thumbnails?.maxres?.url ||
-      item.snippet.thumbnails?.high?.url ||
-      item.snippet.thumbnails?.medium?.url ||
-      '',
-    publishedAt: item.snippet.publishedAt,
-  }));
+  const EXCLUDED_TITLES = ['Deleted video', 'Private video'];
+
+  return data.items
+    .filter((item: any) => {
+      // Exclude deleted or private videos
+      const status = item.status?.privacyStatus;
+      if (status && status !== 'public') return false;
+      if (EXCLUDED_TITLES.includes(item.snippet.title)) return false;
+      // Exclude items with no thumbnails (another sign of deleted videos)
+      if (!item.snippet.thumbnails || Object.keys(item.snippet.thumbnails).length === 0) return false;
+      return true;
+    })
+    .slice(0, maxResults)
+    .map((item: any) => ({
+      videoId: item.snippet.resourceId.videoId,
+      title: item.snippet.title,
+      description: item.snippet.description,
+      thumbnail:
+        item.snippet.thumbnails?.maxres?.url ||
+        item.snippet.thumbnails?.high?.url ||
+        item.snippet.thumbnails?.medium?.url ||
+        '',
+      publishedAt: item.snippet.publishedAt,
+    }));
 }
 
 /** Formats an ISO date string to a French locale short date (e.g. "12 mars 2026"). */
