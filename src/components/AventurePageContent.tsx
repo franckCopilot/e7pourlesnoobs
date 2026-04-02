@@ -11,12 +11,19 @@ interface Journey {
   body: string;
 }
 
+function renderInline(text: string) {
+  const parts = text.split(/\*\*(.*?)\*\*/g);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? <strong key={i}>{part}</strong> : part
+  ).filter((p) => p !== '');
+}
+
 function renderParagraphs(body: string) {
   return body
     .split(/\n\n+/)
     .map((p) => p.trim())
     .filter(Boolean)
-    .map((p, idx) => <p key={idx} className={styles.paragraph}>{p}</p>);
+    .map((p, idx) => <p key={idx} className={styles.paragraph}>{renderInline(p)}</p>);
 }
 
 interface Props {
