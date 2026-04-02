@@ -204,6 +204,22 @@ collections:
           - { label: Description, name: desc, widget: text }
 
   # ─────────────────────────────────────────────
+  # Aventure de 0
+  # ─────────────────────────────────────────────
+  - name: aventure
+    label: "Aventure de 0"
+    folder: content/aventure
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Ordre d'affichage", name: order, widget: number, default: 1 }
+      - { label: Titre, name: title, widget: string }
+      - { label: "ID YouTube", name: videoId, widget: string }
+      - { label: "Vidéo en premier", name: videoFirst, widget: boolean, default: true }
+      - { label: Contenu, name: body, widget: markdown }
+
+  # ─────────────────────────────────────────────
   # Équipements
   # ─────────────────────────────────────────────
   - name: equipements

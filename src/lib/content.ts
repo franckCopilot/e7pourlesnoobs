@@ -15,7 +15,7 @@ export function getAllContent(collection: string) {
   const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md'));
   return files.map((file) => {
     const fileContent = fs.readFileSync(path.join(dir, file), 'utf8');
-    const { data } = matter(fileContent);
-    return { ...data, slug: file.replace(/\.md$/, '') } as Record<string, unknown> & { slug: string };
+    const { data, content } = matter(fileContent);
+    return { ...data, body: content, slug: file.replace(/\.md$/, '') } as Record<string, unknown> & { slug: string };
   });
 }
