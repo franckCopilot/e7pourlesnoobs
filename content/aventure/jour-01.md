@@ -8,7 +8,7 @@ L'objectif ici est de se familiariser avec le jeu, de progresser dans l'aventure
 
 **Ruele** est actuellement l'un des meilleur héros du jeu, elle est très recommandée dans le choix du destin lunaire saison 1. 
 
-**Genesis Ras** est un excellent ML5 à réccupérer. Il faut effectuer des missions pour l'obtenir gratuitement. Commencez à faire les premières dès le premier jour de jeu. 
+**Genesis Ras** est un excellent ML5 à récupérer. Il faut effectuer des missions pour l'obtenir gratuitement. Commencez à faire les premières dès le premier jour de jeu. 
 
 
 **Vildred** est un excellent héros pour progresser rapidement dans l'aventure dans le ticket sélectif du guide d'Orbis.
