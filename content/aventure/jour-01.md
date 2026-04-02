@@ -1,7 +1,7 @@
 ---
 order: 1
-title: "JOUR 1"
-videoId: "IcqrJ7cvdRA"
+title: JOUR 1
+videoId: FQ_gOopEf0o
 videoFirst: true
 ---
 L'objectif ici est de se familiariser avec le jeu, de progresser dans l'aventure et d'avancer le chemin de l'aventurier.
