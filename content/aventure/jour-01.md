@@ -15,5 +15,4 @@ L'objectif ici est de se familiariser avec le jeu, de progresser dans l'aventure
 
 **Iseria** est gratuite dès qu'on obtient le rang 15 sur son compte. 
 
-\
 J'ai joué environ **3h** la première journée.
