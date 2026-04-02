@@ -104,6 +104,10 @@
   margin: 0 0 20px 0;
 }
 
+.paragraph strong {
+  color: #d4af37;
+}
+
 .paragraph:last-child {
   margin-bottom: 0;
 }
