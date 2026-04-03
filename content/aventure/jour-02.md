@@ -1,15 +1,20 @@
 ---
 order: 2
-title: "JOUR 2"
-videoId: "O7fPz25JU20"
+title: JOUR 2
+videoId: iq13721gcQ4
 videoFirst: false
 ---
-L'objectif ici est de terminer le premier voire de progresser dans le deuxième continent de l'aventure pour débloquer les invocations ML, les évolutions de héros 3 étoiles ainsi que la majorité des contenus PvE.
+L'objectif ici est de commencer à jouer **Landy** avec l'artefact **pierre de sang**. 
 
-C'est aussi le moment de se familiariser avec les différents onglets du jeu comme le sanctuaire, la boutique secrète ou l'arène.
+On termine le premier continent de l'aventure, on continue les missions de l'héritier et on commence à débloquer les défis de chasse de la vouivre (**Wyvern**). 
+
+C'est aussi le moment de se familiariser avec les différents onglets du jeu comme le sanctuaire, les combats, l'histoire secondaire. 
 
 On commence aussi à comprendre le fonctionnement des héros : leurs sorts, les éveils, leurs niveaux et leurs équipements.
 
-J'ai joué environ 3h30 la deuxième journée.
+On a débloqué **Muwi** et **Furious** mais on ne jouera que **Muwi** dès qu'on aura invoqué **Fenne** et débloqué **Brigg**. 
 
-Il faut environ 4h pour finir le premier continent.
+On n'oublie pas les missions pour débloquer **Genesis Ras**. 
+
+J'ai joué environ **3h** la deuxième journée.
+
