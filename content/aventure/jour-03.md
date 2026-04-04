@@ -1,13 +1,15 @@
 ---
 order: 3
-title: "JOUR 3"
-videoId: "0n3vKZC970I"
+title: JOUR 3
+videoId: 6PbvzoLCEU8
 videoFirst: true
 ---
-Pour le troisième jour, on va progresser dans les différents contenus débloqués : tour automate, étages de l'abîme et salle du calvaire.
+Pour le troisième jour, on a terminé les défis de la **Wyvern**. La composition qu'on utilisera sera **Ruele**, **Brigg**, **Muwi** et **Fenne** (**sigret** en attendant). N'oubliez pas d'utiliser un **anneau** avec **60% d'efficacité** sur **Muwi** et **furious** pour stabiliser les premières runs. **Furious** sera vite remplacé par **Brigg**, n'investissez pas trop de ressources dessus. 
 
-On améliore nos premiers héros et on aura pour objectif d'effectuer l'évolution de montmorancy pour les chanceux qui ont pu l'invoquer. Si vous ne l'avez pas, ce n'est pas grave, vous pourrez progresser sans elle.
+On mise principalement sur les équipements en +15 de la boutique radiance pour optimiser rapidement ses personnages. 
 
-J'ai joué environ 2h30 la troisième journée.
+On se familiarise avec les **familiers**, ils sont très importants pour progresser. 
 
-Soit un total d'environ 8h de jeu.
+Le prochain objectif est de finir le **deuxième continent** de l'aventure pour récupérer **Tamarinne** et commencer l'**évolution de Ras**. Ils seront très utiles pour la chasse du **Golem** à court terme et pour le contenu PvE midgame à moyen/long terme. 
+
+J'ai joué environ **3h** la troisième journée.
