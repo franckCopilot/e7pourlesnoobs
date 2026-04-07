@@ -1,11 +1,15 @@
 ---
 order: 6
-title: "JOUR 6"
-videoId: "pRW-eIkGre4"
+title: JOUR 6
+videoId: PC9wd2baONY
 videoFirst: false
 ---
-Pour le sixième jour, on a terminé l'évolution de Ras et on a étudié l'utilité et le fonctionnement des expéditions.
+Pour le sixième jour, on a terminé les défis de chasse de la **Banshee**. 
 
-J'ai joué environ 3h la sixième journée.
+On a progressé le chemin de l'aventurier et on commence à connaitre le jeu. 
 
-Soit un total d'environ 17h de jeu.
+Notre équipe pour avancer est **Tamarinne**, **Fenne**, **Landy** et **Brigg**. **Ras l'aventurier** remplacera brigg dans certains contenus. 
+
+J'ai joué environ **3h** la sixième journée.
+
+
