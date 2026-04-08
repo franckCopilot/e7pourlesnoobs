@@ -1,13 +1,17 @@
 ---
 order: 7
-title: "JOUR 7"
-videoId: "fsLpqhl5I1A"
+title: JOUR 7
+videoId: HRmtgvKVfI8
 videoFirst: true
 ---
-Pour le septième jour, on a choisi les héros et artefacts des tickets sélectifs. On a aussi avancé les étages de l'abîme.
+Pour le septième jour, on arrive en **mid-game**, on commence à s’intéresser au contenu saisonnier et on définit nos prochains objectifs sur le jeu à moyen terme. 
 
-On commence à se familiariser avec les familiers et avec les équipements exclusifs.
+On attend un **buff event** pour faire l'**évolution de Ras**. 
 
-J'ai joué environ 3h la septième journée.
+On a avancé les **étages de l'abîme**.
 
-Soit un total d'environ 20h de jeu.
+On commence à se familiariser avec les équipements exclusifs.
+
+J'ai joué environ **3h** la septième journée.
+
+
