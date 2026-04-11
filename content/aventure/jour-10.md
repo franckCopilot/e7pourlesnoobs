@@ -1,15 +1,14 @@
 ---
 order: 10
-title: "JOUR 10"
-videoId: "vae4ikCoRw8"
+title: JOUR 10
+videoId: kKhCkVSs-qk
 videoFirst: false
 ---
-Pour le dixième jour, on a réussi l'étage 83 de l'abîme. Puis on a farm les runes et les catalyseurs pour terminer l'évolution de Lorina.
+Pour le **dixième jour**, on commence les contenus saisonniers dont l'**advent side story** pour récupérer des runes de permutation et des talismans.
 
-On s'est aussi familiarisé avec l'amélioration des équipements et les sets tumulte et infiltration.
+On s'est aussi familiarisé avec l'amélioration des **équipements** et des **runes de permutation**. 
 
-On attend le rang 55 sur notre compte pour débloquer les reforges et terminer le chemin de l'aventurier.
+On a battu le **boss de l'épisode 3** de l'aventure et on commence les **missions d'Adin**. 
 
-J'ai joué environ 3h la dixième journée.
+J'ai joué environ **3h** la dixième journée.
 
-Soit un total d'environ 28h de jeu.
