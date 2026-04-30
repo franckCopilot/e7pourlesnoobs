@@ -71,6 +71,16 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.liveLink {
+  color: #9146FF;
+  font-weight: 700;
+}
+
+.liveLink:hover {
+  color: #b07dff;
+  background-color: rgba(145, 70, 255, 0.12);
+}
+
 .hasSubmenu {
   position: relative;
 }

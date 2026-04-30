@@ -1,0 +1,78 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #9146FF;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.embedWrapper {
+  display: flex;
+  gap: 0;
+  width: 100%;
+  height: 70vh;
+  min-height: 480px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.playerWrapper {
+  flex: 1 1 70%;
+  min-width: 0;
+  background: #000;
+}
+
+.playerIframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.chatWrapper {
+  flex: 0 0 340px;
+  background: #18181b;
+  border-left: 1px solid #2a2a2e;
+}
+
+.chatIframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .embedWrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .playerWrapper {
+    flex: none;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+  }
+
+  .playerIframe {
+    height: 100%;
+  }
+
+  .chatWrapper {
+    flex: none;
+    width: 100%;
+    height: 400px;
+    border-left: none;
+    border-top: 1px solid #2a2a2e;
+  }
+}

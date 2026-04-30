@@ -7,7 +7,7 @@ import styles from './Navigation.module.css'
 
 type SubSubMenuItem = { label: string; path: string }
 type SubMenuItem = { label: string; path: string; subsubmenu?: SubSubMenuItem[] }
-type MenuItem = { label: string; path: string; submenu?: SubMenuItem[] }
+type MenuItem = { label: string; path: string; submenu?: SubMenuItem[]; live?: boolean }
 
 type ContentItem = { title?: string; slug: string } & Record<string, unknown>
 
@@ -67,6 +67,7 @@ export default function Navigation({ chasses = [], constellations = [], evolutio
     ]
   },
   { label: 'OUTILS', path: '/outils' },
+  { label: 'LIVE', path: '/live', live: true },
   { label: 'Contact', path: '/contact' },
 ]
 
@@ -101,7 +102,7 @@ export default function Navigation({ chasses = [], constellations = [], evolutio
             <li key={item.path} className={item.submenu ? styles.hasSubmenu : ''}>
               <Link 
                 href={item.path} 
-                className={styles.menuLink}
+                className={`${styles.menuLink}${item.live ? ` ${styles.liveLink}` : ''}`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
